@@ -1,0 +1,2925 @@
+# Translation of Plugins - All in One SEO Pack - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - All in One SEO Pack - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-08-01 22:43:02+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - All in One SEO Pack - Stable (latest release)\n"
+
+#: inc/commonstrings.php:91
+msgid "Display Menu In Toolbar:"
+msgstr "在工具栏里显示选单"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: admin/class-aioseop-helper.php:1061
+msgid "Select which Post Types you want to export your %s meta data for."
+msgstr "选择要导出哪些 %s 元数据的帖子类型。"
+
+#: admin/class-aioseop-helper.php:906
+msgid "Select which Post Types you want to set Open Graph meta values for."
+msgstr "选择要为哪些帖子类型设置Open Graph元值。"
+
+#. translators: %1$s and 12$s are placeholders, which means these should not be
+#. translated. These will be replaced with the name of the plugin, All in One
+#. SEO Pack.
+#: admin/class-aioseop-helper.php:1058
+msgid "Choose a valid %1$s .ini file and click &quot;Import&quot; to import options from a previous state or install of %2$s."
+msgstr "选择有效的 %1$s .ini文件，然后点击“导入”按钮，便可以导入从以前的状态导入选项或安装 %2$s。"
+
+#: admin/class-aioseop-helper.php:774 admin/class-aioseop-helper.php:781
+msgid "Posts"
+msgstr "文章"
+
+#: admin/class-aioseop-helper.php:760
+msgid "URL to the page. This field only accepts absolute URLs with the protocol specified."
+msgstr "（请输入）页面的URL。此字段仅接受指定协议的绝对URL。"
+
+#: admin/class-aioseop-helper.php:383
+msgid "The page number"
+msgstr "页码"
+
+#: admin/class-aioseop-helper.php:376
+msgid "Additional 404 title input"
+msgstr "额外的404标题输入"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: admin/class-aioseop-helper.php:389
+msgid "Use these checkboxes to select which Content Types you want to use %s with."
+msgstr "使用这些复选框选择要使用 %s 的内容类型。"
+
+#. translators: "Post/Page" are the two main content types in WordPress.
+#: admin/class-aioseop-helper.php:354 admin/class-aioseop-helper.php:357
+#: admin/class-aioseop-helper.php:359
+msgid "Post/Page"
+msgstr "文章/页面"
+
+#: admin/class-aioseop-helper.php:340
+msgid "The original WordPress title"
+msgstr "WordPress 所使用的原始标题"
+
+#: admin/class-aioseop-helper.php:399
+msgid "Enter your verification code here to verify your site with Baidu Webmaster Tools."
+msgstr "在此处输入您的验证码，以使用百度网站管理员工具验证您的网站。"
+
+#: admin/class-aioseop-helper.php:398
+msgid "Enter your verification code here to verify your site with Yandex Webmaster Tools."
+msgstr "在此处输入您的验证码，以使用 Yandex 网站管理员工具验证您的网站。"
+
+#: admin/class-aioseop-helper.php:397
+msgid "Enter your verification code here to verify your site with Pinterest."
+msgstr "在此处输入您的验证码，以使用Pinterest验证您的网站。"
+
+#: admin/class-aioseop-helper.php:396
+msgid "Enter your verification code here to verify your site with Bing Webmaster Tools."
+msgstr "在此处输入您的验证码，以使用Bing网站管理员工具验证您的网站."
+
+#: admin/class-aioseop-helper.php:395
+msgid "Enter your verification code here to verify your site with Google Search Console."
+msgstr "在此处输入您的验证码，以使用Google Search Console验证您的网站。"
+
+#. translators: %1$s and %2$s are placeholders, which means that these should
+#. not be translated. These will be replaced with the name of the plugin, All
+#. in One SEO Pack, and the current version number.
+#: admin/display/aioseop-welcome.php:120
+msgid "Welcome to %1$s %2$s"
+msgstr "欢迎使用 %1$s %2$s"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: admin/display/aioseop-welcome.php:36
+msgid "Welcome to %s"
+msgstr "欢迎使用 %s"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: admin/display/welcome-content.php:64
+msgid "Beginners Guide for %s"
+msgstr "%s 初学者指南"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: admin/display/welcome-content.php:44
+msgid "Help translate %s into your language."
+msgstr "帮助将 %s 翻译成您的语言."
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the premium version of the
+#. plugin, All in One SEO Pack Pro.
+#: admin/display/welcome-content.php:32
+msgid "Upgrade to %s to access priority support and premium features."
+msgstr "升级到 %s 以访问优先支持和高级功能。"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: admin/display/welcome-content.php:26
+msgid "There are many ways you can help support %s."
+msgstr "有很多方法可以帮助支持 %s。"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: admin/display/welcome-content.php:20
+msgid "Support %s"
+msgstr "支持 %s"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: admin/display/general-metaboxes.php:141
+msgid "Read the %s user guide"
+msgstr "请阅读 %s 使用者手册"
+
+#: admin/class-aioseop-helper.php:315
+msgid "The name of the %s"
+msgstr "%s 的名称"
+
+#: admin/class-aioseop-helper.php:307
+msgid "This controls the format of the title tag for Tag Archives."
+msgstr "这个设定掌控标签存档的标题标记的格式。"
+
+#: admin/class-aioseop-helper.php:304
+msgid "The original archive title, e.g. \"Steve\" or \"John Smith\""
+msgstr "原始档案标题，例如“史蒂夫”或“约翰史密斯“"
+
+#: admin/display/dashboard_widget.php:93
+msgid "{Temporarily unable to load feed.}"
+msgstr "{暂时无法加载咨询。}"
+
+#: admin/class-aioseop-helper.php:326
+msgid "The search term that was entered"
+msgstr "输入的搜索词"
+
+#: admin/class-aioseop-helper.php:178 admin/class-aioseop-helper.php:180
+#: admin/class-aioseop-helper.php:182 admin/class-aioseop-helper.php:184
+#: admin/class-aioseop-helper.php:186 admin/class-aioseop-helper.php:197
+#: admin/class-aioseop-helper.php:199 admin/class-aioseop-helper.php:201
+msgid "Page"
+msgstr "页面"
+
+#. translators: "Archive" is used in the context of a WordPress archive page.
+#: admin/class-aioseop-helper.php:275
+msgid "Archive"
+msgstr "存档"
+
+#. translators: %s is replaced with a time related term such as Date, Year,
+#. Month, etc.
+#: admin/class-aioseop-helper.php:160 admin/class-aioseop-helper.php:191
+#: admin/class-aioseop-helper.php:199 admin/class-aioseop-helper.php:229
+#: admin/class-aioseop-helper.php:237 admin/class-aioseop-helper.php:257
+#: admin/class-aioseop-helper.php:344 admin/class-aioseop-helper.php:357
+#: admin/class-aioseop-helper.php:564 admin/class-aioseop-helper.php:572
+#: admin/class-aioseop-helper.php:1137 admin/class-aioseop-helper.php:1185
+msgid "year"
+msgstr "年份"
+
+#. translators: %s is replaced with a time related term such as Date, Year,
+#. Month, etc.
+#: admin/class-aioseop-helper.php:157 admin/class-aioseop-helper.php:189
+#: admin/class-aioseop-helper.php:197 admin/class-aioseop-helper.php:227
+#: admin/class-aioseop-helper.php:235 admin/class-aioseop-helper.php:342
+#: admin/class-aioseop-helper.php:352 admin/class-aioseop-helper.php:562
+#: admin/class-aioseop-helper.php:570 admin/class-aioseop-helper.php:1131
+#: admin/class-aioseop-helper.php:1179
+msgid "date"
+msgstr "日期"
+
+#. translators: %s is replaced with a time related term such as Date, Year,
+#. Month, etc.
+#: admin/class-aioseop-helper.php:162 admin/class-aioseop-helper.php:165
+#: admin/class-aioseop-helper.php:193 admin/class-aioseop-helper.php:195
+#: admin/class-aioseop-helper.php:201 admin/class-aioseop-helper.php:231
+#: admin/class-aioseop-helper.php:233 admin/class-aioseop-helper.php:239
+#: admin/class-aioseop-helper.php:259 admin/class-aioseop-helper.php:261
+#: admin/class-aioseop-helper.php:346 admin/class-aioseop-helper.php:348
+#: admin/class-aioseop-helper.php:359 admin/class-aioseop-helper.php:566
+#: admin/class-aioseop-helper.php:568 admin/class-aioseop-helper.php:574
+#: admin/class-aioseop-helper.php:1143 admin/class-aioseop-helper.php:1191
+msgid "month"
+msgstr "月份"
+
+#. translators: %s is replaced with a content type such as Post, Page, etc.
+#: admin/class-aioseop-helper.php:252 admin/class-aioseop-helper.php:255
+msgid "Category"
+msgstr "分类目录"
+
+#: admin/class-aioseop-helper.php:154 admin/class-aioseop-helper.php:186
+#: admin/class-aioseop-helper.php:225 admin/class-aioseop-helper.php:560
+msgid "last name"
+msgstr "姓氏"
+
+#: admin/class-aioseop-helper.php:152 admin/class-aioseop-helper.php:184
+#: admin/class-aioseop-helper.php:223 admin/class-aioseop-helper.php:558
+msgid "first name"
+msgstr "名字"
+
+#. translators: The "nicename" is the sanitized version of a username.
+#: admin/class-aioseop-helper.php:148 admin/class-aioseop-helper.php:182
+#: admin/class-aioseop-helper.php:221 admin/class-aioseop-helper.php:556
+msgid "nicename"
+msgstr "用户名"
+
+#. translators: Example sentence: "The first name of the author of the Post"
+#: admin/class-aioseop-helper.php:143 admin/class-aioseop-helper.php:180
+#: admin/class-aioseop-helper.php:219 admin/class-aioseop-helper.php:554
+msgid "username"
+msgstr "用户名"
+
+#: admin/class-aioseop-helper.php:315
+msgid "Tag"
+msgstr "标签"
+
+#: admin/display/notices/sitemap-indexes-notice.php:35
+#: admin/display/notices/blog-visibility-notice.php:40
+msgid "Remind me later"
+msgstr "稍后提醒我"
+
+#: admin/class-aioseop-helper.php:318
+msgid "This controls the format of the title tag for the Search page."
+msgstr "这将控制“搜索”页面的标题标记的格式。"
+
+#: admin/class-aioseop-helper.php:167 admin/class-aioseop-helper.php:203
+#: admin/class-aioseop-helper.php:241 admin/class-aioseop-helper.php:361
+msgid "The name of a custom field"
+msgstr "自定义字段的名称"
+
+#. translators: %s is replaced with a time related term such as Date, Year,
+#. Month, etc.
+#: admin/class-aioseop-helper.php:160 admin/class-aioseop-helper.php:162
+#: admin/class-aioseop-helper.php:191 admin/class-aioseop-helper.php:193
+#: admin/class-aioseop-helper.php:229 admin/class-aioseop-helper.php:231
+#: admin/class-aioseop-helper.php:257 admin/class-aioseop-helper.php:259
+#: admin/class-aioseop-helper.php:344 admin/class-aioseop-helper.php:346
+#: admin/class-aioseop-helper.php:564 admin/class-aioseop-helper.php:566
+msgid "The current %s"
+msgstr "目前%s"
+
+#: admin/class-aioseop-notices.php:573
+msgid "Dismiss"
+msgstr "关闭"
+
+#: admin/class-aioseop-helper.php:296
+msgid "This controls the format of the title tag for Author Archives."
+msgstr "它控制作者档案的标题标签的格式。"
+
+#: modules/aioseop_performance.php:364
+msgid "Inactive Plugins"
+msgstr "未启用的插件"
+
+#: modules/aioseop_performance.php:352
+msgid "Active Plugins"
+msgstr "已启用的插件"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: modules/aioseop_feature_manager.php:70
+msgid "Exports and imports your %s plugin settings."
+msgstr "导出和导入您的 %s 插件的设置。"
+
+#. translators: "%s" is a placeholder so it should not be translated. It will
+#. be replaced with the name of the premium version of the plugin, All in One
+#. SEO Pack Pro.
+#: modules/aioseop_performance.php:369
+msgid "%s Debug Info"
+msgstr "%s 调试信息"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with a period of time, such as "5 minutes"
+#. or "a short while".
+#: inc/commonstrings.php:126
+msgid "Video sitemap scan in progress. Please check again in %s."
+msgstr "正在扫描影片 Sitemap。请在 %s后再次查看。"
+
+#. translators: This expression means "a small period/brief period of time".
+#: inc/commonstrings.php:124
+msgid "a short while"
+msgstr "一会儿"
+
+#: inc/commonstrings.php:122
+msgid "Video sitemap scan completed successfully!"
+msgstr "扫描影片 Sitemap 已成功完成！"
+
+#: inc/commonstrings.php:121
+msgid "Include Custom Fields"
+msgstr "包含自定义字段"
+
+#: inc/commonstrings.php:82 admin/class-aioseop-helper.php:777
+#: admin/class-aioseop-helper.php:784
+msgid "Author Pages"
+msgstr "作者页面"
+
+#: inc/commonstrings.php:81 admin/class-aioseop-helper.php:776
+#: admin/class-aioseop-helper.php:783
+msgid "Archive Pages"
+msgstr "存档页面"
+
+#. translators: %s is replaced with a content type such as Post, Page, etc.
+#. translators: Example sentence: "The first name of the author of the Post"
+#: inc/commonstrings.php:78 admin/class-aioseop-helper.php:140
+#: admin/class-aioseop-helper.php:143 admin/class-aioseop-helper.php:149
+#: admin/class-aioseop-helper.php:152 admin/class-aioseop-helper.php:154
+#: admin/class-aioseop-helper.php:773 admin/class-aioseop-helper.php:780
+msgid "Homepage"
+msgstr "主页"
+
+#: inc/commonstrings.php:68
+msgid "Enable this option to look for videos in custom fields as well."
+msgstr "启用此选项后便可以在自定义字段中查找视频。"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: inc/commonstrings.php:33
+msgid "Check this to move the %s menu item to the top of your WordPress Dashboard menu."
+msgstr "选中此选项可将%s 菜单项移至到你的WordPress仪表板菜单的顶部。"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: inc/commonstrings.php:31
+msgid "Check this to add %s to the Toolbar for easy access to your SEO settings."
+msgstr "选中此项可将 %s 添加到工具栏，以便轻松访问您的SEO设置。"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: inc/commonstrings.php:28
+msgid "Use these checkboxes to select which Taxonomies you want to use %s with."
+msgstr "使用这些复选框选择要使用 %s 的分类法。"
+
+#: inc/commonstrings.php:55 admin/class-aioseop-helper.php:707
+#: admin/class-aioseop-helper.php:949 admin/class-aioseop-helper.php:1251
+#: admin/class-aioseop-helper.php:1299
+msgid "Click here for documentation on this setting."
+msgstr "点此查看本设置相关文档"
+
+#: inc/commonstrings.php:46 admin/class-aioseop-helper.php:137
+#: admin/class-aioseop-helper.php:176 admin/class-aioseop-helper.php:212
+#: admin/class-aioseop-helper.php:250 admin/class-aioseop-helper.php:270
+#: admin/class-aioseop-helper.php:285 admin/class-aioseop-helper.php:302
+#: admin/class-aioseop-helper.php:313 admin/class-aioseop-helper.php:324
+#: admin/class-aioseop-helper.php:334 admin/class-aioseop-helper.php:370
+#: admin/class-aioseop-helper.php:533 admin/class-aioseop-helper.php:1113
+#: admin/class-aioseop-helper.php:1161
+msgid "Your site description"
+msgstr "网站说明"
+
+#: inc/commonstrings.php:45 admin/class-aioseop-helper.php:135
+#: admin/class-aioseop-helper.php:174 admin/class-aioseop-helper.php:210
+#: admin/class-aioseop-helper.php:248 admin/class-aioseop-helper.php:268
+#: admin/class-aioseop-helper.php:283 admin/class-aioseop-helper.php:300
+#: admin/class-aioseop-helper.php:311 admin/class-aioseop-helper.php:322
+#: admin/class-aioseop-helper.php:332 admin/class-aioseop-helper.php:368
+#: admin/class-aioseop-helper.php:461 admin/class-aioseop-helper.php:482
+#: admin/class-aioseop-helper.php:531 admin/class-aioseop-helper.php:1111
+#: admin/class-aioseop-helper.php:1159
+msgid "Your site title"
+msgstr "网站标题"
+
+#: inc/sitemap-xsl.php:91
+msgid "Generated by"
+msgstr "由.....生成的"
+
+#: inc/sitemap-xsl.php:95
+msgid "This sitemap contains"
+msgstr "这个 Sitemap 包含"
+
+#: inc/sitemap-xsl.php:96
+msgid "sitemaps"
+msgstr "站点地图"
+
+#: inc/sitemap-xsl.php:96
+msgid "This sitemap index contains"
+msgstr "这份 Sitemap 索引包含"
+
+#: inc/sitemap-xsl.php:95 inc/news-sitemap-xsl.php:100
+msgid "URLs"
+msgstr "网址"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with a noun.
+#. translators: %s is replaced with a content type such as Post, Page, etc.
+#: inc/commonstrings.php:51 admin/class-aioseop-helper.php:255
+msgid "The description of the %s"
+msgstr "%s的內容说明"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with a noun.
+#. translators: %s is replaced with a content type such as Post, Page, etc.
+#: inc/commonstrings.php:49 admin/class-aioseop-helper.php:140
+#: admin/class-aioseop-helper.php:178 admin/class-aioseop-helper.php:214
+#: admin/class-aioseop-helper.php:252 admin/class-aioseop-helper.php:273
+#: admin/class-aioseop-helper.php:338 admin/class-aioseop-helper.php:467
+#: admin/class-aioseop-helper.php:488 admin/class-aioseop-helper.php:535
+msgid "The original title of the %s"
+msgstr "%s的原始标题"
+
+#: modules/aioseop_sitemap.php:294
+msgid "Create RSS Sitemap"
+msgstr "创建RSS网站地图"
+
+#: inc/commonstrings.php:56
+msgid "Create RSS Sitemap as well."
+msgstr "创建RSS网站地图成功"
+
+#. translators: This is the name of a settings section where users can indicate
+#. which post types and taxonomies they want to use All in One SEO Pack with.
+#: aioseop_class.php:1130
+msgid "Content Type Settings"
+msgstr "内容类型设置"
+
+#: modules/aioseop_robots.php:58
+msgid "Disallow"
+msgstr "不允许"
+
+#: modules/aioseop_robots.php:745
+msgid "Modify Rule"
+msgstr "修改规则"
+
+#: inc/aioseop_functions.php:456
+msgid "Please provide absolute URLs (including http or https)."
+msgstr "请提供绝对路径链接（包含http或者https)。"
+
+#: modules/aioseop_robots.php:688
+msgid "Wild-card path cannot be overridden: %s"
+msgstr "通配符路径无法被覆盖：%s"
+
+#: modules/aioseop_robots.php:659
+msgid "Rule cannot be overridden: %s"
+msgstr "规则无法被覆盖：%s"
+
+#: modules/aioseop_robots.php:666
+msgid "Path cannot be overridden: %s"
+msgstr "路径无法被覆盖：%s"
+
+#: modules/aioseop_robots.php:645
+msgid "Identical rule exists: %s"
+msgstr "存在相同的规则：%s"
+
+#: modules/aioseop_robots.php:626
+msgid "Directory Path cannot be empty"
+msgstr "目录路径不能为空"
+
+#: modules/aioseop_robots.php:623
+msgid "User Agent cannot be empty"
+msgstr "“用户代理”不能为空"
+
+#: modules/aioseop_robots.php:219
+msgid "Unable to delete file"
+msgstr "无法删除文件"
+
+#: modules/aioseop_robots.php:214
+msgid "Unable to read file"
+msgstr "无法读取文件"
+
+#: modules/aioseop_robots.php:135
+msgid "A physical file exists. This feature cannot be used."
+msgstr "存在一个物理文件。不能使用此功能"
+
+#: modules/aioseop_robots.php:84
+msgid "Configured Rules"
+msgstr "已配置的规则"
+
+#: modules/aioseop_robots.php:57
+msgid "Allow"
+msgstr "允许"
+
+#: modules/aioseop_robots.php:54
+msgid "Rule"
+msgstr "规则"
+
+#: modules/aioseop_robots.php:41
+msgid "Use the rule builder below to add/delete rules."
+msgstr "使用下方的规则创建器以添加、删除规则"
+
+#: modules/aioseop_robots.php:132
+msgid "A physical file exists. Do you want to %simport and delete%s it, %sdelete%s it or continue using it?"
+msgstr "存在一个物理文件。您希望%simport and delete%s它、%sdelete%s它，还是继续使用它？"
+
+#: modules/aioseop_feature_manager.php:63
+msgid "Edit your .htaccess file to fine-tune your site."
+msgstr "编辑您的.htaccess文件以微调您的站点"
+
+#. translators: Shows which sitemap files were renamed.
+#: modules/aioseop_sitemap.php:1331
+msgid "Renamed %1$s to %2$s."
+msgstr "将%1$s重命名为%2$s。"
+
+#: inc/commonstrings.php:69
+msgid "URL to the page. This field accepts relative URLs or absolute URLs with the protocol specified."
+msgstr "页面的 URL。这个字段接受相对 URL 或绝对 URL 与指定的协议。"
+
+#. translators: %s is a placeholder and will be replaced with the name of the
+#. relevant file.
+#: admin/aioseop_module_class.php:1375
+msgid "Failed to rename file %s!"
+msgstr "未能重命名文件%s！"
+
+#. translators: %s is a placeholder and will be replaced with the name of the
+#. relevant file.
+#: admin/aioseop_module_class.php:1385
+msgid "File %s already exists!"
+msgstr "%s 文件已经存在！"
+
+#. translators: %s is a placeholder and will be replaced with the name of the
+#. relevant file.
+#: admin/aioseop_module_class.php:1352 admin/aioseop_module_class.php:1382
+msgid "File %s doesn't exist!"
+msgstr "%s 文件不存在！"
+
+#. translators: %s is a placeholder and will be replaced with the name of the
+#. relevant file.
+#: admin/aioseop_module_class.php:1346
+msgid "Failed to delete file %s!"
+msgstr "未能删除文件 %s！"
+
+#. translators: %s is a placeholder and will be replaced with the name of the
+#. relevant file.
+#: admin/aioseop_module_class.php:1314
+msgid "File %s isn't writable!"
+msgstr "文件 %s 不可写入！"
+
+#. translators: %s is a placeholder and will be replaced with the name of the
+#. relevant file.
+#: admin/aioseop_module_class.php:1312
+msgid "Failed to write file %s!"
+msgstr "未能写入文件 %s！"
+
+#: admin/aioseop_module_class.php:269
+msgid "Method %s doesn't exist"
+msgstr "%s 方法不存在"
+
+#: inc/aioseop_functions.php:503
+msgid "All values are mandatory."
+msgstr "所有值都是强制的。"
+
+#: inc/commonstrings.php:64 admin/class-aioseop-helper.php:757
+msgid "Exclude Images in your sitemap."
+msgstr "舍弃您的站点地图中的图像"
+
+#: modules/aioseop_sitemap.php:210
+msgid "Exclude Images"
+msgstr "舍弃图像"
+
+#: inc/commonstrings.php:42
+msgid "Check this if you want to track how far down a user scrolls a page with Google Analytics."
+msgstr "请确认你是否想通过谷歌统计来追踪用户的访问深度。"
+
+#: inc/commonstrings.php:44
+msgid "Check this if you want to ensure consistency in URL paths reported to Google Analytics."
+msgstr "如果要确保报告给Google Analytics的网址路径一致性，请点击此项。"
+
+#. translators: The term "viewport" refers to the area of the page that is
+#. visible to the user, see https://www.w3schools.com/css/css_rwd_viewport.asp.
+#: inc/commonstrings.php:41
+msgid "Check this if you want to track when elements are visible within the viewport with Google Analytics."
+msgstr "如果您想跟踪Google Analytics在视口内的元素是否可见，请点击此项。"
+
+#. translators: 'This option allows users to track media queries, allowing them
+#. to find out if users are viewing a responsive layout or not and which layout
+#. changes have been applied if the browser window has been resized by the
+#. user, see
+#. https://github.com/googleanalytics/autotrack/blob/master/docs/plugins/media-query-tracker.md.
+#: inc/commonstrings.php:39
+msgid "Check this if you want to track media query matching and queries with Google Analytics."
+msgstr "如果您要跟踪Google Analytics的媒体查询匹配和查询，请点击此项。"
+
+#: inc/commonstrings.php:37
+msgid "Check this if you want to track how long pages are in visible state with Google Analytics."
+msgstr "如果您想要跟踪Google Analytics的可见状态，请点击此项。"
+
+#: inc/commonstrings.php:35
+msgid "Check this if you want to track events with Google Analytics."
+msgstr "如果您想跟踪Google Analytics的事件，请检查这一点。"
+
+#: inc/commonstrings.php:34
+msgid "Check this if you want to track outbound forms with Google Analytics."
+msgstr "如果您想使用Google Analytics跟踪出站表单，请选中此项。"
+
+#: inc/commonstrings.php:101
+msgid "Ensure URL Consistency:"
+msgstr "确保网址的一致性："
+
+#: inc/commonstrings.php:100
+msgid "Track Facebook and Twitter:"
+msgstr "追踪Facebook 和Twitter:"
+
+#: inc/commonstrings.php:99
+msgid "Track Page Scrolling:"
+msgstr "追踪页面滚动："
+
+#: inc/commonstrings.php:98
+msgid "Track Elements Visibility:"
+msgstr "追踪元素可视性："
+
+#: inc/commonstrings.php:97
+msgid "Track Media Query:"
+msgstr "追踪媒体查询："
+
+#: inc/commonstrings.php:96
+msgid "Track Page Visibility:"
+msgstr "追踪页面可视性："
+
+#: inc/commonstrings.php:94
+msgid "Track Events:"
+msgstr "追踪事件："
+
+#: inc/commonstrings.php:93
+msgid "Track Outbound Forms:"
+msgstr "追踪出站表单："
+
+#: inc/commonstrings.php:43
+msgid "Check this if you want to track interactions with the official Facebook and Twitter widgets with Google Analytics."
+msgstr "选中以使用Google Analytics跟踪与官方Facebook和Twitter小工具的互动。"
+
+#: inc/commonstrings.php:36
+msgid "Check this if you want to track URL changes for single pages with Google Analytics."
+msgstr "如果您要使用Google Analytics跟踪单个网页的网址更改，请选中此项。"
+
+#: inc/commonstrings.php:95
+msgid "Track URL Changes:"
+msgstr "追踪网址改变："
+
+#. translators: This is a setting that allows users to add the NOFOLLOW robots
+#. meta tag value to the current post/page.
+#: aioseop_class.php:1007
+msgid "NOFOLLOW this page/post"
+msgstr "对这个页面/文章设置NOFOLLOW"
+
+#. translators: %1$s and %2$s are placeholders, which means that it should not
+#. be translated. They will be replaced with nouns in the application.
+#: inc/commonstrings.php:112
+msgid "Your license has expired. Please %1$s click here %2$s to purchase a new one."
+msgstr "你的许可证已经过期. 请 %1$s 点击 %2$s 购买新的许可证."
+
+#: admin/class-aioseop-helper.php:935
+msgid "Select the Twitter Card type to use for this Page or Post, overriding the default setting."
+msgstr "选择要用于此页面或帖子的Twitter卡类型，覆盖默认设置."
+
+#. translators: Social Meta refers to Open Graph (OG:) meta tags, which can be
+#. used to control the appearance of a site's posts/pages when shared on social
+#. media networks like Facebook and Twitter.
+#: modules/aioseop_feature_manager.php:51
+msgid "Add Social Meta data to your site to deliver closer integration between your website and social media."
+msgstr "将社交元数据添加到您的网站，以实现您的网站/博客和社交媒体之间的更紧密的集成."
+
+#. translators: This is a setting that allows users to add the NOINDEX robots
+#. meta tag value to the current post/page.
+#: aioseop_class.php:1001
+msgid "NOINDEX this page/post"
+msgstr "NOINDEX这个页面/帖子。"
+
+#. translators: leave all the code inside the brackets < and > unchanged.
+#: inc/commonstrings.php:106
+msgid "You must <a href=\"%s\">enter a valid License Key</a> for it to work."
+msgstr "您必须 <a href=\"%s\">输入一个有效的许可链</a> 才能启用。"
+
+#: inc/commonstrings.php:104
+msgid "%s is almost ready."
+msgstr "%s 差不多准备就绪。"
+
+#. translators: leave all the code inside the brackets < and > unchanged.
+#: inc/commonstrings.php:110
+msgid "There is a new version of %1$s available. Go to <a href='%2$s'>the plugins page</a> for details."
+msgstr "有一个新的%1$s版本. 详情请到 <a href='%2$s'>插件页面</a>。"
+
+#: admin/aioseop_module_class.php:2570
+msgid "Upload Image"
+msgstr "上传图片"
+
+#: modules/aioseop_opengraph.php:473
+msgid "Enable Facebook Meta for Post Types"
+msgstr "为文章类型开启FaceBook社交元素"
+
+#: modules/aioseop_performance.php:345
+msgid "Site Language"
+msgstr "网站语言"
+
+#: modules/aioseop_performance.php:348
+msgid "Search Engine Visibility"
+msgstr "搜索引擎可见性"
+
+#: modules/aioseop_performance.php:344
+msgid "Site Title"
+msgstr "网站标题"
+
+#. translators: This is a label that shows what page is used as the
+#. homepage/front page.
+#: modules/aioseop_performance.php:347
+msgid "Front Page Displays"
+msgstr "首页显示"
+
+#. translators: This is a label that shows what the current permalink structure
+#. is. The permalink structure is the way that the URLs of the website are
+#. formatted, e.g. "examplesite.com/?p=123" or
+#. "examplesite.com/1970/01/01/sample-post/".
+#: modules/aioseop_performance.php:350
+msgid "Permalink Setting"
+msgstr "固定链接设置"
+
+#: admin/class-aioseop-helper.php:441
+msgid "Check this and your Meta Descriptions for any Post Type will be auto-generated using the Post Excerpt, or the first 160 characters of the post content if there is no Post Excerpt. You can overwrite any auto-generated Meta Description by editing the post or page."
+msgstr "若勾选此项，您的任何文章形式的Meta Descriptions将由文章摘要自动生成，否则它将是文章内容的前160个字符。您可以通过编辑文章或页面以覆盖任何自动生成的Meta Description。"
+
+#: admin/display/general-metaboxes.php:122
+msgid "Email Address"
+msgstr "邮箱地址"
+
+#: admin/display/general-metaboxes.php:124
+msgid "Subscribe"
+msgstr "订阅"
+
+#: admin/display/general-metaboxes.php:186
+msgid "SEO for Categories, Tags and Custom Taxonomies"
+msgstr "针对分类、标签和自定义分类进行SEO优化"
+
+#: admin/display/general-metaboxes.php:201
+msgid "Access to Video Screencasts"
+msgstr "访问视频截图"
+
+#: admin/display/general-metaboxes.php:203
+msgid "Access to Knowledge Center"
+msgstr "访问知识中心"
+
+#: aioseop_class.php:408
+msgid "Nothing found for %request_words%"
+msgstr "无法找到 %request_words%"
+
+#: admin/display/general-metaboxes.php:195
+msgid "Video SEO Module"
+msgstr "视频SEO模块"
+
+#: inc/admin/class-aioseop-education.php:916
+#: admin/display/general-metaboxes.php:190
+msgid "Advanced support for WooCommerce"
+msgstr "WooCommerce插件的高级支持"
+
+#: modules/aioseop_opengraph.php:325
+msgid "Use Content For Autogenerated OG Descriptions"
+msgstr "为自动生成的 OG 描述使用内容"
+
+#: admin/class-aioseop-helper.php:442
+msgid "This option will auto generate your meta descriptions from your post content instead of your post excerpt. This is useful if you want to use your content for your autogenerated meta descriptions instead of the excerpt. WooCommerce users should read the documentation regarding this setting."
+msgstr "此选项将忽略文章摘要，自动根据文章内容生成描述。 如果您想自定义文章描述，可以选中此项。 WooCommerce插件用户可阅读相关文档进行设置。"
+
+#: admin/class-aioseop-helper.php:919
+msgid "This option will auto generate your Open Graph descriptions from your post content instead of your post excerpt. WooCommerce users should read the documentation regarding this setting."
+msgstr "此选项忽略文章摘要，自动根据文章内容生成Open Graph。WooCommerce插件用户可阅读相关文档进行设置。"
+
+#. translators: This is a button users can click to reset the settings of a
+#. specific module to their default values. %s is a placeholder and will be
+#. replaced with the name of a settings menu (e.g. "Performance").
+#: admin/aioseop_module_class.php:3036
+msgid "Reset %s Settings to Defaults"
+msgstr "将 %s 设置重置为默认"
+
+#: admin/display/welcome-content.php:122
+msgid "Access to video tutorials about SEO with the Pro version"
+msgstr "使用 Pro 版本可获得 SEO 视频教程"
+
+#: admin/class-aioseop-helper.php:115
+msgid "This option will automatically generate Canonical URLs for your entire WordPress installation. This will help to prevent duplicate content penalties by Google."
+msgstr "此选项将自动为您的整个WordPress安装生成规范URL。这将有助于防止Google重复内容处罚"
+
+#. translators: Shows which files were removed.
+#: modules/aioseop_sitemap.php:1445
+msgid "Removed empty file %s."
+msgstr "已移除的空文件  %s"
+
+#: inc/commonstrings.php:29
+msgid "This displays an SEO News widget on the dashboard."
+msgstr "在仪表盘显示一个SEO新闻小工具"
+
+#: inc/commonstrings.php:90
+msgid "Show SEO News"
+msgstr "显示SEO新闻"
+
+#: admin/display/dashboard_widget.php:40
+msgid "SEO News"
+msgstr "搜索引擎新闻"
+
+#: admin/display/welcome-content.php:135
+msgid "Continue to the General Settings"
+msgstr "继续到常规设置"
+
+#: admin/display/welcome-content.php:55
+msgid "Get Started"
+msgstr "开始"
+
+#: admin/display/welcome-content.php:73
+msgid "Beginners Guide for XML Sitemap module"
+msgstr "XML 站点模块新手指南"
+
+#: admin/display/welcome-content.php:79
+msgid "Beginners Guide for Social Meta module"
+msgstr "Social Meta 模块新手指南"
+
+#: admin/display/welcome-content.php:85
+msgid "Tips for good on-page SEO"
+msgstr "好的页面SEO提示"
+
+#: admin/display/welcome-content.php:97
+msgid "Submit an XML Sitemap to Google"
+msgstr "在Google上提交XML站点图"
+
+#: admin/display/welcome-content.php:103
+msgid "Set up Google Analytics"
+msgstr "建立谷歌分析"
+
+#: admin/display/welcome-content.php:109
+msgid "Did You Know?"
+msgstr "你知道吗？"
+
+#: admin/display/welcome-content.php:115
+msgid "We have complete documentation on every setting and feature"
+msgstr "我们对每个设置和功能都备有完整的文档"
+
+#: admin/display/welcome-content.php:91
+msgid "Quality guidelines for SEO titles and descriptions"
+msgstr "高质量的标题和内容介绍方面的搜索引擎优化指南"
+
+#: admin/display/aioseop-welcome.php:134
+msgid "What&#8217;s New"
+msgstr "新变化"
+
+#: admin/display/welcome-content.php:128
+msgid "Control SEO on categories, tags and custom taxonomies with the Pro version"
+msgstr "使用Pro版优化分类，标签和自定义页面"
+
+#. translators: %1$s and %2$s are placeholders, which means that these should
+#. not be translated. These will be replaced with the name of the plugin, All
+#. in One SEO Pack, and the current version number.
+#: admin/display/aioseop-welcome.php:126
+msgid "%1$s %2$s contains new features, bug fixes, increased security, and tons of under the hood performance improvements."
+msgstr "%1$s and %2$s 此次更新包含了新特性，bug修复，安全性提示以及许多性能改进。"
+
+#: admin/display/welcome-content.php:39
+msgid "Upgrade"
+msgstr "升级"
+
+#: admin/display/welcome-content.php:51
+msgid "Translate"
+msgstr "翻译"
+
+#: admin/class-aioseop-helper.php:447
+msgid "Redirect attachment pages to post parent."
+msgstr "重定向附件页面到其附加的文章页面。"
+
+#: admin/class-aioseop-helper.php:936
+msgid "This option lets you upload an image to use as the Twitter image for this Page or Post."
+msgstr "这个选项可以让你把上传的图像用以Twitter 图像在此页面或者文章。"
+
+#: modules/aioseop_opengraph.php:451
+msgid "Custom Twitter Image"
+msgstr "自定义Twitter图像"
+
+#: inc/commonstrings.php:66 admin/class-aioseop-helper.php:759
+msgid "Dynamically creates the XML sitemap instead of using a static file."
+msgstr "机动型的用静态文件建立XML站点"
+
+#: modules/aioseop_importer_exporter.php:585
+msgid "<b>Security warning:</b> Your file looks compromised. Please check the file for any script-injection."
+msgstr "<b>安全警告 ︰</b>您的文件看起来被破坏。请检查该文件的任何脚本注入。"
+
+#: admin/display/general-metaboxes.php:87
+msgid "%1$s has been translated into %2$s languages, but currently the %3$s translation is only %4$s percent complete. %5$sClick here%6$s to help get it to 100 percent."
+msgstr "%1$s 已被译成 %2$s中的语言，但目前 %4$s的翻译只有 %3$s完成百分比 。%5$s 点击这里 %6$s 帮忙把它完成到百分之100"
+
+#: admin/meta_import.php:103 admin/meta_import.php:109
+msgid "Sorry, you can't do that. Please choose a platform and then click Analyze or Convert."
+msgstr "抱歉，你不能那样做。请选择一个平台，然后点击分析或者兑换。"
+
+#: admin/meta_import.php:236
+msgid "Analyze"
+msgstr "分析"
+
+#: admin/meta_import.php:241
+msgid "Convert"
+msgstr "兑换"
+
+#: admin/meta_import.php:222
+msgid "Themes"
+msgstr "主题"
+
+#: admin/meta_import.php:168
+msgid "Use the drop down below to choose which plugin or theme you wish to import SEO data from."
+msgstr "使用下拉式菜单，选择您想从搜索引擎导入该数据插件或主题。"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: admin/meta_import.php:175
+msgid "Click \"Analyze\" for a list of SEO data that can be imported into %s, along with the number of records that will be imported."
+msgstr "点击“分析”为可以导入到所有徐一包，与将要导入的记录数以及SEO数据的列表。"
+
+#: admin/meta_import.php:182
+msgid "Please Note: "
+msgstr "请注意："
+
+#: admin/meta_import.php:187
+msgid "Some plugins and themes do not share similar data, or they store data in a non-standard way. If we cannot import this data, it will remain unchanged in your database. Any compatible SEO data will be displayed for you to review. If a post or page already has SEO data in %s, we will not import data from another plugin/theme."
+msgstr "一些插件和主题没有相同的数据，或者存储在一个非标准的方式的数据。如果我们不能导入此数据，它会在你的数据库保持不变。任何兼容的SEO数据将显示您查看。如果文章或页面已在徐一包中的所有数据的搜索引擎优化，我们将不会从另一个插件/主题导入数据。"
+
+#: admin/meta_import.php:196
+msgid "Click \"Convert\" to perform the import. After the import has completed, you will be alerted to how many records were imported, and how many records had to be ignored, based on the criteria above."
+msgstr "点击“转换”，以执行导入。导入完成后，您会被提醒多少记录被进口，多少记录必须被忽略，基于上面的标准。"
+
+#: admin/meta_import.php:210
+msgid "Import SEO data from:"
+msgstr "导入SEO数据："
+
+#: admin/meta_import.php:212
+msgid "Choose platform:"
+msgstr "选择操作平台："
+
+#: admin/meta_import.php:214
+msgid "Plugins"
+msgstr "插件兼容"
+
+#: admin/meta_import.php:118
+msgid "Analysis Results"
+msgstr "分析结果"
+
+#: admin/meta_import.php:122 admin/meta_import.php:145
+msgid "Sorry, something went wrong. Please try again"
+msgstr "抱歉，出了一些问题。请再试一次"
+
+#: admin/meta_import.php:131
+msgid "Compatible data:"
+msgstr "兼容的数据："
+
+#: admin/meta_import.php:141
+msgid "Conversion Results"
+msgstr "转换结果"
+
+#: admin/meta_import.php:165
+msgid "Import SEO Settings"
+msgstr "导入SEO设置"
+
+#: admin/meta_import.php:127
+msgid "<p>Analyzing records in a %1$s to %2$s conversion&hellip;"
+msgstr "<p>在分析一个%1$s记录%2$s转换..."
+
+#: admin/meta_import.php:58
+msgid "All in One SEO has been deactivated"
+msgstr "All-In-One-SEO已经被停用"
+
+#: admin/meta_import.php:85
+msgid "Import SEO Data"
+msgstr "导入SEO数据"
+
+#: admin/meta_import.php:85
+msgid "SEO Data Import"
+msgstr "SEO数据导入"
+
+#: admin/meta_import.php:53
+msgid "The plugin All-In-One-SEO has been detected. Do you want to %1$simport its settings%2$s?"
+msgstr "检测到All-In-One-SEO插件已启用，需要%1$s导入其设置%2$s吗？"
+
+#. translators: %1$s, %2$s and %3$s are placeholders, which means these
+#. shouldn't be translated. The first two placeholders are used to add a link
+#. to anchor text and the third is replaced with the name of the plugin, All in
+#. One SEO Pack.
+#: admin/meta_import.php:49
+msgid "The plugin Yoast SEO has been detected. Do you want to %1$simport its settings%2$s into %3$s"
+msgstr "检测到Yoast SEO插件。你想%1$s 导入其设置 %2$s 为 %3$s 吗？"
+
+#: inc/commonstrings.php:113
+msgid "Manage Licenses"
+msgstr "管理许可证"
+
+#: admin/class-aioseop-helper.php:1085
+msgid "Block Referral Spam using HTTP."
+msgstr "使用 HTTP 阻止推荐垃圾。 "
+
+#: modules/aioseop_bad_robots.php:26
+msgid "Block Bad Bots using HTTP"
+msgstr "使用HTTP阻止垃圾机器人"
+
+#: modules/aioseop_bad_robots.php:27
+msgid "Block Referral Spam using HTTP"
+msgstr "使用 HTTP 阻止推荐垃圾。 "
+
+#: modules/aioseop_bad_robots.php:29
+msgid "Use Custom Blocklists"
+msgstr "使用自定义黑名单"
+
+#: inc/admin/views/class-aioseop-about.php:406
+#: modules/aioseop_feature_manager.php:104
+msgid "Image SEO"
+msgstr "图像 SEO"
+
+#: modules/aioseop_feature_manager.php:90
+msgid "Create and manage your Video Sitemap using this feature and submit your Video Sitemap to Google, Bing/Yahoo and Ask.com."
+msgstr "创建和管理您的视频 Sitemap功能，使用此功能提交你的视频网站地图给谷歌、 必应/雅虎和 Ask.com。"
+
+#: inc/commonstrings.php:108
+msgid "Purchase one now"
+msgstr "现在购买"
+
+#: inc/commonstrings.php:114
+msgid "License Key is not set yet or invalid. "
+msgstr "许可证密钥不是尚未设置或无效。"
+
+#: inc/commonstrings.php:107
+msgid "Need a license key?"
+msgstr "需要一个许可证密钥吗?"
+
+#: inc/commonstrings.php:116
+msgid "Notice: "
+msgstr "注意："
+
+#: inc/commonstrings.php:67
+msgid "If checked, only posts that have videos in them will be displayed on the sitemap."
+msgstr "如果选中，站点地图上只显示有视频的帖子"
+
+#: inc/commonstrings.php:120
+msgid "Show Only Posts With Videos"
+msgstr "只显示有视频的帖子"
+
+#. translators: This is an action link users can click to purchase a license
+#. for All in One SEO Pack Pro.
+#: class-aioseop-core.php:675 aioseop_class.php:5366 admin/display/menu.php:64
+#: admin/display/notices/wc-detected-notice.php:32
+msgid "Upgrade to Pro"
+msgstr "升级到Pro专业版"
+
+#. translators: This is an action link users can click to open our general
+#. documentation page.
+#: class-aioseop-core.php:664
+msgid "Documentation"
+msgstr "程序文档"
+
+#. translators: This is an action link users can click to open the General
+#. Settings menu.
+#: class-aioseop-core.php:652 aioseop_class.php:5290
+msgid "SEO Settings"
+msgstr "SEO设置"
+
+#: aioseop_class.php:4620
+msgid "Debug String"
+msgstr "调试字符串"
+
+#. translators: The taxonomy title format is the template that is used to
+#. format the title for each taxonomy term of a certain taxonomy (Categories,
+#. Tags, etc.).
+#: aioseop_class.php:3721
+msgid "Taxonomy Title Format:"
+msgstr "分类标题格式:"
+
+#: inc/commonstrings.php:26
+msgid "This will be the license key received when the product was purchased. This is used for automatic upgrades."
+msgstr "这将是购买产品时获得的许可证密钥。这是用于自动升级。"
+
+#: modules/aioseop_opengraph.php:270
+msgid "Facebook Admin ID"
+msgstr "Facebook 管理员 ID"
+
+#: modules/aioseop_opengraph.php:275
+msgid "Facebook App ID"
+msgstr "Facebook 应用 ID"
+
+#: admin/class-aioseop-helper.php:901
+msgid "Enter your Facebook App ID here. Information about how to get your Facebook App ID can be found at https://developers.facebook.com/docs/apps/register"
+msgstr "在这里输入您的 Facebook App ID。在 https://developers.facebook.com/docs/apps/register 上可以找到有关如何获取你的 Facebook App ID 的信息"
+
+#: modules/aioseop_sitemap.php:822
+msgid "Post Type"
+msgstr "文章类型"
+
+#: inc/commonstrings.php:52 modules/aioseop_sitemap.php:823
+msgid "Taxonomy"
+msgstr "分类"
+
+#: modules/aioseop_sitemap.php:357
+msgid "Add URL"
+msgstr "添加网址"
+
+#: modules/aioseop_sitemap.php:350 modules/aioseop_sitemap.php:384
+msgid "Additional Pages"
+msgstr "额外页面"
+
+#: modules/aioseop_sitemap.php:769
+msgid "All Post Types"
+msgstr "所有文章类型"
+
+#: modules/aioseop_sitemap.php:770
+msgid "All Taxonomies"
+msgstr "所有分类"
+
+#. translators: Shows which sitemap files couldn't be found.
+#: modules/aioseop_sitemap.php:1336
+msgid "Couldn't find file %s!"
+msgstr "无法找到文件%s！"
+
+#. translators: Shows which sitemap files couldn't be renamed.
+#: modules/aioseop_sitemap.php:1326
+msgid "Couldn't rename file %s!"
+msgstr "无法重命名文件%s！"
+
+#: modules/aioseop_sitemap.php:1485
+msgid "Delete Conflicting Files"
+msgstr "删除冲突文件"
+
+#. translators: Shows which sitemap files have been deleted.
+#: modules/aioseop_sitemap.php:1315
+msgid "Deleted %s."
+msgstr "删除%s"
+
+#: aioseop_class.php:1037 aioseop_class.php:1067
+#: modules/aioseop_sitemap.php:244
+msgid "Do Not Override"
+msgstr "请勿覆盖"
+
+#: modules/aioseop_sitemap.php:1065
+msgid "Dynamic sitemap generation does not appear to be using the correct rewrite rules; please disable any other sitemap plugins or functionality on your site and reset your permalinks."
+msgstr "动态网站地图生成貌似未使用正确的伪静态规则；请禁用贵站其它的网站地图插件或功能，然后重置固定链接。"
+
+#: modules/aioseop_sitemap.php:212
+msgid "Dynamically Generate Sitemap"
+msgstr "动态生成网站地图"
+
+#: modules/aioseop_sitemap.php:186
+msgid "Enable Sitemap Indexes"
+msgstr "启用网站地图索引"
+
+#: modules/aioseop_sitemap.php:320
+msgid "Enter information below for any additional links for your sitemap not already managed through WordPress."
+msgstr "在以下输入加入网站地图的额外链接，这些链接并非由WordPress管理。"
+
+#: inc/commonstrings.php:73
+msgid "Entries from these taxonomy terms will be excluded from the sitemap."
+msgstr "来自这些分类目录的记录将被排除在网站地图之外。"
+
+#: modules/aioseop_sitemap.php:390
+msgid "Excluded Items"
+msgstr "排除项目"
+
+#: modules/aioseop_sitemap.php:372
+msgid "Excluded Pages"
+msgstr "排除页面"
+
+#: modules/aioseop_sitemap.php:403
+msgid "Frequencies"
+msgstr "频度"
+
+#: modules/aioseop_sitemap.php:209
+msgid "Include Author Pages"
+msgstr "包括作者页面"
+
+#: modules/aioseop_sitemap.php:208
+msgid "Include Date Archive Pages"
+msgstr "包括日期归档页面"
+
+#: modules/aioseop_sitemap.php:343
+msgid "Last Modified"
+msgstr "最后修改"
+
+#: inc/commonstrings.php:72 admin/class-aioseop-helper.php:763
+msgid "Last modified date of the page."
+msgstr "页面最后修改日期"
+
+#. translators: This refers to entries in the Media Library (images, videos,
+#. recordings and other files) and their attachment pages.
+#: aioseop_class.php:3647 aioseop_class.php:3650
+#: modules/aioseop_sitemap.php:767 admin/aioseop_module_class.php:945
+msgid "Media / Attachments"
+msgstr "媒体/附件"
+
+#: modules/aioseop_sitemap.php:337
+msgid "Page Frequency"
+msgstr "页面频度"
+
+#: modules/aioseop_sitemap.php:331
+msgid "Page Priority"
+msgstr "页面权重"
+
+#: modules/aioseop_sitemap.php:326
+msgid "Page URL"
+msgstr "页面网址"
+
+#: modules/aioseop_sitemap.php:199
+msgid "Post Types"
+msgstr "文章类型"
+
+#. translators: Shows which 'unknown' file is conflicting with the current
+#. sitemap settings.
+#: modules/aioseop_sitemap.php:1439
+msgid "Potential conflict with unknown file %s."
+msgstr "与未知文件%s存在潜在冲突。"
+
+#: modules/aioseop_sitemap.php:396
+msgid "Priorities"
+msgstr "权重"
+
+#: modules/aioseop_sitemap.php:1070
+#: admin/display/notices/blog-visibility-notice.php:20
+msgid "Reading Settings"
+msgstr "阅读设置"
+
+#: modules/aioseop_sitemap.php:1486
+msgid "Rename Conflicting Files"
+msgstr "重命名冲突文件"
+
+#: modules/aioseop_sitemap.php:245
+msgid "Select Individual"
+msgstr "选择单个"
+
+#: inc/commonstrings.php:80 modules/aioseop_sitemap.php:204
+#: admin/class-aioseop-helper.php:775 admin/class-aioseop-helper.php:782
+msgid "Taxonomies"
+msgstr "分类"
+
+#: inc/commonstrings.php:71 admin/class-aioseop-helper.php:762
+msgid "The frequency of the page."
+msgstr "页面的频度"
+
+#: inc/commonstrings.php:70 admin/class-aioseop-helper.php:761
+msgid "The priority of the page."
+msgstr "页面的权重"
+
+#: modules/aioseop_sitemap.php:918
+msgid "Update Sitemap"
+msgstr "更新网站地图"
+
+#: admin/display/notices/sitemap-indexes-notice.php:28
+msgid "Update Sitemap Settings"
+msgstr "更新网站地图设置"
+
+#: modules/aioseop_sitemap.php:1294
+msgid "Warning: dynamic sitemap generation must have permalinks enabled."
+msgstr "警告：动态网站地图生成必须启用固定链接。"
+
+#. translators: Link to settings to disable "Discourage search engines from
+#. indexing this site".
+#: modules/aioseop_sitemap.php:1072
+msgid "Warning: your privacy settings are configured to ask search engines to not index your site; you can change this under %s for your site."
+msgstr "警告：您的隐私设置设定为搜索引擎不索引贵站；您可以在%s下修改此设定。"
+
+#: modules/aioseop_sitemap.php:269
+msgid "archive pages"
+msgstr "归档页面"
+
+#: modules/aioseop_sitemap.php:270
+msgid "author pages"
+msgstr "作者页面"
+
+#: modules/aioseop_sitemap.php:1648
+msgid "dynamic"
+msgstr "动态"
+
+#: modules/aioseop_sitemap.php:259 admin/class-aioseop-helper.php:780
+#: admin/class-aioseop-helper.php:781 admin/class-aioseop-helper.php:782
+#: admin/class-aioseop-helper.php:783 admin/class-aioseop-helper.php:784
+#: admin/class-aioseop-helper.php:796 admin/class-aioseop-helper.php:804
+msgid "frequency"
+msgstr "频度"
+
+#: modules/aioseop_sitemap.php:266
+msgid "homepage"
+msgstr "首页"
+
+#: modules/aioseop_sitemap.php:267
+msgid "posts"
+msgstr "文章"
+
+#: inc/commonstrings.php:77 modules/aioseop_sitemap.php:258
+#: admin/class-aioseop-helper.php:773 admin/class-aioseop-helper.php:774
+#: admin/class-aioseop-helper.php:775 admin/class-aioseop-helper.php:776
+#: admin/class-aioseop-helper.php:777 admin/class-aioseop-helper.php:795
+#: admin/class-aioseop-helper.php:803
+msgid "priority"
+msgstr "权重"
+
+#: modules/aioseop_sitemap.php:1646
+msgid "static"
+msgstr "静态"
+
+#: modules/aioseop_sitemap.php:268
+msgid "taxonomies"
+msgstr "分类"
+
+#: modules/aioseop_sitemap.php:175
+msgid "Schedule Updates"
+msgstr "进度更新"
+
+#: modules/aioseop_sitemap.php:178
+msgid "No Schedule"
+msgstr "无进度"
+
+#: aioseop_class.php:1070 modules/aioseop_sitemap.php:179
+msgid "Daily"
+msgstr "每日"
+
+#: aioseop_class.php:1071 modules/aioseop_sitemap.php:180
+msgid "Weekly"
+msgstr "每周"
+
+#: modules/aioseop_sitemap.php:550 admin/class-aioseop-usage.php:211
+msgid "Once Weekly"
+msgstr "一周一次"
+
+#: modules/aioseop_sitemap.php:554
+msgid "Once Monthly"
+msgstr "每月一次"
+
+#: modules/aioseop_sitemap.php:581
+msgid "Daily scheduled sitemap check has finished."
+msgstr "日常进度的网址检查已经完成"
+
+#: aioseop_class.php:1072 modules/aioseop_sitemap.php:181
+msgid "Monthly"
+msgstr "每月"
+
+#: modules/aioseop_sitemap.php:190
+msgid "Maximum Posts Per Sitemap Page"
+msgstr "每个网站地图的最大文章数"
+
+#. translators: Notifies the admin which sitemaps failed to notify with which
+#. search engine(s).
+#: modules/aioseop_sitemap.php:1868
+msgid "Failed to notify %1$s about changes to your sitemap at %2$s, unable to access via wp_remote_get()."
+msgstr "通知%1$s贵站站点地图（%2$s）变动失败，无法通过wp_remote_get()访问。"
+
+#. translators: Notifies the admin which sitemaps failed to notify with which
+#. search engine(s), and display the error code.
+#: modules/aioseop_sitemap.php:1864
+msgid "Failed to notify %1$s about changes to your sitemap at %2$s, error code %3$s."
+msgstr "通知%1$s贵站站点地图（%2$s）变动失败，错误代码%3$s。"
+
+#. translators: %1$s and %2$s are placeholders, which means that it should not
+#. be translated. They will be replaced with nouns in the application.
+#: inc/commonstrings.php:76 admin/class-aioseop-helper.php:773
+#: admin/class-aioseop-helper.php:774 admin/class-aioseop-helper.php:775
+#: admin/class-aioseop-helper.php:776 admin/class-aioseop-helper.php:777
+#: admin/class-aioseop-helper.php:780 admin/class-aioseop-helper.php:781
+#: admin/class-aioseop-helper.php:782 admin/class-aioseop-helper.php:783
+#: admin/class-aioseop-helper.php:784 admin/class-aioseop-helper.php:795
+#: admin/class-aioseop-helper.php:796 admin/class-aioseop-helper.php:803
+#: admin/class-aioseop-helper.php:804
+msgid "Manually set the %1$s of your %2$s."
+msgstr "手动设置%1$s的%2$s"
+
+#: inc/commonstrings.php:74 admin/class-aioseop-helper.php:765
+msgid "Use page slugs or page IDs, separated by commas, to exclude pages from the sitemap."
+msgstr "使用以逗号分隔的页面别名或页面ID来从sitemap中排除页面。"
+
+#: modules/aioseop_sitemap.php:1428
+msgid "Warning: a static sitemap '%1$s' generated by %2$s %3$s on %4$s already exists that may conflict with dynamic sitemap generation."
+msgstr "警告: 目前在 %4$s 上已存在由 %2$s %3$s 生成的静态 Sitemap %1$s，可能會与动态生的 Sitemap 发生冲突。"
+
+#: modules/aioseop_performance.php:343
+msgid "Active Theme"
+msgstr "当前主题"
+
+#: modules/aioseop_robots.php:72
+msgid "Add Rule"
+msgstr "添加规则"
+
+#: inc/commonstrings.php:59 admin/class-aioseop-helper.php:752
+msgid "Allows you to specify the maximum number of posts in a sitemap (up to 50,000)."
+msgstr "供您指定网站地图中的最大文章数（最大50000）。"
+
+#: modules/aioseop_robots.php:101
+msgid "Create a Robots.txt File"
+msgstr "创建Robots.txt文件"
+
+#: modules/aioseop_robots.php:64
+msgid "Directory Path"
+msgstr "目录路径"
+
+#. translators: This is the text of a button that can be clicked. Therefore,
+#. "E-mail" is used as a verb in this context.
+#: modules/aioseop_performance.php:465
+msgid "E-mail debug information"
+msgstr "邮件调试信息"
+
+#: modules/aioseop_performance.php:444
+msgid "Error: please enter an e-mail address before submitting."
+msgstr "错误：请在提交前输入邮箱地址。"
+
+#. translators: %s is a placeholder and should not be translated. It will be
+#. replaced with an e-mail address.
+#: modules/aioseop_performance.php:441
+msgid "Failed to send to %s."
+msgstr "发送至%s失败。"
+
+#. translators: This message is shown when a form could not be submitted due to
+#. a verification error (e.g. when a field is required and is still blank).
+#: modules/aioseop_performance.php:389
+msgid "Form submission error: verification check failed."
+msgstr "表单提交错误：验证失败"
+
+#. translators: This is the URL of the homepage (e.g.
+#. "examplewebsite.com/home") of the website.
+#: modules/aioseop_performance.php:337
+msgid "Home URL"
+msgstr "首页网址"
+
+#: inc/commonstrings.php:63 admin/class-aioseop-helper.php:756
+msgid "Include Author Archives in your sitemap."
+msgstr "在网站地图中包含作者归档。"
+
+#: inc/commonstrings.php:62 admin/class-aioseop-helper.php:755
+msgid "Include Date Archives in your sitemap."
+msgstr "在网站地图中包含日期归档。"
+
+#. translators: The "PHP IPTC" part should not be translated.
+#: modules/aioseop_performance.php:331
+msgid "PHP IPTC support"
+msgstr "PHP IPTC支持"
+
+#. translators: The "PHP XML" part should not be translated.
+#: modules/aioseop_performance.php:333
+msgid "PHP XML support"
+msgstr "PHP XML支持"
+
+#: inc/commonstrings.php:65 admin/class-aioseop-helper.php:758
+msgid "Places a link to your Sitemap.xml into your virtual Robots.txt file."
+msgstr "在虚拟Robots.txt文件中插入指向贵站Sitemap.xml文件的链接。"
+
+#: modules/aioseop_performance.php:430
+msgid "SFWD Debug Mail From Site %s."
+msgstr "SFWD调试邮件表单网站%s。"
+
+#: inc/commonstrings.php:60 admin/class-aioseop-helper.php:753
+msgid "Select which Post Types appear in your sitemap."
+msgstr "选择网站地图中包含的文章类型。"
+
+#: inc/commonstrings.php:61 admin/class-aioseop-helper.php:754
+msgid "Select which taxonomy archives appear in your sitemap"
+msgstr "选择网站地图中包含的分类归档。"
+
+#. translators: %s is a placeholder and should not be translated. It will be
+#. replaced with an e-mail address.
+#: modules/aioseop_performance.php:437
+msgid "Sent to %s."
+msgstr "发送至%s。"
+
+#. translators: This is the base URL (e.g. "examplewebsite.com") of the
+#. website.
+#: modules/aioseop_performance.php:335
+msgid "Site URL"
+msgstr "网站网址"
+
+#: modules/aioseop_performance.php:467 build/aioseop-link.js:6
+msgid "Submit"
+msgstr "提交"
+
+#: modules/aioseop_robots.php:48
+msgid "User Agent"
+msgstr "客户端"
+
+#. translators: "DB" is an abbreviation for "Database".
+#: modules/aioseop_performance.php:340
+msgid "WordPress DB Version"
+msgstr "WordPress数据库版本"
+
+#: modules/aioseop_performance.php:338
+msgid "WordPress Version"
+msgstr "WordPress版本"
+
+#: inc/admin/views/class-aioseop-about.php:402 modules/aioseop_sitemap.php:163
+#: modules/aioseop_sitemap.php:1018
+msgid "XML Sitemap"
+msgstr "XML网站地图"
+
+#: modules/aioseop_file_editor.php:42
+msgid ".htaccess"
+msgstr ".htaccess"
+
+#: admin/class-aioseop-helper.php:1041
+msgid ".htaccess editor"
+msgstr ".htaccess编辑器"
+
+#: modules/aioseop_importer_exporter.php:480
+msgid "<b>Warning:</b> This following post could not be found: <b>\"%s\"</b>"
+msgstr "<strong>警告：</strong>未找到以下文章：<strong>“%s”</strong>"
+
+#: modules/aioseop_opengraph.php:49
+msgid "Activity"
+msgstr "活动"
+
+#: modules/aioseop_opengraph.php:72
+msgid "Actor"
+msgstr "演员"
+
+#: aioseop_class.php:1206 modules/aioseop_opengraph.php:653
+msgid "Advanced Settings"
+msgstr "高级设置"
+
+#: modules/aioseop_opengraph.php:88
+msgid "Album"
+msgstr "相册"
+
+#: admin/display/general-metaboxes.php:153
+msgid "All in One SEO Pro Plugin Changelog"
+msgstr "多合一SEO集专业版插件更新日志"
+
+#: admin/display/general-metaboxes.php:148
+msgid "All in One SEO Pro Plugin Support Forum"
+msgstr "多合一SEO集专业版插件支持论坛"
+
+#: admin/class-aioseop-helper.php:908
+msgid "Allows your authors to be identified by their Facebook pages as content authors on the Opengraph meta for their articles."
+msgstr "允许贵站作者通过其Facebook页被识别，并基于开放图谱Meta使其成为其文章的内容作者。"
+
+#: admin/class-aioseop-helper.php:913
+msgid "Allows your authors to be identified by their Twitter usernames as content creators on the Twitter cards for their posts."
+msgstr "允许贵站作者通过其Twitter用户名被识别，并使其文章的Twitter卡片上显示为内容创建者。"
+
+#: modules/aioseop_opengraph.php:100
+msgid "Article"
+msgstr "文章"
+
+#: modules/aioseop_opengraph.php:516
+msgid "Article Section"
+msgstr "文章章节"
+
+#: modules/aioseop_opengraph.php:522
+msgid "Article Tags"
+msgstr "文章标签"
+
+#: modules/aioseop_opengraph.php:73
+msgid "Athlete"
+msgstr "运动员"
+
+#: modules/aioseop_opengraph.php:74
+msgid "Author"
+msgstr "作家"
+
+#: modules/aioseop_opengraph.php:65
+msgid "Band"
+msgstr "乐队"
+
+#: modules/aioseop_opengraph.php:53
+msgid "Bar"
+msgstr "酒吧"
+
+#: modules/aioseop_opengraph.php:89
+msgid "Book"
+msgstr "书籍"
+
+#: modules/aioseop_opengraph.php:55
+msgid "Cafe"
+msgstr "咖啡厅"
+
+#: inc/aioseop_functions.php:293 inc/aioseop_functions.php:301
+msgid "Cancel"
+msgstr "取消"
+
+#: modules/aioseop_opengraph.php:60
+msgid "Cause"
+msgstr "缘由"
+
+#: admin/class-aioseop-helper.php:948
+msgid "Choose a default value that best describes the content of your post type."
+msgstr "选择文章类型内容最适用的默认值。"
+
+#: modules/aioseop_opengraph.php:82 admin/aioseop_module_class.php:2556
+msgid "City"
+msgstr "城市"
+
+#: modules/aioseop_opengraph.php:54
+msgid "Company"
+msgstr "公司"
+
+#: modules/aioseop_opengraph.php:83 admin/aioseop_module_class.php:2562
+msgid "Country"
+msgstr "国家"
+
+#: modules/aioseop_feature_manager.php:43
+msgid "Create and manage your XML Sitemaps using this feature and submit your XML Sitemap to Google, Bing/Yahoo and Ask.com."
+msgstr "使用本功能建立并管理XML网站地图，并向谷歌、必应、雅虎和Ask.com提交。"
+
+#: modules/aioseop_opengraph.php:369
+msgid "Custom Image"
+msgstr "自定义图片"
+
+#: modules/aioseop_opengraph.php:383
+msgid "Custom Video"
+msgstr "自定义视频"
+
+#: modules/aioseop_opengraph.php:810
+msgid "Default "
+msgstr "默认"
+
+#. translators: This indicates that the current post/page is using the default
+#. value for its post type, which is NOFOLLOW.
+#: aioseop_class.php:3973
+msgid "Default - nofollow"
+msgstr "默认——不追踪"
+
+#. translators: This indicates that the current post/page is using the default
+#. value for its post type, which is NOINDEX.
+#: aioseop_class.php:3964
+msgid "Default - noindex"
+msgstr "默认——不索引"
+
+#: modules/aioseop_opengraph.php:332
+msgid "Default Image"
+msgstr "默认图片"
+
+#: modules/aioseop_opengraph.php:342
+msgid "Default OG:Image"
+msgstr "默认OG：图片"
+
+#: modules/aioseop_opengraph.php:411
+msgid "Default Twitter Card"
+msgstr "默认Twitter卡片"
+
+#: modules/aioseop_opengraph.php:75
+msgid "Director"
+msgstr "导演"
+
+#: modules/aioseop_opengraph.php:90
+msgid "Drink"
+msgstr "饮料"
+
+#: inc/aioseop_functions.php:629
+msgid "Duplicate %s Meta"
+msgstr "重复的%s Meta"
+
+#: inc/aioseop_functions.php:290 inc/aioseop_functions.php:857
+#: build/aioseop-link.js:6
+msgid "Edit"
+msgstr "编辑"
+
+#: modules/aioseop_file_editor.php:31 modules/aioseop_file_editor.php:47
+msgid "Edit .htaccess"
+msgstr "编辑.htaccess文件"
+
+#: aioseop_class.php:5338 aioseop_class.php:5352
+msgid "Edit SEO"
+msgstr "编辑SEO"
+
+#: admin/class-aioseop-helper.php:912
+msgid "Enter the Twitter username associated with your website here."
+msgstr "在此输入与贵站相联系的Twitter用户名。"
+
+#: admin/class-aioseop-helper.php:927
+msgid "Enter the height for your Open Graph image in pixels (i.e. 600)."
+msgstr "输入开放图谱图片的高度，单位为像素（例如600）。"
+
+#: admin/class-aioseop-helper.php:930
+msgid "Enter the height for your Open Graph video in pixels (i.e. 600)."
+msgstr "输入开放图谱视频的高度，单位为像素（例如600）。"
+
+#: admin/class-aioseop-helper.php:897
+msgid "Enter the name of a custom field (or multiple field names separated by commas) to use that field to specify the Open Graph image on Pages or Posts."
+msgstr "输入自定义项的名称（或者用半角逗号分隔的多个名称），用这些项来指定开放图谱中的页面或文章的图片。"
+
+#: admin/class-aioseop-helper.php:914
+msgid "Enter the name of your website here."
+msgstr "在此输入贵站名称。"
+
+#: admin/class-aioseop-helper.php:926
+msgid "Enter the width for your Open Graph image in pixels (i.e. 600)."
+msgstr "输入开放图谱图片的宽度，单位为像素（例如600）。"
+
+#: admin/class-aioseop-helper.php:929
+msgid "Enter the width for your Open Graph video in pixels (i.e. 600)."
+msgstr "输入开放图谱视频的宽度，单位为像素（例如600）。"
+
+#: modules/aioseop_opengraph.php:97
+msgid "Episode"
+msgstr "季"
+
+#: modules/aioseop_importer_exporter.php:102
+msgid "Export"
+msgstr "导出"
+
+#: modules/aioseop_importer_exporter.php:38
+msgid "Export Settings"
+msgstr "导出设置"
+
+#: modules/aioseop_opengraph.php:499
+msgid "Facebook Object Type"
+msgstr "Facebook对象类型"
+
+#: modules/aioseop_opengraph.php:633
+msgid "Facebook Settings"
+msgstr "Facebook设置"
+
+#. translators: the Feature Manager allows users to (de)activate other modules
+#. of the plugin.
+#: modules/aioseop_feature_manager.php:35
+msgid "Feature Manager"
+msgstr "功能管理"
+
+#. translators: the File Editor module allows users to edit the robots.txt file
+#. or .htaccess file on their site.
+#: modules/aioseop_file_editor.php:20 modules/aioseop_feature_manager.php:62
+msgid "File Editor"
+msgstr "文件编辑器"
+
+#: modules/aioseop_opengraph.php:334
+msgid "First Attached Image"
+msgstr "附加的首张图片"
+
+#: modules/aioseop_opengraph.php:338
+msgid "First Available Image"
+msgstr "能找到的首张图片"
+
+#: modules/aioseop_opengraph.php:335
+msgid "First Image In Content"
+msgstr "内容中的首张图片"
+
+#: modules/aioseop_opengraph.php:91
+msgid "Food"
+msgstr "食品"
+
+#: modules/aioseop_opengraph.php:92
+msgid "Game"
+msgstr "游戏"
+
+#: modules/aioseop_feature_manager.php:57
+msgid "Generate and validate your robots.txt file to guide search engines through your site."
+msgstr "生成并验证robots.txt文件负责引领搜索引擎通览贵站。"
+
+#: admin/display/general-metaboxes.php:164
+msgid "Getting started? Read the Beginners Guide"
+msgstr "新手？请阅读新手指南"
+
+#: aioseop_class.php:1147
+msgid "Google Analytics"
+msgstr "谷歌分析"
+
+#: modules/aioseop_opengraph.php:66
+msgid "Government"
+msgstr "政府"
+
+#. translators: This string is used as an action link which users can click on
+#. to view the relevant documentation on our website.
+#: aioseop_class.php:5613 admin/aioseop_module_class.php:2281
+#: admin/aioseop_module_class.php:2696 admin/aioseop_module_class.php:3070
+msgid "Help"
+msgstr "帮助"
+
+#. translators: This is a setting where users can enter the description for
+#. their homepage.
+#: aioseop_class.php:269 modules/aioseop_opengraph.php:306
+msgid "Home Description"
+msgstr "首页描述"
+
+#: modules/aioseop_opengraph.php:321
+msgid "Home Image"
+msgstr "首页图片"
+
+#. translators: This is a setting where users can enter the title for their
+#. homepage.
+#: aioseop_class.php:258 modules/aioseop_opengraph.php:291
+msgid "Home Title"
+msgstr "首页标题"
+
+#: modules/aioseop_opengraph.php:56
+msgid "Hotel"
+msgstr "酒店"
+
+#: modules/aioseop_opengraph.php:362
+msgid "Image"
+msgstr "图片"
+
+#: modules/aioseop_opengraph.php:336
+msgid "Image From Custom Field"
+msgstr "来自于自定义项的图片"
+
+#: modules/aioseop_opengraph.php:628
+msgid "Image Settings"
+msgstr "图片设置"
+
+#: modules/aioseop_importer_exporter.php:31
+#: modules/aioseop_importer_exporter.php:96
+msgid "Import"
+msgstr "导入"
+
+#. translators: the Importer & Exporter module allows users to import/export
+#. their All in One SEO Pack settings for backup purposes or when migrating
+#. their site.
+#: modules/aioseop_importer_exporter.php:22
+#: modules/aioseop_feature_manager.php:68
+msgid "Importer & Exporter"
+msgstr "导入/导出"
+
+#: inc/aioseop_functions.php:298
+msgid "Insert time"
+msgstr "插入时间"
+
+#: aioseop_class.php:5561
+msgid "Join Our Mailing List"
+msgstr "加入我们的邮件列表"
+
+#: admin/display/general-metaboxes.php:115
+msgid "Join our mailing list for tips, tricks, and WordPress secrets."
+msgstr "加入我们的邮件列表可以获得技巧、窍门和WordPress秘密。"
+
+#: modules/aioseop_opengraph.php:84
+msgid "Landmark"
+msgstr "地标"
+
+#: admin/class-aioseop-helper.php:907
+msgid "Link articles to the Facebook page associated with your website."
+msgstr "链接文章到贵站的Facebook页。"
+
+#. translators: "MYSQL" is the name of a database software and should not be
+#. translated.
+#: modules/aioseop_performance.php:317
+msgid "MYSQL Version"
+msgstr "MySQL版本"
+
+#. translators: This is the name of the main tab of the All in One SEO Pack
+#. meta box that appears on the Edit screen.
+#: aioseop_class.php:5208
+msgid "Main Settings"
+msgstr "主要设置"
+
+#. translators: "Memory" in this context refers to RAM memory.
+#: modules/aioseop_performance.php:315
+msgid "Memory usage"
+msgstr "内存使用"
+
+#: modules/aioseop_opengraph.php:93
+msgid "Movie"
+msgstr "电影"
+
+#: modules/aioseop_opengraph.php:76
+msgid "Musician"
+msgstr "音乐家"
+
+#. translators: "N/A" is an abbreviation for "Non Applicable".
+#: modules/aioseop_performance.php:250 modules/aioseop_performance.php:255
+#: modules/aioseop_performance.php:260 modules/aioseop_performance.php:265
+#: modules/aioseop_performance.php:270 modules/aioseop_performance.php:297
+msgid "N/A"
+msgstr "不适用"
+
+#: modules/aioseop_performance.php:275 modules/aioseop_performance.php:280
+#: modules/aioseop_performance.php:285 modules/aioseop_performance.php:294
+msgid "No"
+msgstr "否"
+
+#: inc/aioseop_functions.php:638
+msgid "No duplicate meta tags found."
+msgstr "未找到重复的Meta标签。"
+
+#: modules/aioseop_performance.php:67
+msgid "No limit"
+msgstr "无限制"
+
+#: modules/aioseop_opengraph.php:67
+msgid "Non Profit"
+msgstr "非盈利"
+
+#: modules/aioseop_performance.php:239
+msgid "Not set"
+msgstr "未设定"
+
+#: modules/aioseop_opengraph.php:1815
+msgid "Object Type"
+msgstr "对象类型"
+
+#: modules/aioseop_performance.php:244
+msgid "Off"
+msgstr "关闭"
+
+#: modules/aioseop_performance.php:242
+msgid "On"
+msgstr "开启"
+
+#: modules/aioseop_performance.php:312
+msgid "Operating System"
+msgstr "操作系统"
+
+#: modules/aioseop_feature_manager.php:83
+msgid "Optimize performance related to SEO and check your system status."
+msgstr "优化SEO相关性能并检查系统状态。"
+
+#. translators: This message confirms that the options have been reset.
+#: admin/aioseop_module_class.php:2917
+msgid "Options Reset."
+msgstr "选项重置"
+
+#. translators: This is a setting in the PHP interpreter of the server. Leave
+#. this untranslated if there's no proper translation for this.
+#: modules/aioseop_performance.php:322
+msgid "PHP Allow URL fopen"
+msgstr "PHP允许URL fopen"
+
+#. translators: The "PHP Exif" part should not be translated.
+#: modules/aioseop_performance.php:329
+msgid "PHP Exif support"
+msgstr "PHP EXIF支持"
+
+#: modules/aioseop_performance.php:326
+msgid "PHP Max Post Size"
+msgstr "PHP最大文章大小"
+
+#: modules/aioseop_performance.php:327
+msgid "PHP Max Script Execute Time"
+msgstr "PHP最大脚本执行时间"
+
+#: modules/aioseop_performance.php:325
+msgid "PHP Max Upload Size"
+msgstr "PHP最大上传大小"
+
+#. translators: "Memory" in this context refers to RAM memory.
+#: modules/aioseop_performance.php:324
+msgid "PHP Memory Limit"
+msgstr "PHP内存限制"
+
+#: modules/aioseop_performance.php:320
+msgid "PHP Version"
+msgstr "PHP版本"
+
+#. translators: This is the title of our Performance module.
+#. translators: the Performance module allows users to set certain performance
+#. related settings and check the status of their WordPress installation.
+#: modules/aioseop_performance.php:36 modules/aioseop_feature_manager.php:82
+msgid "Performance"
+msgstr "性能"
+
+#: inc/aioseop_functions.php:656
+msgid "Please refer to the document for each tool for help in using these to debug your social meta."
+msgstr "请查阅这些工具的文档，获得调试社交Meta的帮助。"
+
+#: inc/aioseop_functions.php:295 inc/aioseop_functions.php:302
+#: inc/admin/views/class-aioseop-about.php:82
+msgid "Please wait..."
+msgstr "请稍候。。。"
+
+#: modules/aioseop_opengraph.php:77
+msgid "Politician"
+msgstr "政治家"
+
+#. translators: %s is replaced with a content type such as Post, Page, etc.
+#: inc/commonstrings.php:79 inc/aioseop_functions.php:291
+#: admin/class-aioseop-helper.php:214 admin/class-aioseop-helper.php:217
+#: admin/class-aioseop-helper.php:219 admin/class-aioseop-helper.php:221
+#: admin/class-aioseop-helper.php:223 admin/class-aioseop-helper.php:225
+#: admin/class-aioseop-helper.php:235 admin/class-aioseop-helper.php:237
+#: admin/class-aioseop-helper.php:239 admin/class-aioseop-helper.php:338
+#: admin/class-aioseop-helper.php:467 admin/class-aioseop-helper.php:488
+msgid "Post"
+msgstr "发布"
+
+#: modules/aioseop_opengraph.php:337
+msgid "Post Author Image"
+msgstr "文章作者头像"
+
+#: modules/aioseop_opengraph.php:94
+msgid "Product"
+msgstr "产品"
+
+#: modules/aioseop_opengraph.php:78
+msgid "Profile"
+msgstr "资料"
+
+#: modules/aioseop_opengraph.php:79
+msgid "Public Figure"
+msgstr "公众人物"
+
+#. translators: This is the name of a setting which allows users to increase
+#. their PHP execution time limit.
+#: modules/aioseop_performance.php:58
+msgid "Raise execution time"
+msgstr "提升执行时间"
+
+#. translators: This is the name of a setting which allows users to increase
+#. their PHP memory limit.
+#: modules/aioseop_performance.php:44
+msgid "Raise memory limit"
+msgstr "提升内存限制"
+
+#. translators: This is the text of a button that allows users to reset all
+#. settings across the entire plugin to their default values.
+#: aioseop_class.php:3876
+msgid "Reset ALL Settings to Defaults"
+msgstr "重置所有设置为默认值"
+
+#: admin/display/general-metaboxes.php:47
+msgid "Reset Dismissed Notices"
+msgstr "重置驳回通知"
+
+#. translators: this button deactivates all active modules of the plugin.
+#: modules/aioseop_feature_manager.php:205
+msgid "Reset Features"
+msgstr "重置功能"
+
+#. translators: This is the text of a button that allows users to reset the
+#. General Settings to their default values.
+#: aioseop_class.php:3870
+msgid "Reset General Settings to Defaults"
+msgstr "重置常规设置为默认值"
+
+#: modules/aioseop_opengraph.php:57
+msgid "Restaurant"
+msgstr "餐厅"
+
+#: inc/aioseop_functions.php:297
+msgid "Revisions"
+msgstr "修订版本"
+
+#. translators: the Robots.txt module allows users to provide instructions to
+#. web robots, e.g. search engine crawlers.
+#: modules/aioseop_feature_manager.php:56 modules/aioseop_robots.php:32
+#: modules/aioseop_robots.php:89
+msgid "Robots.txt"
+msgstr "Robots.txt"
+
+#. translators: %s is a placeholder and will be replaced with a number.
+#: inc/aioseop_functions.php:559
+msgid "Row %s not found; no rows were deleted."
+msgstr "未找到%s列；无法删除任何列。"
+
+#: inc/commonstrings.php:86 inc/aioseop_functions.php:228
+msgid "SEO Description"
+msgstr "SEO描述"
+
+#: inc/commonstrings.php:87 inc/aioseop_functions.php:230
+msgid "SEO Keywords"
+msgstr "SEO关键词"
+
+#: inc/commonstrings.php:85 inc/aioseop_functions.php:227
+msgid "SEO Title"
+msgstr "SEO标题"
+
+#. translators: "SQL" is a programming language that is used to store or
+#. retrieve data from databases and should not be translated.
+#: modules/aioseop_performance.php:319
+msgid "SQL Mode"
+msgstr "SQL模式"
+
+#: inc/aioseop_functions.php:292 inc/aioseop_functions.php:300
+msgid "Save"
+msgstr "保存"
+
+#: modules/aioseop_opengraph.php:261
+msgid "Scan Header"
+msgstr "扫描头部"
+
+#: modules/aioseop_opengraph.php:965 modules/aioseop_opengraph.php:966
+msgid "Scan Now"
+msgstr "立即扫描"
+
+#: modules/aioseop_opengraph.php:659
+msgid "Scan Social Meta"
+msgstr "扫描社交Meta"
+
+#: modules/aioseop_opengraph.php:968
+msgid "Scan your site for duplicate social meta tags."
+msgstr "扫描贵站中重复的社交Meta标签。"
+
+#: modules/aioseop_opengraph.php:68
+msgid "School"
+msgstr "学校"
+
+#: modules/aioseop_sitemap.php:1301 admin/aioseop_module_class.php:2913
+msgid "Security Check - If you receive this in error, log out and back in to WordPress"
+msgstr "安全检查——如果您收到这样的错误提示，请登出再登录到贵站。"
+
+#: modules/aioseop_opengraph.php:329
+msgid "Select OG:Image Source"
+msgstr "选择OG：图片源"
+
+#: admin/class-aioseop-helper.php:931
+msgid "Select the Open Graph type that best describes the content of this Page or Post."
+msgstr "选择本页面或文章最适用的开放图谱类型。"
+
+#: modules/aioseop_performance.php:313
+msgid "Server"
+msgstr "服务器"
+
+#: modules/aioseop_opengraph.php:533
+msgid "Show Facebook Author on Articles"
+msgstr "在文章上显示Facebook作者"
+
+#: modules/aioseop_opengraph.php:528
+msgid "Show Facebook Publisher on Articles"
+msgstr "在文章上显示Facebook发布者"
+
+#: modules/aioseop_opengraph.php:443
+msgid "Show Twitter Author"
+msgstr "显示Twitter作者"
+
+#: admin/display/general-metaboxes.php:117
+msgid "Sign up today and receive a free copy of the e-book 5 SEO Tips for WordPress ($39 value)."
+msgstr "现在注册邮件列表即免费获赠价值39美元的《5个WordPress SEO小技巧》电子书。"
+
+#: modules/aioseop_opengraph.php:286
+msgid "Site Name"
+msgstr "网站名称"
+
+#: inc/aioseop_functions.php:296
+msgid "Slug may not be empty!"
+msgstr "别名不能为空！"
+
+#. translators: the Social Meta module allows users to add Open Graph (OG:)
+#. meta tags to their site's post/pages to control the appearance of them when
+#. shared on social media networks like Facebook and Twitter.
+#: modules/aioseop_opengraph.php:44 modules/aioseop_feature_manager.php:49
+msgid "Social Meta"
+msgstr "社交Meta"
+
+#: modules/aioseop_opengraph.php:592
+msgid "Social Settings"
+msgstr "社交设置"
+
+#: modules/aioseop_opengraph.php:95
+msgid "Song"
+msgstr "歌曲"
+
+#: modules/aioseop_opengraph.php:378
+msgid "Specify Image Height"
+msgstr "指定图片高度"
+
+#: modules/aioseop_opengraph.php:373
+msgid "Specify Image Width"
+msgstr "指定图片宽度"
+
+#: modules/aioseop_opengraph.php:399
+msgid "Specify Video Height"
+msgstr "指定视频高度"
+
+#: modules/aioseop_opengraph.php:387
+msgid "Specify Video Width"
+msgstr "指定视频宽度"
+
+#: modules/aioseop_opengraph.php:50
+msgid "Sport"
+msgstr "运动"
+
+#: modules/aioseop_opengraph.php:61
+msgid "Sports League"
+msgstr "运动联盟"
+
+#: modules/aioseop_opengraph.php:62
+msgid "Sports Team"
+msgstr "运动队"
+
+#: modules/aioseop_opengraph.php:85
+msgid "State Province"
+msgstr "省份"
+
+#: modules/aioseop_opengraph.php:415 modules/aioseop_opengraph.php:429
+msgid "Summary"
+msgstr "概述"
+
+#: modules/aioseop_opengraph.php:416 modules/aioseop_opengraph.php:428
+msgid "Summary Large Image"
+msgstr "概述大图"
+
+#. translators: This is an action link users can click to open our premium
+#. support forum.
+#: class-aioseop-core.php:658 aioseop_class.php:5553
+msgid "Support"
+msgstr "支持"
+
+#. translators: This is the header of a table in which All in One SEO Pack
+#. displays data about the user's WordPress installation and server.
+#: modules/aioseop_performance.php:109
+msgid "System Status"
+msgstr "系统状态"
+
+#: modules/aioseop_opengraph.php:96
+msgid "TV Show"
+msgstr "电视剧"
+
+#: admin/class-aioseop-helper.php:888
+msgid "The Home Description is the Open Graph description for your home page."
+msgstr "首页描述是贵站首页在开放图谱的描述。"
+
+#: admin/class-aioseop-helper.php:889
+msgid "The Home Image is the Open Graph image for your home page."
+msgstr "首页图片是贵站首页在开放图谱的图片。"
+
+#: admin/class-aioseop-helper.php:887
+msgid "The Home Title is the Open Graph title for your home page."
+msgstr "首页标题是贵站首页在开放图谱的标题。"
+
+#: admin/class-aioseop-helper.php:886
+msgid "The Site Name is the name that is used to identify your website."
+msgstr "网站名称是贵站的身份标识。"
+
+#: modules/aioseop_importer_exporter.php:148
+msgid "There are no other modules currently loaded!"
+msgstr "当前没有已加载的其它模块！"
+
+#: admin/class-aioseop-helper.php:933
+msgid "This Open Graph meta allows you to add a general section name that best describes this content."
+msgstr "本开放图谱Meta供您添加最适合本内容的常规章节名称。"
+
+#: admin/class-aioseop-helper.php:934
+msgid "This Open Graph meta allows you to add a list of keywords that best describe this content."
+msgstr "本开放图谱Meta供您添加本内容最适用的关键词列表。"
+
+#: admin/class-aioseop-helper.php:923
+msgid "This is the Open Graph description of this Page or Post."
+msgstr "这是本页面或文章在开放图谱上的描述。"
+
+#: admin/class-aioseop-helper.php:922
+msgid "This is the Open Graph title of this Page or Post."
+msgstr "这是本页面或文章在开放图谱上的表层提。"
+
+#: admin/class-aioseop-helper.php:892
+msgid "This option lets you choose which image will be displayed by default for the Open Graph image. You may override this on individual posts."
+msgstr "本选项供您选择一个图片默认显示为贵站在开放图谱的图片。在各文章页中可以覆盖此设置。"
+
+#: admin/class-aioseop-helper.php:893
+msgid "This option lets you fall back to the default image if no image could be found above."
+msgstr "如果找不到以上设置的图片，本选项会提供默认图片的备用措施。"
+
+#: admin/class-aioseop-helper.php:924
+msgid "This option lets you select the Open Graph image that will be used for this Page or Post, overriding the default settings."
+msgstr "选择作为本页面或文章在开放图谱上的图片，覆盖默认设置。"
+
+#: admin/class-aioseop-helper.php:928
+msgid "This option lets you specify a link to the Open Graph video used on this Page or Post."
+msgstr "本选项供您指定本页面或文章在开放图谱上使用的视频。"
+
+#: admin/class-aioseop-helper.php:925
+msgid "This option lets you upload an image to use as the Open Graph image for this Page or Post."
+msgstr "本选项供您上传一张图片作为本页面或文章在开放图谱的图片。"
+
+#: admin/class-aioseop-helper.php:894
+msgid "This option sets a default image that can be used for the Open Graph image. You can upload an image, select an image from your Media Library or paste the URL of an image here."
+msgstr "本选项设置可以用于开放图谱的默认图片。您可以上传一张图片、从媒体库中选择一张图片或者在此粘贴一个图片的网址。"
+
+#: admin/class-aioseop-helper.php:725
+msgid "This setting allows you to raise your PHP execution time to a reasonable value."
+msgstr "本设置供您将PHP最大执行时间提升到合理值。"
+
+#: admin/class-aioseop-helper.php:724
+msgid "This setting allows you to raise your PHP memory limit to a reasonable value. Note: WordPress core and other WordPress plugins may also change the value of the memory limit."
+msgstr "本设置供您将PHP内存限制提高到合理值。注意：WordPress内核和其它WordPress插件可能也会修改此内存限制值。"
+
+#: modules/aioseop_opengraph.php:425
+msgid "Twitter Card Type"
+msgstr "Twitter卡片类型"
+
+#: modules/aioseop_opengraph.php:446
+msgid "Twitter Domain"
+msgstr "Twitter域名"
+
+#: modules/aioseop_opengraph.php:648
+msgid "Twitter Settings"
+msgstr "Twitter设置"
+
+#: modules/aioseop_opengraph.php:438
+msgid "Twitter Site"
+msgstr "Twitter网站"
+
+#: aioseop_class.php:965 modules/aioseop_opengraph.php:546
+msgid "UPGRADE TO PRO VERSION"
+msgstr "升级至专业版"
+
+#: inc/aioseop_functions.php:411
+msgid "Unauthorized access; try reloading the page."
+msgstr "非授权访问；尝试刷新页面。"
+
+#: modules/aioseop_opengraph.php:69
+msgid "University"
+msgstr "大学"
+
+#: modules/aioseop_file_editor.php:92
+msgid "Update .htaccess"
+msgstr "更新.htaccess文件"
+
+#: modules/aioseop_feature_manager.php:202
+msgid "Update Features"
+msgstr "更新功能"
+
+#: admin/aioseop_module_class.php:3030
+msgid "Update Options"
+msgstr "更新选项"
+
+#: modules/aioseop_opengraph.php:266
+msgid "Use AIOSEO Title and Description"
+msgstr "适用多合一SEO集的标题和描述"
+
+#: modules/aioseop_opengraph.php:357
+msgid "Use Custom Field For Image"
+msgstr "为图片使用自定义项"
+
+#: admin/class-aioseop-helper.php:726
+msgid "Use output buffering to ensure that the title gets rewritten. Enable this option if you run into issues with the title tag being set by your theme or another plugin."
+msgstr "使用输出缓冲，确保标题得以重写。如果您使用主题或其它插件设置标题标签出现问题，请启用本选项。"
+
+#. translators: This a dropdown value for the "Raise memory limit" setting. If
+#. this is selected, All in One SEO Pack will not override the PHP memory limit
+#. and use the default system value.
+#: modules/aioseop_performance.php:49 modules/aioseop_performance.php:62
+msgid "Use the system default"
+msgstr "修改系统默认"
+
+#. translators: The Video Sitemap module allows users to generate a sitemap
+#. with video content in .xml format for their website and submit it to search
+#. engines such as Google, Bing and Yahoo.
+#: inc/commonstrings.php:119 modules/aioseop_sitemap.php:1037
+#: modules/aioseop_feature_manager.php:89
+msgid "Video Sitemap"
+msgstr "视频网站地图"
+
+#: admin/display/general-metaboxes.php:154
+msgid "View the Changelog"
+msgstr "查看更新日志"
+
+#: admin/display/general-metaboxes.php:159
+msgid "Watch video tutorials"
+msgstr "观看视频教程"
+
+#: modules/aioseop_opengraph.php:101
+msgid "Website"
+msgstr "网站"
+
+#: inc/aioseop_functions.php:642
+msgid "What Does This Mean?"
+msgstr "这是神马意思？"
+
+#. translators: the XML Sitemaps module allows users to generate a sitemap in
+#. .xml format for their website and submit it to search engines such as
+#. Google, Bing and Yahoo.
+#: modules/aioseop_feature_manager.php:42
+msgid "XML Sitemaps"
+msgstr "XML网站地图"
+
+#: modules/aioseop_performance.php:273 modules/aioseop_performance.php:278
+#: modules/aioseop_performance.php:283 modules/aioseop_performance.php:292
+msgid "Yes"
+msgstr "是"
+
+#: aioseop_class.php:3974
+msgid "follow"
+msgstr "追踪"
+
+#: aioseop_class.php:3965
+msgid "index"
+msgstr "索引"
+
+#: aioseop_class.php:3975
+msgid "nofollow"
+msgstr "不追踪"
+
+#: aioseop_class.php:3966
+msgid "noindex"
+msgstr "不索引"
+
+#: aioseop_class.php:1181
+msgid "Noindex Settings"
+msgstr "不索引设置"
+
+#. translators: 'bots' refers to user agents/web robots that misbehave.
+#: modules/aioseop_feature_manager.php:77
+msgid "Stop badly behaving bots from slowing down your website."
+msgstr "禁止不良自主软件拖慢贵站。"
+
+#: admin/class-aioseop-helper.php:895
+msgid "This option lets you set a default width for your images, where unspecified."
+msgstr "此选项允许您为还未确定宽度的图像，设置一个默认的宽度。"
+
+#: admin/class-aioseop-helper.php:896
+msgid "This option lets you set a default height for your images, where unspecified."
+msgstr "此选项允许您为还未确定高度的图像，设置一个默认的高度。"
+
+#: admin/class-aioseop-helper.php:902
+msgid "Automatically generate article tags for Facebook type article when not provided."
+msgstr "当文章标签未提供时自动为Facebook的类型的文章生成文章标签。"
+
+#: admin/class-aioseop-helper.php:903
+msgid "Use keywords in generated article tags."
+msgstr "使用关键字来生成的文章标签。"
+
+#: admin/class-aioseop-helper.php:905
+msgid "Use post tags in generated article tags."
+msgstr "运用发帖标签在生成文章标签。"
+
+#: admin/class-aioseop-helper.php:932
+msgid "Press this button to have Facebook re-fetch and debug this page."
+msgstr "按下此按钮，让Facebook重新获取和调试该页面。"
+
+#: modules/aioseop_opengraph.php:347
+msgid "Default Image Width"
+msgstr "默认图像宽度"
+
+#: modules/aioseop_opengraph.php:352
+msgid "Default Image Height"
+msgstr "默认图像高度"
+
+#: modules/aioseop_opengraph.php:455
+msgid "Automatically Generate Article Tags"
+msgstr "自动生成文章标签"
+
+#: modules/aioseop_opengraph.php:458
+msgid "Use Keywords In Article Tags"
+msgstr "在文章标签使用关键词"
+
+#: modules/aioseop_opengraph.php:463
+msgid "Use Categories In Article Tags"
+msgstr "在文章标签使用类别"
+
+#: modules/aioseop_opengraph.php:468
+msgid "Use Post Tags In Article Tags"
+msgstr "在文章标签使用发帖标签"
+
+#: modules/aioseop_opengraph.php:506
+msgid "Facebook Debug"
+msgstr "Facebook调试"
+
+#: modules/aioseop_opengraph.php:513
+msgid "Debug This Post"
+msgstr "调试这个帖子"
+
+#: aioseop_class.php:649
+msgid "Person"
+msgstr "个人"
+
+#: aioseop_class.php:648
+msgid "Organization"
+msgstr "组织"
+
+#. translators: "Multisite" or "WordPress Multisite" is a feature that allows
+#. users to create a network of websites. Leave this in English if there is no
+#. translation for this in your locale glossary.
+#: modules/aioseop_performance.php:342
+msgid "Multisite"
+msgstr "多站点"
+
+#: aioseop_class.php:5270
+msgid "SEO"
+msgstr "搜索引擎优化"
+
+#: inc/commonstrings.php:57 admin/class-aioseop-helper.php:750
+msgid "Notify search engines based on the selected schedule, and also update static sitemap daily if in use. (this uses WP-Cron, so make sure this is working properly on your server as well)"
+msgstr "使用的时候，要知会搜索引擎并更新静态地址。（它是使用WP-Cron机制，所以要保证它在你的服务器上运行良好）"
+
+#: admin/class-aioseop-helper.php:917
+msgid "Run shortcodes that appear in social title meta tags."
+msgstr "运行出现在社交标题meta标签中的短代码。"
+
+#: admin/class-aioseop-helper.php:918
+msgid "Run shortcodes that appear in social description meta tags."
+msgstr "运行出现在社交描述meta标签中的短代码。 "
+
+#: modules/aioseop_opengraph.php:280
+msgid "Run Shortcodes In Title"
+msgstr "在标题运行短代码"
+
+#: modules/aioseop_opengraph.php:283
+msgid "Run Shortcodes In Description"
+msgstr "在描述运行短代码"
+
+#: inc/aioseop_functions.php:646
+msgid "You should avoid duplicate social meta tags. You can use these free tools from Facebook and Twitter to validate your social meta and check for errors:"
+msgstr "您应该避免重复输出社交Meta标签。您可以使用来自Facebook、Google和Twitter的免费工具验证您的社交Meta标签是否有效，是否有错误："
+
+#: admin/class-aioseop-helper.php:904
+msgid "Use categories in generated article tags."
+msgstr "类别生成的文章标签。"
+
+#: admin/class-aioseop-helper.php:911
+msgid "Select the default type of Twitter Card to display."
+msgstr "选择Twitter卡片的默认类型。"
+
+#: modules/aioseop_opengraph.php:333
+msgid "Featured Image"
+msgstr "特色图像"
+
+#. translators: %1$s and %2$s are placeholders and should not be translated.
+#. %1$s is replaced with a number, %2$s is replaced with the name of an meta
+#. tag field (e.g; "Title", "Description", etc.).
+#: admin/aioseop_module_class.php:2612
+msgid " characters. Most search engines use a maximum of %1$s chars for the %2$s."
+msgstr "字符。大多数搜索引擎对%2$s使用最大%1$s个字符。"
+
+#: modules/aioseop_importer_exporter.php:430
+msgid "<b>Warning:</b> Line not matched: <b>\"%1$s\"</b>, On Line: <b>%2$s</b>"
+msgstr "<b>警告：</b>行不匹配：行<b>“%1$s”</b>的<b>“%2$s”</b>"
+
+#: inc/commonstrings.php:54 admin/class-aioseop-helper.php:576
+msgid "Click here for documentation on this setting"
+msgstr "单击此处获取有关此设置的文档"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: inc/aioseop_functions.php:644
+msgid "%s has detected that a plugin(s) or theme is also outputting social meta tags on your site. You can view this social meta in the source code of your site (check your browser help for instructions on how to view source code)."
+msgstr "%s 检测到贵站有其它插件或主题也在输出社交Meta标签。您可以在贵站源代码中查看这些社交Meta（请使用浏览器的查看源代码功能）。"
+
+#. translators: %s is a placeholder, which means that it should not be
+#. translated. It will be replaced with the name of the plugin, All in One SEO
+#. Pack.
+#: admin/class-aioseop-helper.php:885
+msgid "Checking this box will use the Home Title and Home Description set in %s, General Settings as the Open Graph title and description for your home page."
+msgstr "选中此设定将使用 %s 中的主页标题和主页说明，常规设置作为主页的 Open Graph 标题和说明"
+
+#: inc/aioseop_functions.php:645
+msgid "You may prefer to use the social meta tags that are being output by the other plugin(s) or theme. If so, then you should deactivate this Social Meta feature in the Feature Manager."
+msgstr "您可能更喜欢使用其他插件或主题输出的社交元标记。如果是这样，那么您应该在功能管理器中停用此社交元功能。"
+
+#: admin/class-aioseop-helper.php:1224
+msgid "A comma separated list of your most important keywords for this page that will be written as META keywords."
+msgstr "写入本页的Meta Keywords中的以半角逗号分隔的最重要的关键词列表。"
+
+#: admin/class-aioseop-helper.php:1222
+msgid "A custom title that shows up in the title tag for this page."
+msgstr "在本页标题标签中显示的自定义标题"
+
+#: admin/class-aioseop-helper.php:1221
+msgid "A preview of what this page might look like in search engine results."
+msgstr "对搜索引擎的效果预览"
+
+#: admin/class-aioseop-helper.php:407
+msgid "Add a list of additional domains to track here.  Enter one domain name per line without the http://."
+msgstr "在此添加要跟踪的额外域名。每个域名一行，不包含http://。"
+
+#: admin/class-aioseop-helper.php:443
+msgid "Check this and shortcodes will get executed for descriptions auto-generated from content."
+msgstr "勾选此处，用于从内容自动生成描述的短代码将得以执行。"
+
+#: admin/class-aioseop-helper.php:444
+msgid "Check this and your Meta Descriptions will be removed from page 2 or later of paginated content."
+msgstr "勾选此处，分页内容自第2页起的Meta Description将被去除。"
+
+#: admin/class-aioseop-helper.php:1227
+msgid "Check this box to ask search engines not to follow links from this page."
+msgstr "勾选此处防止搜索引擎追踪本页中的链接。"
+
+#: admin/class-aioseop-helper.php:1226
+msgid "Check this box to ask search engines not to index this page."
+msgstr "勾选此处防止搜索引擎索引本页"
+
+#: admin/class-aioseop-helper.php:411
+msgid "Check this if you want to track outbound links with Google Analytics."
+msgstr "如需谷歌分析跟踪出站链接，请勾选此处。"
+
+#: admin/class-aioseop-helper.php:437
+msgid "Check this to ask search engines not to follow links from paginated pages/posts. Useful for avoiding duplicate content."
+msgstr "勾选此处禁止搜索引擎追踪分页的文章或页面中的链接，用于防止重复内容。"
+
+#: admin/class-aioseop-helper.php:432
+msgid "Check this to ask search engines not to index Author Archives. Useful for avoiding duplicate content."
+msgstr "勾选此处禁止搜索引擎索引作者归档页，用于防止重复内容。"
+
+#: admin/class-aioseop-helper.php:430
+msgid "Check this to ask search engines not to index Category Archives. Useful for avoiding duplicate content."
+msgstr "勾选此处禁止搜索引擎索引分类归档页，用于防止重复内容。"
+
+#: admin/class-aioseop-helper.php:431
+msgid "Check this to ask search engines not to index Date Archives. Useful for avoiding duplicate content."
+msgstr "勾选此处禁止搜索引擎索引日期归档页，用于防止重复内容。"
+
+#: admin/class-aioseop-helper.php:433
+msgid "Check this to ask search engines not to index Tag Archives. Useful for avoiding duplicate content."
+msgstr "勾选此处禁止搜索引擎索引标签页，用于防止重复内容。"
+
+#: admin/class-aioseop-helper.php:436
+msgid "Check this to ask search engines not to index paginated pages/posts. Useful for avoiding duplicate content."
+msgstr "勾选此处禁止搜索引擎索引分页的文章或页面，用于防止重复内容。"
+
+#: admin/class-aioseop-helper.php:434
+msgid "Check this to ask search engines not to index the Search page. Useful for avoiding duplicate content."
+msgstr "勾选此处禁止搜索引擎索引搜索页，用于防止重复内容。"
+
+#: admin/class-aioseop-helper.php:445
+msgid "Check this to prevent your Description from being truncated regardless of its length."
+msgstr "勾选此处，防止Meta Description因为过长而被截取。"
+
+#: admin/class-aioseop-helper.php:446
+msgid "Check this to unprotect internal postmeta fields for use with XMLRPC. If you don't know what that is, leave it unchecked."
+msgstr "勾选此处，取消对使用XML-RPC的内部postmeta项的保护；否则请不要勾选。"
+
+#: admin/class-aioseop-helper.php:404
+msgid "Check to use advanced Google Analytics options."
+msgstr "勾选此处使用高级谷歌分析选项。"
+
+#. translators: This is a setting that users can enable to enter a custom
+#. canonical URL.
+#: aioseop_class.php:995
+msgid "Custom Canonical URL"
+msgstr "自定义规范网址"
+
+#: aioseop_class.php:982 modules/aioseop_opengraph.php:490
+msgid "Description"
+msgstr "描述"
+
+#. translators: This is a setting where users can enter the description format.
+#. The description format is the format All in One SEO Pack uses to rewrite the
+#. meta description tag.
+#: aioseop_class.php:400
+msgid "Description Format"
+msgstr "描述格式："
+
+#. translators: This is a setting that allows users to disable Google Analytics
+#. tracking for the current post/page.
+#: aioseop_class.php:1082
+msgid "Disable Google Analytics"
+msgstr "禁用谷歌分析"
+
+#: admin/class-aioseop-helper.php:1232
+msgid "Disable Google Analytics on this page."
+msgstr "对本页禁用谷歌分析"
+
+#: admin/class-aioseop-helper.php:1231
+msgid "Disable SEO on this page."
+msgstr "对本页禁用SEO"
+
+#. translators: This is a setting that allows users to disable All in One SEO
+#. Pack for the current post/page.
+#: aioseop_class.php:1078
+msgid "Disable on this page/post"
+msgstr "禁用本页面/文章"
+
+#. translators: Some settings are either 'Enabled' or 'Disabled'. 'Activated'
+#. and 'Deactivated' mean the same.
+#: aioseop_class.php:287 aioseop_class.php:308 aioseop_class.php:330
+#: aioseop_class.php:340 aioseop_class.php:486 aioseop_class.php:621
+#: modules/aioseop_performance.php:80
+msgid "Disabled"
+msgstr "禁用"
+
+#: inc/commonstrings.php:92
+msgid "Display Menu At The Top:"
+msgstr "在顶部小显示菜单："
+
+#. translators: This is the name of a settings section where users can control
+#. how All in One SEO Pack appears in the WordPress Administrator Panel.
+#: aioseop_class.php:1136
+msgid "Display Settings"
+msgstr "显示设置"
+
+#: admin/class-aioseop-helper.php:1228
+msgid "Don't display this page in the sitemap."
+msgstr "在网站地图中不显示本页"
+
+#. translators: Some settings are either 'Enabled' or 'Disabled'. 'Activated'
+#. and 'Deactivated' mean the same.
+#: aioseop_class.php:285 aioseop_class.php:307 aioseop_class.php:329
+#: aioseop_class.php:339 aioseop_class.php:485 aioseop_class.php:620
+#: modules/aioseop_performance.php:79
+msgid "Enabled"
+msgstr "启用"
+
+#: admin/class-aioseop-helper.php:403
+msgid "Enter your Google Analytics ID here to track visitor behavior on your site using Google Analytics."
+msgstr "在此输入您的谷歌分析ID，使用谷歌分析跟踪贵站来访者的行为。"
+
+#: admin/class-aioseop-helper.php:405
+msgid "Enter your domain name without the http:// to set your cookie domain."
+msgstr "输入您的域名（不包含http://）来设置您的cookie域名。"
+
+#: aioseop_class.php:1011
+msgid "Exclude From Sitemap"
+msgstr "从网站地图中排除"
+
+#: admin/class-aioseop-helper.php:410
+msgid "Exclude logged-in users from Google Analytics tracking by role."
+msgstr "按角色排除已登录用户被谷歌分析跟踪"
+
+#: aioseop_class.php:1105 modules/aioseop_opengraph.php:623
+msgid "Home Page Settings"
+msgstr "首页设置"
+
+#: aioseop_class.php:1224
+msgid "Keyword Settings"
+msgstr "关键词设置"
+
+#: aioseop_class.php:990
+msgid "Keywords (comma separated)"
+msgstr "关键词（用半角逗号分隔）"
+
+#: admin/class-aioseop-helper.php:1225
+msgid "Override the canonical URLs for this post."
+msgstr "为本文章覆盖规范网址。"
+
+#. translators: The preview snippet shows how the page will look like in the
+#. search results (title, meta description and permalink).
+#: aioseop_class.php:970
+msgid "Preview Snippet"
+msgstr "预览片段"
+
+#: admin/class-aioseop-helper.php:429
+msgid "Set the default NOFOLLOW setting for each Post Type."
+msgstr "为每种文章类型设定默认的不追踪设置。"
+
+#: admin/class-aioseop-helper.php:428
+msgid "Set the default NOINDEX setting for each Post Type."
+msgstr "为每种文章类型设定默认的不索引设置。"
+
+#: admin/class-aioseop-helper.php:1223
+msgid "The META description for this page. This will override any autogenerated descriptions."
+msgstr "本页的Meta Description，将覆盖任何自动生成的描述。"
+
+#: inc/commonstrings.php:53 admin/class-aioseop-helper.php:132
+#: admin/class-aioseop-helper.php:171 admin/class-aioseop-helper.php:207
+#: admin/class-aioseop-helper.php:245 admin/class-aioseop-helper.php:265
+#: admin/class-aioseop-helper.php:280 admin/class-aioseop-helper.php:297
+#: admin/class-aioseop-helper.php:308 admin/class-aioseop-helper.php:319
+#: admin/class-aioseop-helper.php:365 admin/class-aioseop-helper.php:380
+#: admin/class-aioseop-helper.php:458 admin/class-aioseop-helper.php:479
+#: admin/class-aioseop-helper.php:576 admin/class-aioseop-helper.php:1106
+#: admin/class-aioseop-helper.php:1154
+msgid "The following macros are supported:"
+msgstr "支持以下宏："
+
+#: admin/class-aioseop-helper.php:408
+msgid "This enables support for IP Anonymization in Google Analytics."
+msgstr "本选项启用对谷歌分析中的IP匿名化的支持。"
+
+#: admin/class-aioseop-helper.php:409
+msgid "This enables support for the Display Advertiser Features in Google Analytics."
+msgstr "本选项启用对谷歌分析中的显示广告功能的支持。"
+
+#: admin/class-aioseop-helper.php:413
+msgid "This enables support for the Enhanced Ecommerce in Google Analytics."
+msgstr "本选项启用对谷歌分析中的增强电商的支持。"
+
+#: admin/class-aioseop-helper.php:412
+msgid "This enables support for the Enhanced Link Attribution in Google Analytics."
+msgstr "本选项启用对谷歌分析中的增强链接属性的支持。"
+
+#: admin/class-aioseop-helper.php:392
+msgid "This lets you select which screens display the SEO Title, SEO Keywords and SEO Description columns."
+msgstr "此处供您选择将SEO标题、SEO关键词和SEO描述列显示在哪个页面中。"
+
+#: admin/class-aioseop-helper.php:379
+msgid "This string gets appended/prepended to titles of paged index pages (like home or archive pages)."
+msgstr "此字符串将被附加在索引页面（例如首页或归档页）标题的前面或者后面。"
+
+#: inc/news-sitemap-xsl.php:115 inc/admin/class-aioseop-link-attributes.php:43
+#: aioseop_class.php:976 modules/aioseop_opengraph.php:482
+msgid "Title"
+msgstr "标题"
+
+#: aioseop_class.php:1110
+msgid "Title Settings"
+msgstr "标题设置"
+
+#. translators: This is a setting that outputs basic Schema.org markup, also
+#. known as structured data, into the source code of each page.
+#: aioseop_class.php:616
+msgid "Use Schema.org Markup"
+msgstr "使用Schema.org标签："
+
+#: admin/class-aioseop-helper.php:406
+msgid "Use this option to enable tracking of multiple or additional domains."
+msgstr "使用本选项启用对多个或额外域名的跟踪。"
+
+#. translators: This is the name of a settings section where users can add
+#. verification codes of webmaster platforms such as Google Search Console,
+#. Bing Webmaster Tools, etc.
+#: aioseop_class.php:1142
+msgid "Webmaster Verification"
+msgstr "站长验证"
+
+#: admin/class-aioseop-helper.php:451
+msgid "What you enter here will be copied verbatim to the header of all Pages. You can enter whatever additional headers you want here, even references to stylesheets."
+msgstr "您在此处输入的内容将被逐字复制到所有页面页的头部。您可以输入任何希望加入头部的内容，甚至包括引用CSS。"
+
+#: admin/class-aioseop-helper.php:450
+msgid "What you enter here will be copied verbatim to the header of all Posts. You can enter whatever additional headers you want here, even references to stylesheets."
+msgstr "您在此处输入的内容将被逐字复制到所有文章页的头部。您可以输入任何希望加入头部的内容，甚至包括引用CSS。"
+
+#: admin/class-aioseop-helper.php:452
+msgid "What you enter here will be copied verbatim to the header of the front page if you have set a static page in Settings, Reading, Front Page Displays. You can enter whatever additional headers you want here, even references to stylesheets. This will fall back to using Additional Page Headers if you have them set and nothing is entered here."
+msgstr "您在此处输入的内容将被逐字复制到首页的头部，如果您在设置->阅读->首页显示中设定了一个静态页面。您可以输入任何希望加入头部的内容，甚至包括引用CSS。"
+
+#: admin/class-aioseop-helper.php:453
+msgid "What you enter here will be copied verbatim to the header of the home page if you have Front page displays your latest posts selected in Settings, Reading.  It will also be copied verbatim to the header on the Posts page if you have one set in Settings, Reading. You can enter whatever additional headers you want here, even references to stylesheets."
+msgstr "您在此处输入的内容将被逐字复制到首页的头部，如果您在设置->阅读->首页显示中设定显示最新文章。您可以输入任何希望加入头部的内容，甚至包括引用CSS。"
+
+#: admin/class-aioseop-helper.php:435
+msgid "Check this to ask search engines not to index the 404 page."
+msgstr "勾选此要求搜索引擎不要索引404页。"
+
+#: admin/class-aioseop-helper.php:438
+msgid "Check this to ask search engines not to index custom Taxonomy archive pages. Useful for avoiding duplicate content."
+msgstr "勾选此要求搜索引擎不要索引自定义分类存档页。可用于避免重复的内容。"
+
+#. translators: This is a setting where users can indicate that they are using
+#. a static page for their homepage.
+#: aioseop_class.php:303
+msgid "Use Static Front Page Instead"
+msgstr "反而使用静态首页"
+
+#: admin/class-aioseop-helper.php:124
+msgid "As the name implies, this will be the Meta Title of your homepage. This is independent of any other option. If not set, the default Site Title (found in WordPress under Settings, General, Site Title) will be used."
+msgstr "这是贵站首页的Meta Title，独立于其它选项之外。如果不设置，则使用默认的网站标题（在WordPress设置菜单的常规中的网站标题一项）。"
+
+#: admin/class-aioseop-helper.php:125
+msgid "This will be the Meta Description for your homepage. This is independent of any other option. The default is no Meta Description at all if this is not set."
+msgstr "这是贵站首页的Meta Description，独立于其它选项之外。如果不设置，则默认没有任何Meta Description。"
+
+#: admin/class-aioseop-helper.php:499
+msgid "This option allows you to toggle the use of Meta Keywords throughout the whole of the site."
+msgstr "本选项供您切换全站使用Meta Keywords的方式。"
+
+#: admin/class-aioseop-helper.php:500
+msgid "Check this if you want your categories for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr "如要使用文章所在分类目录作为文章的Meta Keywords（在编辑文章页面您填写的关键词也作为Meta Keywrods），请勾选此处。"
+
+#: admin/class-aioseop-helper.php:501
+msgid "Check this if you want your tags for a given post used as the Meta Keywords for this post (in addition to any keywords you specify on the Edit Post screen)."
+msgstr "如要使用您为文章设置的标签作为文章的Meta Keywords（在编辑文章页面您填写的关键词也作为Meta Keywrods），请勾选此处。"
+
+#: admin/class-aioseop-helper.php:117
+msgid "Use wp_title to get the title used by the theme; this is disabled by default. If you use this option, set your title formats appropriately, as your theme might try to do its own title SEO as well."
+msgstr "使用wp_title来得到使用的主题称号;这是被默认禁用。如果使用此选项，正确设置你的标题格式，因为你的主题可能会尝试做自己的SEO标题。"
+
+#: admin/class-aioseop-helper.php:127
+msgid "Checking this option uses the title, description, and keywords set on your static Front Page."
+msgstr "勾选此选项使用的标题，描述，和你在静态首页设置的关键字。"
+
+#: admin/class-aioseop-helper.php:502
+msgid "Check this if you want your keywords on your Posts page (set in WordPress under Settings, Reading, Front Page Displays) and your archive pages to be dynamically generated from the keywords of the posts showing on that page.  If unchecked, it will use the keywords set in the edit page screen for the posts page."
+msgstr "如果你想在你的文章页面关键字（设置在WordPress下的设置，阅读，首页显示器）和你的存档页面动态地显示从该网页上的职位关键字生成，请勾此项。如果不加以控制，它会用在编辑页面设置好给文章页面的关键字。"
+
+#: admin/class-aioseop-helper.php:126
+msgid "Enter a comma separated list of your most important keywords for your site that will be written as Meta Keywords on your homepage. Do not stuff everything in here."
+msgstr "请用半角逗号分隔，输入多个贵站重要的关键词，将被写入首页的Meta Keywords中。请勿填写过满。"
+
+#: admin/class-aioseop-helper.php:116
+msgid "Checking this option will set the Canonical URL for all paginated content to the first page."
+msgstr "选中此处将把所有分页内容的规范网址设为第一页。"
+
+#. translators: This is a header for the General Settings menu. %s is a
+#. placeholder and is replaced with the name of the plugin.
+#: aioseop_class.php:239
+msgid "%s Plugin Options"
+msgstr "%s插件选项"
+
+#. translators: This is the main menu of the plugin.
+#. translators: This is the name of the main menu.
+#: aioseop_class.php:241 aioseop_class.php:1100 aioseop_class.php:5299
+msgid "General Settings"
+msgstr "常规设置"
+
+#. translators: the Bad Bot Blocker module allows users to block requests from
+#. user agents that are known to misbehave.
+#: modules/aioseop_bad_robots.php:20 modules/aioseop_feature_manager.php:75
+msgid "Bad Bot Blocker"
+msgstr "不良自主软件拦截器"
+
+#: admin/class-aioseop-helper.php:1086
+msgid "Log and show recent requests from blocked bots."
+msgstr "记录并显示最近来自拦阻自主软件的请求。"
+
+#: admin/class-aioseop-helper.php:1087
+msgid "Check this to edit the list of disallowed user agents for blocking bad bots."
+msgstr "勾此选来编辑用户代理的禁止列表，以阻止坏的自主软件。"
+
+#: admin/class-aioseop-helper.php:1088
+msgid "This is the list of disallowed user agents used for blocking bad bots."
+msgstr "这是一个用于阻止坏自主软件的用户代理不允许列表。"
+
+#: admin/class-aioseop-helper.php:1089
+msgid "This is the list of disallowed referers used for blocking bad bots."
+msgstr "这是一个用于阻止坏自主软件的禁止引用者列表。"
+
+#: admin/class-aioseop-helper.php:1090
+msgid "Shows log of most recent requests from blocked bots. Note: this will not track any bots that were already blocked at the web server / .htaccess level."
+msgstr "日志显示禁止的自主软件最近的请求。注意：这不会跟踪任何已经被挡在Web服务器/.htaccess层次的自主软件。"
+
+#: modules/aioseop_bad_robots.php:28
+msgid "Track Blocked Bots"
+msgstr "追踪禁止的自主软件"
+
+#: modules/aioseop_bad_robots.php:31
+msgid "User Agent Blocklist"
+msgstr "用戶代理阻拦列表"
+
+#: modules/aioseop_bad_robots.php:39
+msgid "Referer Blocklist"
+msgstr "引用者的阻拦列表"
+
+#: modules/aioseop_bad_robots.php:50
+msgid "Log Of Blocked Bots"
+msgstr "禁止的自主软件的登录"
+
+#: modules/aioseop_bad_robots.php:51
+msgid "No requests yet."
+msgstr "没有要求呢。"
+
+#: admin/class-aioseop-helper.php:1084
+msgid "Block requests from user agents that are known to misbehave with 503."
+msgstr "阻止已知与 503 胡作非为的用户代理的请求。"
+
+#: modules/aioseop_bad_robots.php:86
+msgid "Blocked bot with IP %1$s -- matched referer %2$s found in blocklist."
+msgstr "禁止的自主软件的IP%1$ss - 匹配阻拦列表中的应用者%2$s。"
+
+#: modules/aioseop_bad_robots.php:80
+msgid "Blocked bot with IP %1$s -- matched user agent %2$s found in blocklist."
+msgstr "禁止的自主软件的IP%1$s - 匹配阻拦列表中的 用户代理%2$s。"

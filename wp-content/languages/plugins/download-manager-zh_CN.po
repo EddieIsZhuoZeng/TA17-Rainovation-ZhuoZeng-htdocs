@@ -1,0 +1,2094 @@
+# Translation of Plugins - WordPress Download Manager - Development (trunk) in Chinese (China)
+# This file is distributed under the same license as the Plugins - WordPress Download Manager - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-06-26 22:50:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - WordPress Download Manager - Development (trunk)\n"
+
+#: libs/class.Messages.php:119
+msgid "Access Denied"
+msgstr "拒绝访问"
+
+#: libs/class.Messages.php:103
+msgid "Download Limit Exceeded!"
+msgstr "超过下载限制！"
+
+#: libs/class.Package.php:220
+msgid "I Agree With Terms and Conditions"
+msgstr "我同意条款和条件"
+
+#: admin/menus/class.Categories.php:171 admin/menus/class.Categories.php:401
+msgid "Hide"
+msgstr "隐藏"
+
+#: admin/menus/class.Categories.php:168 admin/menus/class.Categories.php:398
+msgid "Toolbar:"
+msgstr "工具栏:"
+
+#: admin/tpls/settings/basic.php:230
+msgid "Login automatically after signup is completed"
+msgstr "注册完成后自动登录"
+
+#: libs/class.User.php:86
+msgid "Login ID"
+msgstr "登录ID"
+
+#: libs/class.CronJobs.php:30
+msgid "Every 6 hours"
+msgstr "每6小时"
+
+#: tpls/shortcodes/toolbar.php:51 tpls/shortcodes/toolbar.php:85
+#: tpls3/shortcodes/toolbar.php:51 tpls3/shortcodes/toolbar.php:85
+msgid "Ascending"
+msgstr "升序"
+
+#: tpls/shortcodes/toolbar.php:50 tpls/shortcodes/toolbar.php:84
+#: tpls3/shortcodes/toolbar.php:50 tpls3/shortcodes/toolbar.php:84
+msgid "Descending"
+msgstr "降序"
+
+#: tpls/shortcodes/toolbar.php:35 tpls/shortcodes/toolbar.php:69
+#: tpls3/shortcodes/toolbar.php:35 tpls3/shortcodes/toolbar.php:69
+msgid "Search Keyword..."
+msgstr "搜索关键字..."
+
+#: tpls/lost-password-form.php:53
+msgid "Password reset link sent to your email."
+msgstr "密码重置链接已发送至您的电子邮件。"
+
+#: libs/class.User.php:54
+msgid "Email"
+msgstr "电子邮件"
+
+#: libs/class.User.php:43
+msgid "Last name"
+msgstr "姓"
+
+#: libs/class.User.php:42
+msgid "First name"
+msgstr "名"
+
+#: libs/class.AssetManager.php:501
+msgid "Error! Only Administrator can execute this operation."
+msgstr "错误!只有管理员才能执行此操作。"
+
+#: libs/class.AssetManager.php:175 libs/class.AssetManager.php:335
+#: libs/class.AssetManager.php:364 libs/class.AssetManager.php:382
+#: libs/class.AssetManager.php:413
+msgid "Error! FileType is not allowed."
+msgstr "错误！ 不允许文件类型。"
+
+#: widgets/class.Tags.php:80
+msgid "Number of tags to show:"
+msgstr "要显示的标签数："
+
+#: widgets/class.ListPackages.php:100
+msgid "On Single Download Page"
+msgstr "在单个下载页面上"
+
+#: widgets/class.Categories.php:152
+msgid "Hide widget when no category"
+msgstr "没有类别时隐藏小工具"
+
+#: widgets/class.Categories.php:142
+msgid "Style:"
+msgstr "风格："
+
+#: widgets/class.Categories.php:138
+msgid "Show subcategories only"
+msgstr "仅显示子类别"
+
+#: widgets/class.Categories.php:137
+msgid "Show all"
+msgstr "显示所有"
+
+#: widgets/class.Categories.php:135
+msgid "On Category Page:"
+msgstr "在类别页面:"
+
+#: widgets/class.Search.php:47
+msgid "Note: Create a page with short-code <code>[wpdm_search_result]</code> and select that page as search redult page"
+msgstr "注意： 创建页面并加入简码 <code>[wpdm_search_result]</code>，然后选择该页面作为搜索结果页面"
+
+#: widgets/class.Search.php:44
+msgid "Search Result Page"
+msgstr "搜索结果页"
+
+#: widgets/class.PackageInfo.php:126
+msgid "Show QR Code"
+msgstr "显示二维码"
+
+#: widgets/class.PackageInfo.php:124
+msgid "Embed Download Options"
+msgstr "嵌入下载选项"
+
+#: widgets/class.PackageInfo.php:122
+msgid "Package Size"
+msgstr "下载包尺寸"
+
+#: admin/tpls/metaboxes/attach-file.php:234
+msgid "Select from server"
+msgstr "从服务器中选择"
+
+#: libs/class.MediaAccessControl.php:209 libs/class.MediaAccessControl.php:224
+#: libs/class.MediaAccessControl.php:267
+msgid "Checking status..."
+msgstr "正在检查状态..."
+
+#: libs/class.MediaAccessControl.php:207 libs/class.MediaAccessControl.php:222
+msgid "This file is not protected yet!"
+msgstr "此文件尚未受保护！"
+
+#: libs/class.MediaAccessControl.php:173
+msgid "Remove Protection"
+msgstr "移除保护"
+
+#: libs/class.MediaAccessControl.php:170
+msgid "Block Direct Access"
+msgstr "阻止直接访问"
+
+#: libs/class.MediaAccessControl.php:168
+msgid "This file is protected"
+msgstr "此文件受保护"
+
+#: libs/class.MediaAccessControl.php:163
+msgid "Protect this file"
+msgstr "保护此文件"
+
+#: libs/class.MediaAccessControl.php:160
+msgid "This file is not protected."
+msgstr "此文件不受保护。"
+
+#: libs/class.MediaAccessControl.php:60
+msgid "<b>Error:</b> Wrong Password! Try Again."
+msgstr "<b>错误：</b>密码错误！再试一次。"
+
+#: admin/tpls/metaboxes/attach-file.php:202
+msgid "Select from media library"
+msgstr "从媒体库中选择"
+
+#: admin/tpls/settings/user-interface.php:16
+msgid "Bootstrap 3"
+msgstr "Bootstrap 3"
+
+#: admin/tpls/settings/user-interface.php:16
+msgid "Bootstrap 4"
+msgstr "Bootstrap 4"
+
+#: admin/tpls/settings/user-interface.php:14
+msgid "Active Bootstrap Version"
+msgstr "启用Bootstrap版本"
+
+#: tpls/asset-viewer.php:6
+msgid "You do not have access to this asset"
+msgstr "您没有访问此资产"
+
+#: tpls/wpdm-edit-user-profile.php:58
+msgid "PayPal Email"
+msgstr "PayPal邮箱"
+
+#: tpls/wpdm-edit-user-profile.php:55
+msgid "Payment Settings"
+msgstr "付款设置"
+
+#: tpls/wpdm-edit-user-profile.php:41
+msgid "Profile Header Text Color"
+msgstr "配置文件标题文本颜色"
+
+#: tpls/wpdm-edit-user-profile.php:32
+msgid "Banner URL"
+msgstr "横幅 URL"
+
+#: tpls/wpdm-edit-user-profile.php:19
+msgid "Short Intro"
+msgstr "简短介绍"
+
+#: tpls/wpdm-edit-user-profile.php:10
+msgid "Public Profile Info"
+msgstr "公开资料信息"
+
+#: tpls/wpdm-edit-user-profile.php:9
+msgid "View Profile"
+msgstr "查看详细资料"
+
+#: tpls/user-dashboard/profile.php:116
+msgid "Remove"
+msgstr "移除"
+
+#: tpls/user-dashboard/profile.php:110
+msgid "My Favourites"
+msgstr "我的最爱"
+
+#: tpls/user-dashboard/edit-profile.php:33
+msgid "Use nothing if you don't want to change old password"
+msgstr "如果您不想更改旧密码，则什么也不用"
+
+#: tpls/wpdm-generate-password.php:60
+msgid "Insert Password(s)"
+msgstr "插入密码"
+
+#: tpls/wpdm-generate-password.php:46
+msgid "Special Chars"
+msgstr "特殊字符"
+
+#: tpls/wpdm-generate-password.php:45
+msgid "Numbers"
+msgstr "数目"
+
+#: tpls/wpdm-generate-password.php:44
+msgid "Capital Letters"
+msgstr "大写字母"
+
+#: tpls/wpdm-generate-password.php:43
+msgid "Small Letters"
+msgstr "小写字母"
+
+#: tpls/wpdm-generate-password.php:42
+msgid "Valid Chars:"
+msgstr "有效字符："
+
+#: libs/class.Apply.php:302
+msgid "Invalid email address!"
+msgstr "无效电子邮件地址！"
+
+#: libs/class.Apply.php:162 libs/class.Apply.php:249
+msgid "Invalid CAPTCHA!"
+msgstr "无效的验证码！"
+
+#: modules/strings.php:24
+msgid "Buy Now"
+msgstr "立即购买"
+
+#: modules/strings.php:22
+msgid "Total Files"
+msgstr "文件总数"
+
+#: modules/strings.php:21
+msgid "Attached Files"
+msgstr "附件文件"
+
+#: modules/strings.php:20
+msgid "Package Info"
+msgstr "下载包信息"
+
+#: tpls/wpdm-edit-user-profile.php:47 tpls/wpdm-edit-user-profile.php:48
+#: modules/strings.php:19
+msgid "Description"
+msgstr "描述"
+
+#: modules/strings.php:15
+msgid "File Count"
+msgstr "文件计数"
+
+#: modules/strings.php:14
+msgid "File Type"
+msgstr "文件类型"
+
+#: modules/strings.php:12
+msgid "Stock"
+msgstr "库存"
+
+#: widgets/class.PackageInfo.php:25 widgets/class.PackageInfo.php:121
+#: modules/strings.php:11
+msgid "Version"
+msgstr "版本"
+
+#: tpls/wpdm-login-form.php:69 tpls/wpdm-reg-form.php:59
+#: tpls/wpdm-login-modal-form.php:92 tpls3/wpdm-login-form.php:105
+#: tpls3/wpdm-reg-form.php:62 tpls3/wpdm-login-modal-form.php:105
+msgid "Or connect using your social account"
+msgstr "或使用社交帐户进行连接"
+
+#: tpls/reset-password-form.php:54 tpls3/reset-password-form.php:54
+msgid "Password Update Failed"
+msgstr "密码更新失败"
+
+#: libs/class.AssetManager.php:511
+msgid "Error! Couldn't open the zip file."
+msgstr "错误！无法打开 zip 文件。"
+
+#: libs/class.AssetManager.php:509
+msgid "Unzipped successfully."
+msgstr "解压缩成功。"
+
+#: libs/class.AssetManager.php:504
+msgid "Please activate \"zlib\" in your server to perform zip operations"
+msgstr "请在服务器中激活\"zlib\"以执行 zip 操作"
+
+#: libs/class.AssetManager.php:503
+msgid "Error! Invalid Destination Path."
+msgstr "错误！无效的目标路径。"
+
+#: tpls/wpdm-asset.php:23 tpls3/wpdm-asset.php:23
+msgid "Login to Download"
+msgstr "登录下载"
+
+#: tpls/asset-manager-ui.php:842 tpls3/asset-manager-ui.php:842
+msgid "Authorized Users:"
+msgstr "授权用户："
+
+#: tpls/asset-manager-ui.php:820 tpls3/asset-manager-ui.php:820
+msgid "Authorized User Groups:"
+msgstr "授权用户组："
+
+#: tpls/asset-manager-ui.php:715 tpls3/asset-manager-ui.php:715
+msgid "Select Files"
+msgstr "选择文件"
+
+#: tpls/asset-manager-ui.php:714 tpls3/asset-manager-ui.php:714
+msgctxt "Uploader: Drop files here - or - Select Files"
+msgid "or"
+msgstr "或"
+
+#: tpls/asset-manager-ui.php:713 tpls3/asset-manager-ui.php:713
+msgid "Drop files here"
+msgstr "将文件拖到这里"
+
+#: tpls/asset-manager-ui.php:611 tpls3/asset-manager-ui.php:611
+msgid "Copy Shortcode"
+msgstr "复制简码"
+
+#: tpls/asset-manager-ui.php:508 tpls3/asset-manager-ui.php:508
+msgid "Digital Asset Manager"
+msgstr "数字资产管理"
+
+#: tpls/asset-manager-ui.php:502 tpls/asset-manager-ui.php:706
+#: tpls3/asset-manager-ui.php:502 tpls3/asset-manager-ui.php:706
+msgid "Upload File"
+msgstr "上传文件"
+
+#: tpls/asset-manager-ui.php:500 tpls3/asset-manager-ui.php:500
+msgid "New Folder"
+msgstr "新文件夹"
+
+#: libs/class.AssetManager.php:460 libs/class.AssetManager.php:467
+msgid "Asset not found!"
+msgstr "未找到资产！"
+
+#: libs/class.AssetManager.php:417
+msgid "File copied successfully"
+msgstr "已成功复制文件"
+
+#: libs/class.AssetManager.php:396
+msgid "File moved successfully"
+msgstr "已成功移动文件"
+
+#: libs/class.AssetManager.php:388 libs/class.AssetManager.php:411
+msgid "Invalid destination path"
+msgstr "无效的目标路径"
+
+#: libs/class.AssetManager.php:387 libs/class.AssetManager.php:410
+msgid "Invalid source path"
+msgstr "无效的源路径"
+
+#: libs/class.AssetManager.php:154 libs/class.AssetManager.php:168
+#: libs/class.AssetManager.php:315
+msgid "Error! Unauthorized Access."
+msgstr "错误！未经授权的访问。"
+
+#: libs/class.AssetManager.php:158 libs/class.AssetManager.php:171
+#: libs/class.AssetManager.php:193 libs/class.AssetManager.php:260
+#: libs/class.AssetManager.php:277 libs/class.AssetManager.php:318
+#: libs/class.AssetManager.php:323 libs/class.AssetManager.php:341
+#: libs/class.AssetManager.php:502
+msgid "Error! Unauthorized Path."
+msgstr "错误！未经授权的路径。"
+
+#: libs/class.AssetManager.php:152 libs/class.AssetManager.php:166
+#: libs/class.AssetManager.php:186 libs/class.AssetManager.php:188
+#: libs/class.AssetManager.php:254 libs/class.AssetManager.php:256
+#: libs/class.AssetManager.php:272 libs/class.AssetManager.php:274
+#: libs/class.AssetManager.php:313 libs/class.AssetManager.php:330
+#: libs/class.AssetManager.php:332 libs/class.AssetManager.php:353
+#: libs/class.AssetManager.php:355 libs/class.AssetManager.php:373
+#: libs/class.AssetManager.php:375 libs/class.AssetManager.php:400
+#: libs/class.AssetManager.php:402
+msgid "Error! Session Expired. Try refreshing page."
+msgstr "错误！会话已过期。尝试刷新页面。"
+
+#: libs/class.AssetManager.php:147
+msgid "Asset Manager"
+msgstr "资产管理"
+
+#: libs/class.AssetManager.php:125
+msgid "Download link is expired! Go back and Refresh the page to regenerate download link"
+msgstr "下载链接已过期！返回并刷新页面以重新生成下载链接"
+
+#: libs/class.UserDashboard.php:27
+msgid "Account"
+msgstr "帐户"
+
+#: tpls3/wpdm-edit-user-profile.php:40 tpls3/user-dashboard/edit-profile.php:40
+msgid "Description:"
+msgstr "描述："
+
+#: tpls/user-dashboard/edit-profile.php:34 tpls3/wpdm-edit-user-profile.php:34
+#: tpls3/user-dashboard/edit-profile.php:34
+msgid "Re-type New Password:"
+msgstr "重新输入新密码："
+
+#: tpls3/wpdm-edit-user-profile.php:33 tpls3/user-dashboard/edit-profile.php:33
+msgid "Use nothing if you don\\'t want to change old password"
+msgstr "如果您不想更改旧密码，则什么也不用"
+
+#: tpls/user-dashboard/edit-profile.php:33 tpls3/wpdm-edit-user-profile.php:33
+#: tpls3/user-dashboard/edit-profile.php:33
+msgid "New Password:"
+msgstr "新密码："
+
+#: tpls/user-dashboard/edit-profile.php:30 tpls3/wpdm-edit-user-profile.php:30
+#: tpls3/user-dashboard/edit-profile.php:30
+msgid "Username:"
+msgstr "用户名："
+
+#: tpls/user-dashboard/edit-profile.php:28 tpls3/wpdm-edit-user-profile.php:28
+#: tpls3/user-dashboard/edit-profile.php:28
+msgid "PayPal Email:"
+msgstr "PayPal邮箱:"
+
+#: tpls/user-dashboard/edit-profile.php:27 tpls3/wpdm-edit-user-profile.php:27
+#: tpls3/user-dashboard/edit-profile.php:27
+msgid "Display name:"
+msgstr "显示名称:"
+
+#: tpls/user-dashboard/edit-profile.php:13 tpls3/wpdm-edit-user-profile.php:13
+#: tpls3/user-dashboard/edit-profile.php:13
+msgid "SAVE FAILED!"
+msgstr "保存失败！"
+
+#: tpls/reset-password-form.php:52 tpls3/reset-password-form.php:52
+msgid "Go to your account dashboard"
+msgstr "转到帐户仪表盘"
+
+#: tpls/reset-password-form.php:52 tpls3/reset-password-form.php:52
+msgid "Password Updated"
+msgstr "密码已更新"
+
+#: tpls/user-dashboard/edit-profile.php:16 tpls/reset-password-form.php:52
+#: tpls3/wpdm-edit-user-profile.php:16 tpls3/user-dashboard/edit-profile.php:16
+#: tpls3/reset-password-form.php:52
+msgid "DONE!"
+msgstr "完成！"
+
+#: tpls/reset-password-form.php:45 tpls3/reset-password-form.php:45
+msgid "Confirm password value must be same as the new password"
+msgstr "确认密码值必须与新密码相同"
+
+#: tpls/reset-password-form.php:34 tpls3/reset-password-form.php:34
+msgid "Update Password"
+msgstr "更新密码"
+
+#: tpls/reset-password-form.php:23 tpls3/reset-password-form.php:23
+msgid "Please enter a new password"
+msgstr "请输入新密码"
+
+#: tpls/reset-password-form.php:21 tpls/reset-password-form.php:26
+#: tpls3/reset-password-form.php:21 tpls3/reset-password-form.php:26
+msgid "New Password"
+msgstr "新密码"
+
+#: tpls/lost-password-form.php:70 tpls3/lost-password-form.php:51
+msgid "Please check your inbox."
+msgstr "请检查您的收件箱。"
+
+#: tpls/lost-password-form.php:70 tpls3/lost-password-form.php:51
+msgid "MAIL SENT!"
+msgstr "邮件已发送！"
+
+#: tpls/lost-password-form.php:65 tpls3/lost-password-form.php:47
+msgid "Account not found."
+msgstr "帐户未找到"
+
+#: tpls/lost-password-form.php:33 libs/class.AssetManager.php:227
+#: tpls3/lost-password-form.php:28
+msgid "Home"
+msgstr "首页"
+
+#: tpls/lost-password-form.php:29 tpls3/lost-password-form.php:24
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: tpls/lost-password-form.php:19 tpls3/lost-password-form.php:17
+msgid "Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr "请输入您的用户名或电子邮箱地址。您会收到一封包含创建新密码链接的电子邮件。"
+
+#: tpls/lost-password-form.php:17 tpls3/lost-password-form.php:15
+msgid "Lost Password?"
+msgstr "忘记密码？"
+
+#: tpls/wpdm-login-form.php:113 tpls/wpdm-login-modal-form.php:121
+#: tpls3/wpdm-login-form.php:141 tpls3/wpdm-login-modal-form.php:133
+msgid "LOGIN FAILED!"
+msgstr "登录失败"
+
+#: tpls/wpdm-login-form.php:82 tpls/wpdm-reg-form.php:50
+#: tpls/wpdm-login-modal-form.php:103 tpls3/wpdm-login-form.php:116
+#: tpls3/wpdm-reg-form.php:53 tpls3/wpdm-login-modal-form.php:116
+msgid "Register Now"
+msgstr "立即注册"
+
+#: tpls/lost-password-form.php:23 tpls/lost-password-form.php:24
+#: libs/class.User.php:88 tpls3/wpdm-login-form.php:55
+#: tpls3/lost-password-form.php:20 tpls3/wpdm-login-modal-form.php:55
+msgid "Username or Email"
+msgstr "用户名或邮箱"
+
+#: tpls/already-logged-in.php:21 tpls3/already-logged-in.php:21
+msgid "Dashboard"
+msgstr "仪表盘"
+
+#: tpls/already-logged-in.php:15 tpls3/already-logged-in.php:15
+msgid "Welcome"
+msgstr "欢迎"
+
+#: libs/class.Apply.php:526 libs/class.Apply.php:529
+msgid "Session Expired! Please try again."
+msgstr "会话已过期！请再试一遍。"
+
+#: admin/tpls/email-template-editor.php:203
+msgid "Invalid template ID!"
+msgstr "模板ID无效！"
+
+#: admin/tpls/settings/user-interface.php:125
+#: admin/tpls/settings/user-interface.php:155
+msgid "Border Radius"
+msgstr "边框半径"
+
+#: admin/tpls/settings/user-interface.php:130
+msgid "Shortcode Page"
+msgstr "简码页面"
+
+#: admin/tpls/settings/user-interface.php:100
+msgid "Details Page"
+msgstr "详情页面"
+
+#: admin/tpls/settings/user-interface.php:96
+msgid "Download Button"
+msgstr "下载按钮"
+
+#: admin/tpls/settings/user-interface.php:84
+msgid "Danger:"
+msgstr "危险:"
+
+#: admin/tpls/settings/user-interface.php:78
+msgid "Warning:"
+msgstr "警告："
+
+#: admin/tpls/settings/user-interface.php:72
+msgid "Success:"
+msgstr "成功："
+
+#: admin/tpls/settings/user-interface.php:66
+msgid "Info:"
+msgstr "信息:"
+
+#: admin/tpls/settings/user-interface.php:60
+msgid "Secondary:"
+msgstr "次要:"
+
+#: admin/tpls/settings/user-interface.php:54
+msgid "Primary:"
+msgstr "主要:"
+
+#: admin/tpls/settings/user-interface.php:38
+msgid "Colors"
+msgstr "颜色"
+
+#: libs/class.Apply.php:424 libs/class.Apply.php:430
+msgid "Your account has been created successfully."
+msgstr "您的帐户已成功创建。"
+
+#: libs/class.Apply.php:422
+msgid "Your account has been created successfully and login info sent to your mail address."
+msgstr "您的帐户已成功创建，登录信息将发送到您的邮件地址。"
+
+#: libs/class.Apply.php:232
+msgid "Something is Wrong! Please refresh the page and try again"
+msgstr "出问题了！请刷新页面，然后重试"
+
+#: wpdm-functions.php:1497
+msgid "Uploading"
+msgstr "正上传"
+
+#: wpdm-functions.php:1422 wpdm-functions.php:1516
+msgid "SELECT IMAGE"
+msgstr "选择图像"
+
+#: wpdm-functions.php:1397
+msgid "Select Image"
+msgstr "选择图像"
+
+#: libs/class.Email.php:42
+msgid "[ %s ] New User Registration"
+msgstr "[%s] 新用户注册"
+
+#: libs/class.Apply.php:403
+msgid "Edit User"
+msgstr "编辑用户"
+
+#: tpls/user-dashboard/edit-profile.php:31 tpls3/wpdm-edit-user-profile.php:31
+#: tpls3/user-dashboard/edit-profile.php:31
+msgid "Email:"
+msgstr "电子邮箱："
+
+#: libs/class.Email.php:46
+msgid "New user registration on your site WordPress Download Manager:"
+msgstr "在您的网站WordPress下载管理器上的新用户注册："
+
+#: admin/tpls/templates.php:342
+msgid "Saving..."
+msgstr "正在保存..."
+
+#: admin/tpls/templates.php:206
+msgid "This is a preview, original template color scheme may look little different, but structure will be same"
+msgstr "这是一个预览，原始模板配色方案可能看起来略有不同，但结构将相同"
+
+#: admin/tpls/templates.php:200
+msgid "Template Preview"
+msgstr "模板预览"
+
+#: admin/tpls/templates.php:150
+msgid "Youtube Profile URL"
+msgstr "YouTube个人资料网址"
+
+#: admin/tpls/templates.php:146
+msgid "Twitter Profile URL"
+msgstr "Twitter个人资料网址"
+
+#: admin/tpls/templates.php:142
+msgid "Facebook Page URL"
+msgstr "Facebook页面网址"
+
+#: admin/tpls/templates.php:138
+msgid "Footer Text"
+msgstr "页脚文本"
+
+#: admin/tpls/templates.php:126 admin/tpls/templates.php:127
+msgid "Banner/Background Image URL"
+msgstr "横幅/背景图片网址"
+
+#: tpls/wpdm-edit-user-profile.php:23 admin/tpls/templates.php:122
+#: admin/tpls/templates.php:123
+msgid "Logo URL"
+msgstr "徽标网址"
+
+#: admin/tpls/templates.php:81
+msgid "Edit"
+msgstr "编辑"
+
+#: admin/tpls/templates.php:73
+msgid "To:"
+msgstr "到："
+
+#: admin/tpls/templates.php:30
+msgid "Actions"
+msgstr "操作"
+
+#: admin/tpls/templates.php:28
+msgid "Template ID"
+msgstr "模板ID"
+
+#: admin/tpls/templates.php:27
+msgid "Template Name"
+msgstr "模板名称"
+
+#: admin/tpls/templates.php:19
+msgid "Custom Template editor is available with <a target='_blank' href='%s'>WordPress Download Manager Pro</a>"
+msgstr "自定义模板编辑器可用于<a target='_blank' href='%s'>WordPress Download Manager Pro </a>"
+
+#: admin/tpls/settings/addon-update.php:33
+msgid "Click Save Settings Button To Login"
+msgstr "单击保存设置按钮登录"
+
+#: admin/tpls/templates.php:105 admin/tpls/emails-template.php:23
+msgid "Email Template"
+msgstr "电子邮件范本"
+
+#: admin/tpls/emails-template.php:22
+msgid "Emails"
+msgstr "电子邮件"
+
+#: admin/tpls/emails-template.php:17
+msgid "Export Unique Emails"
+msgstr "导出唯一的电子邮件"
+
+#: admin/tpls/emails-template.php:16
+msgid "Export All"
+msgstr "全部导出"
+
+#: admin/tpls/emails-template.php:15
+msgid "Subscribers"
+msgstr "订阅者"
+
+#: admin/tpls/email-template-editor.php:119
+msgid "Template Variables"
+msgstr "模板变量"
+
+#: tpls/wpdm-edit-user-profile.php:64 tpls/asset-manager-ui.php:550
+#: tpls/user-dashboard/edit-profile.php:48
+#: admin/tpls/email-template-editor.php:93 admin/tpls/templates.php:185
+#: admin/tpls/templates.php:346 admin/tpls/asset-manager-picker.php:727
+#: tpls3/wpdm-edit-user-profile.php:51 tpls3/asset-manager-ui.php:550
+#: tpls3/user-dashboard/edit-profile.php:51
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: admin/tpls/email-template-editor.php:82
+msgid "From Email"
+msgstr "发件人邮箱"
+
+#: admin/tpls/email-template-editor.php:75
+msgid "From Name"
+msgstr "发件人名称"
+
+#: admin/tpls/email-template-editor.php:63
+#: admin/tpls/email-template-editor.php:64
+msgid "Recipient's Email"
+msgstr "收件人的电子邮件"
+
+#: admin/tpls/email-template-editor.php:45
+msgid "Preview"
+msgstr "预览"
+
+#: admin/tpls/email-template-editor.php:44
+msgid "Message"
+msgstr "消息"
+
+#: admin/tpls/email-template-editor.php:42
+msgid "Email Subject"
+msgstr "电子邮件主题"
+
+#: admin/tpls/email-template-editor.php:31
+msgid "Editing: %s"
+msgstr "编辑：%s"
+
+#: admin/tpls/email-template-editor.php:29
+msgid "To: %s"
+msgstr "到：%s"
+
+#: admin/tpls/email-template-editor.php:17
+msgid "Email Template Editor"
+msgstr "电子邮件范本编辑器"
+
+#: admin/tpls/email-template-editor.php:16 admin/tpls/templates.php:14
+msgid "Email Templates"
+msgstr "电子邮件范本"
+
+#: admin/tpls/email-template-editor.php:15 admin/tpls/templates.php:13
+msgid "Page Templates"
+msgstr "页面模板"
+
+#: admin/tpls/email-template-editor.php:14 admin/tpls/templates.php:12
+msgid "Link Templates"
+msgstr "链接模板"
+
+#: admin/menus/class.Templates.php:142
+msgid "No package found! Please create at least 1 package to see template preview"
+msgstr "找不到下载包！ 请创建至少1个下载包以查看模板预览"
+
+#: admin/tpls/email-template-editor.php:9 admin/tpls/templates.php:7
+#: admin/menus/class.Templates.php:21
+msgid "Templates"
+msgstr "模板"
+
+#: admin/menus/class.Templates.php:21
+msgid "Templates &lsaquo; Download Manager"
+msgstr "模板&lsaquo; 下载管理器"
+
+#: tpls/wpdm-reg-form.php:79 tpls3/wpdm-reg-form.php:82
+msgid "Already have an account?"
+msgstr "已有账号？"
+
+#: tpls/wpdm-login-form.php:82 tpls/wpdm-login-modal-form.php:103
+#: tpls3/wpdm-login-form.php:116 tpls3/wpdm-login-modal-form.php:116
+msgid "Don't have an account yet?"
+msgstr "还没有账号？"
+
+#: admin/tpls/settings/user-interface.php:30
+msgid "Google Font"
+msgstr "Google字体"
+
+#: admin/menus/class.Settings.php:138 admin/menus/class.Settings.php:169
+#: admin/menus/class.Settings.php:188 admin/menus/class.Settings.php:244
+#: admin/menus/class.Settings.php:260
+msgid "Security token is expired! Refresh the page and try again."
+msgstr "安全令牌已过期！刷新页面然后重试"
+
+#: admin/menus/class.Categories.php:53 admin/menus/class.Categories.php:259
+msgid "Select Category Image"
+msgstr "选择图像类别"
+
+#: admin/tpls/settings/privacy.php:41
+msgid "Delete All Stats Data"
+msgstr "清除所有统计数据"
+
+#: admin/tpls/settings/privacy.php:40
+msgid "Empty Cache Dir"
+msgstr "空缓存目录"
+
+#: admin/tpls/settings/privacy.php:35
+msgid "Cache & Stats"
+msgstr "缓存和统计"
+
+#: admin/tpls/settings/privacy.php:20
+msgid "If any user is deleted or close his/her own account, delete their download history too"
+msgstr "如果用户账号被删除或关闭，同时删除下载历史记录"
+
+#: admin/tpls/settings/privacy.php:19
+msgid "Delete download history when users close accounts"
+msgstr "当用户关闭账号时删除下载历史记录"
+
+#: admin/tpls/settings/privacy.php:9
+msgid "Privacy Settings"
+msgstr "隐私设置"
+
+#: admin/menus/class.Settings.php:331
+msgid "Privacy Settings Saved Successfully"
+msgstr "隐私设置已保存"
+
+#: admin/tpls/settings/privacy.php:14
+msgid "Check this option if you do not want to store visitors IPs"
+msgstr "选中此项不存储访问者IP地址"
+
+#: admin/tpls/settings/privacy.php:13
+msgid "Do not store visitor's IP"
+msgstr "不存储访问者IP地址"
+
+#: admin/menus/class.Categories.php:51 admin/menus/class.Categories.php:257
+msgid "Image URL"
+msgstr "图片地址"
+
+#: admin/menus/class.Categories.php:48 admin/menus/class.Categories.php:252
+msgid "Category Image:"
+msgstr "分类图片"
+
+#: libs/class.StreamMedia.php:34
+msgid "Failed To Open File!"
+msgstr "打开文件失败！"
+
+#: tpls/lost-password-form.php:65 tpls/reset-password-form.php:54
+#: tpls/reset-password-form.php:73 tpls3/lost-password-form.php:47
+#: tpls3/reset-password-form.php:54 tpls3/reset-password-form.php:73
+msgid "ERROR!"
+msgstr "错误！"
+
+#: tpls/wpdm-login-form.php:106 tpls/wpdm-login-modal-form.php:116
+#: tpls3/wpdm-login-form.php:136 tpls3/wpdm-login-modal-form.php:128
+msgid "Logging In..."
+msgstr "正在登陆..."
+
+#: tpls/lock-options-iframe.php:289 tpls3/lock-options-iframe.php:243
+msgid "Buy"
+msgstr "购买"
+
+#: libs/class.Package.php:970
+msgid "Limit Over!"
+msgstr "超出限制！"
+
+#: libs/class.Package.php:876 libs/class.Package.php:882
+#: libs/class.Package.php:894
+msgid "DOWNLOAD ERROR:"
+msgstr "下载出错："
+
+#: libs/class.Package.php:172 libs/class.Package.php:180
+#: libs/class.Package.php:188 libs/class.Package.php:196
+msgid "DOWNLOAD ERROR"
+msgstr "下载出错："
+
+#: libs/class.Apply.php:692
+msgid "Stock Limit Reached"
+msgstr "达到库存上限"
+
+#: tpls/wpdm-all-downloads.php:320 tpls3/wpdm-all-downloads.php:272
+msgid "view"
+msgstr "查看"
+
+#: tpls/wpdm-all-downloads.php:320 tpls3/wpdm-all-downloads.php:272
+msgid "views"
+msgstr "查看"
+
+#: tpls/wpdm-all-downloads.php:308 modules/strings.php:23
+#: tpls3/wpdm-all-downloads.php:260
+msgid "file(s)"
+msgstr "文件"
+
+#: admin/tpls/settings/user-interface.php:29
+msgid "Front CSS"
+msgstr "前端CSS"
+
+#: wpdm-functions.php:319 wpdm-functions.php:323
+msgid "Wrong Password! Try Again."
+msgstr "密码错误！请重试"
+
+#: admin/tpls/settings/basic.php:117
+msgid "Chunk Size"
+msgstr "区块大小"
+
+#: admin/tpls/settings/basic.php:112
+msgid "Check the option if you want to enable chunk upload to override http upload limits"
+msgstr "如果要启用区块上载以忽视 http 上载限制, 请选中该选项"
+
+#: admin/tpls/settings/basic.php:111
+msgid "Chunk Upload"
+msgstr "区块上传"
+
+#: admin/tpls/metaboxes/lock-options.php:35
+msgid "If you want to use multiple passwords, keep each one inside [], like [123][456][789]"
+msgstr "如果您要使用多个密码, 请将每一个都分别放在[]里, 比如 [123][456][789]"
+
+#: admin/tpls/stats.php:7
+msgid "Export History"
+msgstr "导出历史记录"
+
+#: admin/tpls/stats.php:6
+msgid "Clear History"
+msgstr "清除历史记录"
+
+#: admin/tpls/stats/history.php:8
+msgid "User/IP"
+msgstr "用户/IP"
+
+#: tpls/simple-search-form.php:19 tpls/simple-search-form.php:23
+#: tpls/search-result.php:17 tpls/search-result.php:21
+#: tpls3/simple-search-form.php:19 tpls3/simple-search-form.php:23
+msgid "Loading"
+msgstr "正在加载"
+
+#: tpls/simple-search-form.php:18 tpls/search-result.php:16
+#: tpls3/simple-search-form.php:18
+msgid "Search Result For"
+msgstr "搜索结果"
+
+#: tpls/simple-search-form.php:5 tpls/search-result.php:3
+#: tpls3/simple-search-form.php:5
+msgid "Search Package"
+msgstr "搜索包"
+
+#: libs/class.Email.php:212
+msgid "Sample Package Name"
+msgstr "例子包名"
+
+#: wpdm-core.php:192
+msgid "New Package Notification"
+msgstr "新包提示"
+
+#: libs/class.Email.php:63
+msgid "Download [#package_name#]"
+msgstr "下载 [#package_name#]"
+
+#: libs/class.Email.php:60
+msgid "Email Lock Notification"
+msgstr "Email锁定提示"
+
+#: libs/class.Email.php:53
+msgid "Request to reset your %s password"
+msgstr "请求重设你的 %s 密码"
+
+#: libs/class.Email.php:50
+msgid "Password Reset Notification"
+msgstr "密码重设提示"
+
+#: libs/class.Email.php:32
+msgid "Welcome to %s"
+msgstr "欢迎来到 %s"
+
+#: libs/class.Email.php:29 libs/class.Email.php:39
+msgid "User Signup Notification"
+msgstr "用户注册提示"
+
+#: libs/class.Email.php:20
+msgid "General Email Template"
+msgstr "生成邮件模板"
+
+#: admin/tpls/stats.php:38
+msgid "Download History is Empty"
+msgstr "下载历史为空"
+
+#: admin/tpls/stats.php:31
+msgid "Are you sure? There is no going back!"
+msgstr "你确定吗？该操作无法回滚。"
+
+#: admin/tpls/settings/basic.php:242
+msgid "Check this option if you want to show wpdm packages in your main <a target=\"_blank\" href=\"%s\">RSS Feed</a>"
+msgstr "选择此项如果你想在主 <a target=\"_blank\" href=\"%s\">RSS 订阅</a>显示下载包"
+
+#: admin/tpls/settings/basic.php:241
+msgid "Include Packages in Main RSS Feed"
+msgstr "在主RSS订阅包含下载包"
+
+#: wpdm-start-download.php:6
+msgid "Your IP address is blocked!"
+msgstr "你的IP地址已被阻止！"
+
+#: admin/tpls/settings/basic.php:188
+msgid "Register a new site for reCAPTCHA from <a target=\"_blank\" href=\"https://www.google.com/recaptcha/admin#list\">here</a>"
+msgstr "请 <a target=\"_blank\" href=\"https://www.google.com/recaptcha/admin#list\">在此</a>注册新的reCAPTCHA "
+
+#: admin/tpls/settings/basic.php:149
+msgid "Message for Blocked IPs"
+msgstr "IP阻止消息"
+
+#: admin/tpls/settings/basic.php:148
+msgid "Write a Message for Blocked IPs"
+msgstr "请填写IP阻止消息"
+
+#: admin/tpls/settings/basic.php:145
+msgid "List IP Addresses to blacklist. One IP per line ( Ex: IPv4 - 192.168.23.12 or 192.168.23.1/24 or 192.168.23.* , IPv6 - 2a01:8760:2:3001::1 or 2620:112:3000::/44 )"
+msgstr "IP阻止列表. 每行一个 ( 例如: IPv4 - 192.168.23.12 或 192.168.23.1/24 或 192.168.23.* , IPv6 - 2a01:8760:2:3001::1 或 2620:112:3000::/44 )"
+
+#: admin/tpls/settings/basic.php:144
+msgid "One IP per line"
+msgstr "每行一个IP"
+
+#: admin/tpls/settings/basic.php:142
+msgid "Blocked IPs"
+msgstr "已阻止IP"
+
+#: admin/tpls/metaboxes/attach-file.php:155
+#: admin/tpls/metaboxes/attach-file.php:254
+msgid "Delete Current File"
+msgstr "删除当前文件"
+
+#: admin/tpls/metaboxes/attach-file.php:151
+msgid "Unauthorized Access!"
+msgstr "未许可访问！"
+
+#: admin/tpls/metaboxes/attach-file.php:149
+msgid "Invalid File Type!"
+msgstr "无效文件类型！"
+
+#: admin/tpls/metaboxes/attach-file.php:39
+msgid "No file uploaded yet!"
+msgstr "暂未上传文件！"
+
+#. Plugin Name of the plugin
+#: libs/class.MediaHandler.php:17
+msgid "Download Manager"
+msgstr "下载管理器"
+
+#: wpdm-start-download.php:103
+msgid "No file found!"
+msgstr "找不到文件！"
+
+#: wpdm-start-download.php:67
+msgid "Please activate \"zlib\" in your server"
+msgstr "请在服务器安装“zlid\""
+
+#: wpdm-start-download.php:50
+msgid "Sorry! Download is not available yet."
+msgstr "抱歉！下载尚未准备好。"
+
+#: wpdm-start-download.php:22
+msgid "Package is not available!"
+msgstr "下载包未准备好！"
+
+#: wpdm-functions.php:850 libs/class.CategoryHandler.php:363
+#: libs/class.ShortCodes.php:429
+msgid "Order By"
+msgstr "排序"
+
+#: wpdm-functions.php:849 libs/class.CategoryHandler.php:362
+#: libs/class.ShortCodes.php:428
+msgid "Order"
+msgstr "排序"
+
+#: wpdm-functions.php:848 libs/class.CategoryHandler.php:361
+#: libs/class.ShortCodes.php:427
+msgid "Search"
+msgstr "查找"
+
+#: wpdm-functions.php:847 libs/class.CategoryHandler.php:360
+#: libs/class.ShortCodes.php:426
+msgid "Desc"
+msgstr "降序"
+
+#: wpdm-functions.php:846 libs/class.CategoryHandler.php:359
+#: libs/class.ShortCodes.php:425
+msgid "Asc"
+msgstr "升序"
+
+#: wpdm-functions.php:824 libs/class.CategoryHandler.php:336
+msgid "Sub-Categories"
+msgstr "子分类"
+
+#: wpdm-functions.php:336
+msgid "Password usages limit exceeded"
+msgstr "达到密码使用上限"
+
+#: wpdm-functions.php:145
+msgid "Permission Denied"
+msgstr "没有权限"
+
+#: wpdm-core.php:110
+msgid "Select category"
+msgstr "选择分类"
+
+#: tpls/wpdm-reg-form.php:148 tpls3/wpdm-reg-form.php:145
+msgid "Registration is disabled!"
+msgstr "注册已关闭！"
+
+#: tpls/wpdm-reg-form.php:112 libs/class.Apply.php:195
+#: tpls3/wpdm-reg-form.php:115
+msgid "Success! Redirecting..."
+msgstr "成功！正在重定向..."
+
+#: tpls/reset-password-form.php:30 libs/class.User.php:64
+#: tpls3/reset-password-form.php:30
+msgid "Confirm Password"
+msgstr "确认密码"
+
+#: tpls/wpdm-login-form.php:62 tpls/lost-password-form.php:34
+#: tpls/wpdm-reg-form.php:79 tpls/wpdm-login-modal-form.php:75
+#: libs/class.Package.php:921 libs/class.ShortCodes.php:142
+#: libs/class.Messages.php:111 tpls3/wpdm-login-form.php:101
+#: tpls3/lost-password-form.php:29 tpls3/wpdm-reg-form.php:82
+#: tpls3/wpdm-login-modal-form.php:88
+msgid "Login"
+msgstr "登陆"
+
+#: tpls3/wpdm-generate-password.php:40
+msgid "Generate"
+msgstr "生成"
+
+#: tpls/wpdm-generate-password.php:55 tpls3/wpdm-generate-password.php:36
+msgid "Generated Passwords"
+msgstr "生成的密码"
+
+#: tpls3/wpdm-generate-password.php:27
+msgid "Valid chars:"
+msgstr "有效字符："
+
+#: tpls/wpdm-generate-password.php:37 tpls3/wpdm-generate-password.php:23
+msgid "Number of chars for each password:"
+msgstr "每个密码的字符数："
+
+#: tpls/wpdm-generate-password.php:34 tpls3/wpdm-generate-password.php:19
+msgid "Number of passwords:"
+msgstr "密码数量："
+
+#: tpls/wpdm-generate-password.php:30 tpls3/wpdm-generate-password.php:17
+msgid "Select Options"
+msgstr "选项"
+
+#: tpls/wpdm-login-form.php:58 tpls/wpdm-login-modal-form.php:66
+#: tpls3/wpdm-login-form.php:98 tpls3/wpdm-login-modal-form.php:78
+msgid "Forgot Password?"
+msgstr "忘记密码？"
+
+#: tpls/wpdm-login-form.php:57 tpls/wpdm-login-modal-form.php:65
+#: tpls3/wpdm-login-form.php:97 tpls3/wpdm-login-modal-form.php:77
+msgid "Remember Me"
+msgstr "记住我"
+
+#: libs/class.User.php:48
+msgid "Username"
+msgstr "用户名"
+
+#: tpls/wpdm-login-modal-form.php:42 tpls3/wpdm-login-form.php:41
+#: tpls3/wpdm-login-modal-form.php:42
+msgid "Login Failed!"
+msgstr "登陆失败！"
+
+#: tpls/already-logged-in.php:17 tpls3/already-logged-in.php:17
+msgid "You are already logged in."
+msgstr "你已经登陆。"
+
+#: tpls/lost-password-form.php:35 tpls3/lost-password-form.php:30
+msgid "Register"
+msgstr "注册"
+
+#: tpls/wpdm-all-downloads.php:364 tpls3/wpdm-all-downloads.php:312
+msgid "No Packages Found"
+msgstr "无下载包"
+
+#: tpls/wpdm-all-downloads.php:314 tpls3/wpdm-all-downloads.php:266
+msgid "download"
+msgstr "下载"
+
+#: tpls/wpdm-all-downloads.php:314 tpls3/wpdm-all-downloads.php:266
+msgid "downloads"
+msgstr "下载"
+
+#: tpls/wpdm-all-downloads.php:190 modules/strings.php:16
+#: tpls3/wpdm-all-downloads.php:159
+msgid "Create Date"
+msgstr "创建日期"
+
+#: wpdm-functions.php:842 tpls/wpdm-edit-user-profile.php:15
+#: tpls/shortcodes/toolbar.php:41 tpls/shortcodes/toolbar.php:75
+#: modules/strings.php:18 libs/class.CategoryHandler.php:355
+#: libs/class.ShortCodes.php:421 tpls3/shortcodes/toolbar.php:41
+#: tpls3/shortcodes/toolbar.php:75
+msgid "Title"
+msgstr "标题"
+
+#: tpls/wpdm-all-downloads.php:61 tpls3/wpdm-all-downloads.php:135
+msgid "All"
+msgstr "全部"
+
+#: tpls/wpdm-all-downloads.php:57 tpls3/wpdm-all-downloads.php:131
+msgid "activate to sort column descending"
+msgstr "激活降序排列"
+
+#: tpls/wpdm-all-downloads.php:56 tpls3/wpdm-all-downloads.php:130
+msgid "activate to sort column ascending"
+msgstr "激活升序排列"
+
+#: tpls/wpdm-all-downloads.php:51 tpls3/wpdm-all-downloads.php:125
+msgid "Last"
+msgstr "姓"
+
+#: tpls/wpdm-all-downloads.php:50 tpls3/wpdm-all-downloads.php:124
+msgid "First"
+msgstr "名"
+
+#: tpls/wpdm-all-downloads.php:48 tpls3/wpdm-all-downloads.php:122
+msgid "Search:"
+msgstr "查找："
+
+#: tpls/wpdm-all-downloads.php:46 tpls3/wpdm-all-downloads.php:120
+msgid "Loading..."
+msgstr "加载..."
+
+#: tpls/wpdm-all-downloads.php:43 tpls3/wpdm-all-downloads.php:117
+msgid "No data available in table"
+msgstr "无可用数据"
+
+#: tpls/wpdm-all-downloads.php:42 tpls3/wpdm-all-downloads.php:116
+msgid "(filtered from _MAX_ total downloads)"
+msgstr "(过滤自 _MAX_ 个下载)"
+
+#: tpls/wpdm-all-downloads.php:41 tpls3/wpdm-all-downloads.php:115
+msgid "No downloads available"
+msgstr "无可用下载"
+
+#: tpls/wpdm-all-downloads.php:40 tpls3/wpdm-all-downloads.php:114
+msgid "Showing _START_ to _END_ of _TOTAL_ downloads"
+msgstr "显示 _START_ 至 _END_ 共 _TOTAL_ 下载"
+
+#: tpls/wpdm-all-downloads.php:39 tpls3/wpdm-all-downloads.php:113
+msgid "Nothing _START_ to - sorry"
+msgstr "Nothing _START_ to - 抱歉"
+
+#: tpls/wpdm-all-downloads.php:38 tpls3/wpdm-all-downloads.php:112
+msgid "Display _MENU_ downloads per page"
+msgstr "显示 _MENU_ 个下载每页"
+
+#: tpls/user-dashboard/profile.php:141 tpls3/user-dashboard/profile.php:77
+msgid "Last 5 Downloads"
+msgstr "最近5个下载"
+
+#: tpls/user-dashboard/profile.php:53 tpls3/user-dashboard/profile.php:35
+msgid "Recommended Downloads"
+msgstr "推荐下载"
+
+#: tpls/user-dashboard/profile.php:42 tpls3/user-dashboard/profile.php:27
+msgid "Today's Download"
+msgstr "今日下载"
+
+#: tpls/user-dashboard/profile.php:22 tpls3/user-dashboard/profile.php:7
+msgid "User Level"
+msgstr "用户级别"
+
+#: tpls/user-dashboard/edit-profile.php:24 tpls3/wpdm-edit-user-profile.php:24
+#: tpls3/user-dashboard/edit-profile.php:24
+msgid "Basic Profile"
+msgstr "基本信息"
+
+#: widgets/class.PackageInfo.php:125
+msgid "Tabular View"
+msgstr "表格视图"
+
+#: widgets/class.PackageInfo.php:125
+msgid "Style"
+msgstr "风格"
+
+#: widgets/class.PackageInfo.php:123
+msgid "Download Link"
+msgstr "下载链接"
+
+#: modules/strings.php:13
+msgid "File Size"
+msgstr "文件大小"
+
+#: wpdm-functions.php:845 widgets/class.PackageInfo.php:120
+#: tpls/shortcodes/toolbar.php:42 tpls/shortcodes/toolbar.php:76
+#: libs/class.CategoryHandler.php:358 libs/class.ShortCodes.php:424
+#: tpls3/shortcodes/toolbar.php:42 tpls3/shortcodes/toolbar.php:76
+msgid "Update Date"
+msgstr "更新日期"
+
+#: widgets/class.PackageInfo.php:118
+msgid "View Count"
+msgstr "查看次数"
+
+#: widgets/class.PackageInfo.php:117 modules/strings.php:10
+msgid "Download Count"
+msgstr "下载次数"
+
+#: widgets/class.PackageInfo.php:114
+msgid "Fields to Show:"
+msgstr "显示项目："
+
+#: widgets/class.PackageInfo.php:24
+msgid "Size"
+msgstr "大小"
+
+#: widgets/class.PackageInfo.php:23 modules/strings.php:17
+msgid "Last Updated"
+msgstr "最后更新"
+
+#: wpdm-functions.php:844 widgets/class.PackageInfo.php:22
+#: widgets/class.PackageInfo.php:119 tpls/shortcodes/toolbar.php:40
+#: tpls/shortcodes/toolbar.php:74 libs/class.CategoryHandler.php:357
+#: libs/class.ShortCodes.php:423 tpls3/shortcodes/toolbar.php:40
+#: tpls3/shortcodes/toolbar.php:74
+msgid "Publish Date"
+msgstr "发布日期"
+
+#: widgets/class.PackageInfo.php:21
+msgid "Total Views"
+msgstr "总共查看"
+
+#: widgets/class.PackageInfo.php:20 tpls/user-dashboard/profile.php:34
+#: tpls3/user-dashboard/profile.php:19
+msgid "Total Downloads"
+msgstr "总共下载"
+
+#: widgets/class.ListPackages.php:93 widgets/class.CatPackages.php:80
+msgid "Select Category:"
+msgstr "选项类别"
+
+#: widgets/class.TopDownloads.php:59 widgets/class.ListPackages.php:126
+#: widgets/class.NewDownloads.php:60 widgets/class.CatPackages.php:91
+#: admin/menus/class.Categories.php:158 admin/menus/class.Categories.php:388
+msgid "Link Template:"
+msgstr "链接模板："
+
+#: widgets/class.TopDownloads.php:55 widgets/class.ListPackages.php:121
+#: widgets/class.NewDownloads.php:55 widgets/class.CatPackages.php:86
+msgid "Number of packages to show:"
+msgstr "显示的下载包数量："
+
+#: widgets/class.TopDownloads.php:51 widgets/class.ListPackages.php:89
+#: widgets/class.NewDownloads.php:51 widgets/class.Search.php:40
+#: widgets/class.CatPackages.php:76 widgets/class.PackageInfo.php:110
+#: widgets/class.Tags.php:72 widgets/class.Categories.php:127
+msgid "Title:"
+msgstr "标题："
+
+#: widgets/class.Affiliate.php:35
+msgid "WPDM Affiliate ID:"
+msgstr "WPDM 加盟 ID:"
+
+#: modules/server-file-browser.php:84
+msgid "Add file(s) from server"
+msgstr "从服务器添加文件"
+
+#: modules/server-file-browser.php:8
+msgid "Not Allowed!"
+msgstr "操作不允许！"
+
+#: libs/class.UserDashboard.php:19
+msgid "Edit Profile"
+msgstr "编辑信息"
+
+#: libs/class.UserDashboard.php:17
+msgid "Profile"
+msgstr "信息"
+
+#: libs/class.ShortCodes.php:189
+msgid "User registration is disabled"
+msgstr "用户注册已禁止"
+
+#: wpdm-functions.php:1825 tpls/wpdm-all-downloads.php:52
+#: tpls/wpdm-all-downloads.php:386 libs/class.Pagination.php:51
+#: tpls3/wpdm-all-downloads.php:126 tpls3/wpdm-all-downloads.php:334
+msgid "Next"
+msgstr "下一个"
+
+#: wpdm-functions.php:1824 tpls/wpdm-all-downloads.php:53
+#: tpls/wpdm-all-downloads.php:385 libs/class.Pagination.php:50
+#: tpls3/wpdm-all-downloads.php:127 tpls3/wpdm-all-downloads.php:333
+msgid "Previous"
+msgstr "上一个"
+
+#: tpls/lock-options/password-lock.php:22 libs/class.PackageLocks.php:55
+#: tpls3/lock-options/password-lock.php:22
+msgid "Submit"
+msgstr "提交"
+
+#: tpls/lock-options/password-lock.php:21 libs/class.PackageLocks.php:54
+#: libs/class.User.php:93 tpls3/lock-options/password-lock.php:21
+msgid "Enter Password"
+msgstr "输入密码"
+
+#: tpls/lock-options/password-lock.php:14
+#: tpls/lock-options/password-lock.php:30 tpls/wpdm-all-downloads.php:47
+#: libs/class.PackageLocks.php:47 libs/class.PackageLocks.php:63
+#: tpls3/lock-options/password-lock.php:14
+#: tpls3/lock-options/password-lock.php:30 tpls3/wpdm-all-downloads.php:121
+msgid "Processing..."
+msgstr "正在处理..."
+
+#: tpls/lock-options/password-lock.php:11 libs/class.PackageLocks.php:44
+#: tpls3/lock-options/password-lock.php:11
+msgid "Enter Correct Password to Download"
+msgstr "请输入正确下载密码"
+
+#: libs/class.Package.php:810
+msgid "Verify CAPTCHA to Download"
+msgstr "验证CAPTCHA下载"
+
+#: wpdm-functions.php:216 libs/class.Package.php:748
+msgid "Download limit exceeded!"
+msgstr "达到下载上限！"
+
+#: libs/class.Package.php:451
+msgid "No File Attached!"
+msgstr "没有附加文件！"
+
+#: libs/class.Package.php:219
+msgid "Terms and Conditions"
+msgstr "条款"
+
+#: wpdm-functions.php:123 libs/class.Package.php:185 libs/class.Package.php:654
+#: libs/class.Package.php:881
+msgid "Download will be available from "
+msgstr "下载开始自"
+
+#: wpdm-functions.php:116 libs/class.Package.php:177 libs/class.Package.php:647
+#: libs/class.Package.php:875
+msgid "Download was expired on"
+msgstr "下载结束在"
+
+#: wpdm-functions.php:118 wpdm-functions.php:125 wpdm-functions.php:135
+#: libs/class.Package.php:649 libs/class.Package.php:656
+#: libs/class.Package.php:666
+msgid "Download:"
+msgstr "下载："
+
+#: wpdm-start-download.php:24 wpdm-functions.php:112 libs/class.Package.php:169
+#: libs/class.Package.php:643
+msgid "Download Limit Exceeded"
+msgstr "达到下载上限"
+
+#: libs/class.Package.php:138 libs/class.Package.php:145
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: libs/class.Package.php:130 libs/class.Package.php:133
+#: libs/class.Package.php:135
+msgid "Icon"
+msgstr "图标"
+
+#: libs/class.Package.php:28
+msgid "ID missing!"
+msgstr "没有ID！"
+
+#: libs/class.FileList.php:307 admin/menus/class.Categories.php:53
+#: admin/menus/class.Categories.php:259
+msgid "Browse"
+msgstr "浏览"
+
+#: libs/class.FileList.php:65
+msgid "Action"
+msgstr "动作"
+
+#: libs/class.FileList.php:64 libs/class.FileList.php:96
+#: libs/class.FileList.php:134 libs/class.FileList.php:202
+#: libs/class.User.php:63 libs/class.User.php:91 tpls3/wpdm-login-form.php:61
+#: tpls3/wpdm-login-modal-form.php:61
+msgid "Password"
+msgstr "密码"
+
+#: modules/strings.php:25
+msgid "Price"
+msgstr "价格"
+
+#: libs/class.Apply.php:698
+msgid "Invalid download link."
+msgstr "无效下载链接。"
+
+#: libs/class.Apply.php:685
+msgid "Download link is expired or not valid. Please get new download link."
+msgstr "下载链接已过期或无效，请获取新的下载链接。"
+
+#: libs/class.Apply.php:683
+msgid "Download link is expired. Please get new download link."
+msgstr "下载链接已过期。请获取新的下载链接。"
+
+#: libs/class.Apply.php:676
+msgid "You don't have permission to download this file"
+msgstr "你没有权限下载该文件"
+
+#: libs/class.Apply.php:461
+msgid "Username already exists."
+msgstr "用户已存在。"
+
+#: libs/class.Apply.php:287
+msgid "Username is Empty!"
+msgstr "用户名为空！"
+
+#: libs/class.Apply.php:262
+msgid "Error: User registration is disabled!"
+msgstr "错误：用户注册已关闭！"
+
+#: wpdm-functions.php:280
+msgid "Captcha Verification Failed!"
+msgstr "Captcha验证失败！"
+
+#: download-manager.php:270
+msgid "New Category Name"
+msgstr "新类别名称"
+
+#: download-manager.php:269
+msgid "Add New Category"
+msgstr "添加新类别"
+
+#: download-manager.php:268
+msgid "Update Category"
+msgstr "更新类别"
+
+#: download-manager.php:267
+msgid "Edit Category"
+msgstr "编辑类别"
+
+#: download-manager.php:266
+msgid "Parent Category:"
+msgstr "父类别："
+
+#: download-manager.php:265
+msgid "Parent Category"
+msgstr "父类别"
+
+#: download-manager.php:264
+msgid "All Categories"
+msgstr "全部类别"
+
+#: download-manager.php:263
+msgid "Search Categories"
+msgstr "查找类别"
+
+#: download-manager.php:262
+msgid "Category"
+msgstr "类别"
+
+#: download-manager.php:261 download-manager.php:271
+#: tpls/wpdm-all-downloads.php:189 tpls3/wpdm-all-downloads.php:158
+msgid "Categories"
+msgstr "类别"
+
+#: download-manager.php:230
+msgid "No Files found in Trash"
+msgstr "回收站为空"
+
+#: download-manager.php:229
+msgid "No File Found"
+msgstr "无文件"
+
+#: download-manager.php:228
+msgid "Search Files"
+msgstr "查找文件"
+
+#: download-manager.php:227
+msgid "View File"
+msgstr "查看文件"
+
+#: download-manager.php:226
+msgid "All Files"
+msgstr "全部文件"
+
+#: download-manager.php:225
+msgid "New File"
+msgstr "新文件"
+
+#: download-manager.php:224
+msgid "Edit File"
+msgstr "编辑文件"
+
+#: download-manager.php:223
+msgid "Add New File"
+msgstr "添加新文件"
+
+#: download-manager.php:222
+msgid "Add New"
+msgstr "添加"
+
+#: download-manager.php:221 libs/class.FileList.php:69
+msgid "File"
+msgstr "文件"
+
+#: download-manager.php:220 download-manager.php:232 wpdm-functions.php:824
+#: wpdm-functions.php:843 tpls/shortcodes/toolbar.php:43
+#: tpls/shortcodes/toolbar.php:77 libs/class.CategoryHandler.php:336
+#: libs/class.CategoryHandler.php:356 libs/class.ShortCodes.php:422
+#: libs/class.UserProfile.php:20 tpls3/shortcodes/toolbar.php:43
+#: tpls3/shortcodes/toolbar.php:77
+msgid "Downloads"
+msgstr "下载"
+
+#: admin/tpls/stats.php:35
+msgid "Clearing..."
+msgstr "清理中..."
+
+#: tpls/already-logged-in.php:22 libs/class.UserDashboard.php:18
+#: admin/tpls/stats.php:8 tpls3/already-logged-in.php:22
+msgid "Download History"
+msgstr "下载历史"
+
+#: tpls/user-dashboard/profile.php:147
+#: tpls/user-dashboard/download-history.php:9
+#: tpls3/user-dashboard/profile.php:83
+#: tpls3/user-dashboard/download-history.php:11
+msgid "IP"
+msgstr "IP"
+
+#: tpls/user-dashboard/profile.php:146
+#: tpls/user-dashboard/download-history.php:8 admin/tpls/stats/history.php:7
+#: tpls3/user-dashboard/profile.php:82
+#: tpls3/user-dashboard/download-history.php:10
+msgid "Download Time"
+msgstr "下载时间"
+
+#: tpls/user-dashboard/profile.php:115 tpls/user-dashboard/profile.php:145
+#: tpls/user-dashboard/download-history.php:7 admin/tpls/stats/history.php:6
+#: tpls3/user-dashboard/profile.php:81
+#: tpls3/user-dashboard/download-history.php:9
+msgid "Package Name"
+msgstr "下载包名称"
+
+#: admin/tpls/settings.php:10
+msgid "Download Manager Settings"
+msgstr "下载管理设置"
+
+#: admin/tpls/settings.php:10 admin/tpls/settings.php:37
+msgid "Save Settings"
+msgstr "保存设置"
+
+#: admin/tpls/settings/basic.php:234
+msgid "Dashboard Page"
+msgstr "仪表盘页面"
+
+#: admin/tpls/settings/basic.php:226
+msgid "Register Page"
+msgstr "注册页面"
+
+#: admin/tpls/settings/basic.php:219 admin/tpls/settings/basic.php:228
+#: admin/tpls/settings/basic.php:236
+msgid "The page where you used short-code %s"
+msgstr "该页面使用微码 %s"
+
+#: admin/tpls/settings/basic.php:218 admin/tpls/settings/basic.php:227
+#: admin/tpls/settings/basic.php:235
+msgid "None Selected"
+msgstr "未选择"
+
+#: admin/tpls/settings/basic.php:217
+msgid "Login Page"
+msgstr "登陆页面"
+
+#: admin/tpls/settings/user-interface.php:32
+msgid "Because, sometimes your theme may have those scripts/styles enqueued already"
+msgstr "有时你的主题可能已包含相关scripts/styles文件"
+
+#: admin/tpls/settings/user-interface.php:28
+msgid "Font Awesome"
+msgstr "Font Awesome"
+
+#: admin/tpls/settings/user-interface.php:27
+msgid "Bootstrap CSS"
+msgstr "Bootstrap CSS"
+
+#: admin/tpls/settings/user-interface.php:26
+msgid "Bootstrap JS"
+msgstr "Bootstrap JS"
+
+#: admin/tpls/settings/user-interface.php:20
+msgid "Disable Style & Script"
+msgstr "禁用 Style & Script"
+
+#: admin/tpls/settings/basic.php:212
+msgid "Misc Settings"
+msgstr "杂项设置"
+
+#: admin/tpls/settings/basic.php:191
+msgid "reCAPTCHA Secret Key"
+msgstr "reCAPTCHA Secret Key"
+
+#: admin/tpls/settings/basic.php:186
+msgid "reCAPTCHA Site Key"
+msgstr "reCAPTCHA Site Key"
+
+#: admin/tpls/settings/basic.php:184
+msgid "reCAPTCHA Lock Settings"
+msgstr "reCAPTCHA 设置"
+
+#: admin/tpls/settings/basic.php:173
+msgid "Try to Open in Browser instead of download when someone clicks on download link"
+msgstr "打开新页面下载"
+
+#: admin/tpls/settings/basic.php:172
+msgid "Open in Browser"
+msgstr "打开新页面"
+
+#: admin/tpls/settings/basic.php:163
+msgid "Output Buffering"
+msgstr "输出缓冲"
+
+#: admin/tpls/settings/basic.php:159 admin/tpls/settings/basic.php:166
+msgid "Disabled"
+msgstr "关闭"
+
+#: admin/tpls/settings/basic.php:158 admin/tpls/settings/basic.php:165
+msgid "Enabled"
+msgstr "打开"
+
+#: admin/tpls/settings/basic.php:156
+msgid "Resumable Downloads"
+msgstr "下载续传"
+
+#: admin/tpls/settings/basic.php:153
+msgid "If you get broken download, then try enabling/disabling following options, as sometimes server may not support output buffering or partial downloads"
+msgstr "如果下载链接有问题，请尝试打开或关闭以下选项，因为某些服务器并不支持输出缓冲或下载续传"
+
+#: admin/tpls/settings/basic.php:134
+msgid "Download Speed:"
+msgstr "下载速度："
+
+#: admin/tpls/settings/basic.php:130
+msgid "File Download"
+msgstr "文件下载"
+
+#: admin/tpls/settings/basic.php:104
+msgid "Check the option if you want to sanitize uploaded file names to remove illegal chars"
+msgstr "此选项去除上传文件名中的非法字符"
+
+#: admin/tpls/settings/basic.php:103
+msgid "Sanitize Filename"
+msgstr "文件名规范化"
+
+#: admin/tpls/settings/basic.php:99
+msgid "Upload Settings"
+msgstr "上传设置"
+
+#: admin/tpls/settings/basic.php:67
+msgid "Who will have access to server file browser"
+msgstr "可浏览服务器文件的用户"
+
+#: admin/tpls/settings/basic.php:65
+msgid "File Browser Access:"
+msgstr "文件浏览权限："
+
+#: admin/tpls/settings/basic.php:59
+msgid "Reset Base Dir"
+msgstr "重设根目录"
+
+#: admin/tpls/settings/basic.php:55
+msgid "Server File Browser Base Dir:"
+msgstr "服务器文件浏览根目录："
+
+#: admin/tpls/settings/basic.php:51
+msgid "Server File Browser"
+msgstr "服务器文件浏览"
+
+#: admin/tpls/settings/basic.php:43
+msgid "Login Required Message:"
+msgstr "登陆下载信息："
+
+#: admin/tpls/settings/basic.php:34
+msgid "Permission Denied Message for Packages:"
+msgstr "下载包无权限信息："
+
+#: admin/tpls/settings/basic.php:29
+msgid "Messages"
+msgstr "信息"
+
+#: admin/tpls/settings/addon-update.php:147
+msgid "Success!"
+msgstr "成功！"
+
+#: tpls/lost-password-form.php:59 tpls/wpdm-reg-form.php:103
+#: tpls/reset-password-form.php:48 admin/tpls/settings/addon-update.php:145
+#: tpls3/lost-password-form.php:41 tpls3/wpdm-reg-form.php:106
+#: tpls3/reset-password-form.php:48
+msgid "Please Wait..."
+msgstr "请稍等..."
+
+#: admin/tpls/settings/addon-update.php:91
+msgid "Expired"
+msgstr "过期"
+
+#: admin/tpls/settings/addon-update.php:89
+#: admin/tpls/settings/addon-update.php:130
+msgid "Updated"
+msgstr "已更新"
+
+#: admin/tpls/settings/addon-update.php:88
+#: admin/tpls/settings/addon-update.php:129
+msgid "Update"
+msgstr "更新"
+
+#: admin/tpls/settings/addon-update.php:86
+#: admin/tpls/settings/addon-update.php:127
+msgid "Install"
+msgstr "安装"
+
+#: wpdm-functions.php:103 wpdm-functions.php:128 wpdm-functions.php:194
+#: tpls/lock-options/recaptcha-lock.php:24
+#: tpls/lock-options/password-lock.php:41 tpls/wpdm-asset.php:21
+#: tpls/wpdm-all-downloads.php:191 tpls/wpdm-all-downloads.php:334
+#: tpls/lock-options-iframe.php:289 libs/class.FileList.php:98
+#: libs/class.FileList.php:100 libs/class.FileList.php:136
+#: libs/class.FileList.php:138 libs/class.FileList.php:203
+#: libs/class.FileList.php:250 libs/class.FileList.php:305
+#: libs/class.PackageLocks.php:74 libs/class.PackageLocks.php:111
+#: libs/class.Package.php:77 libs/class.Package.php:155
+#: libs/class.Package.php:634 libs/class.Package.php:659
+#: libs/class.Package.php:726 libs/class.Package.php:819
+#: libs/class.Package.php:851 libs/class.Package.php:1303
+#: admin/tpls/settings/user-interface.php:115
+#: admin/tpls/settings/user-interface.php:145
+#: admin/tpls/settings/addon-update.php:61
+#: admin/tpls/settings/addon-update.php:107
+#: tpls3/lock-options/recaptcha-lock.php:24
+#: tpls3/lock-options/password-lock.php:41 tpls3/wpdm-asset.php:21
+#: tpls3/wpdm-all-downloads.php:160 tpls3/lock-options-iframe.php:243
+msgid "Download"
+msgstr "下载"
+
+#: admin/tpls/settings/addon-update.php:60
+#: admin/tpls/settings/addon-update.php:106
+msgid "Latest(v)"
+msgstr "最近(v)"
+
+#: admin/tpls/settings/addon-update.php:59
+#: admin/tpls/settings/addon-update.php:105
+msgid "Active(v)"
+msgstr "已激活(v)"
+
+#: admin/tpls/settings/addon-update.php:58
+#: admin/tpls/settings/addon-update.php:104
+msgid "Product Name"
+msgstr "产品名称"
+
+#: admin/tpls/settings/addon-update.php:51
+msgid "Free Add-ons"
+msgstr "免费插件"
+
+#: admin/tpls/settings/addon-update.php:50
+msgid "Purchased Add-ons"
+msgstr "已购买插件"
+
+#: admin/tpls/settings/addon-update.php:14
+msgid "Enter your %s login info"
+msgstr "请输入你的登陆信息 %s "
+
+#: admin/tpls/settings/addon-update.php:4
+msgid "Add-on Update"
+msgstr "插件更新"
+
+#: tpls/wpdm-dashboard.php:30 tpls/already-logged-in.php:23
+#: admin/tpls/settings/addon-update.php:3 tpls3/wpdm-dashboard.php:28
+#: tpls3/already-logged-in.php:23
+msgid "Logout"
+msgstr "注销"
+
+#: admin/tpls/settings/addon-update.php:3
+msgid "Check For Updates"
+msgstr "检查更新"
+
+#: admin/tpls/metaboxes/package-settings.php:99
+msgid "This key can be used for direct download"
+msgstr "该Key可用于直接下载"
+
+#: admin/tpls/metaboxes/package-settings.php:99
+msgid "Regenerate Master Key for Download"
+msgstr "重新生成下载Key"
+
+#: admin/tpls/metaboxes/package-settings.php:98
+msgid "Master Key"
+msgstr "主Key"
+
+#: admin/tpls/metaboxes/package-settings.php:87
+msgid "Page Template:"
+msgstr "页面模板："
+
+#: admin/tpls/metaboxes/package-settings.php:58
+msgid "Who should be able to download?"
+msgstr "可下载用户？"
+
+#: admin/tpls/metaboxes/package-settings.php:56
+msgid "Allow Access:"
+msgstr "允许访问："
+
+#: admin/tpls/metaboxes/package-settings.php:50
+msgid "Download&nbsp;Count:"
+msgstr "下载&nbsp;次数："
+
+#: admin/tpls/metaboxes/package-settings.php:45
+msgid "View&nbsp;Count:"
+msgstr "查看&nbsp;次数："
+
+#: admin/tpls/metaboxes/package-settings.php:38
+msgid "Stock&nbsp;Limit:"
+msgstr "库存&nbsp;上限："
+
+#: admin/tpls/metaboxes/package-settings.php:32
+msgid "File&nbsp;Size:"
+msgstr "文件&nbsp;大小："
+
+#: admin/tpls/metaboxes/package-settings.php:27
+msgid "Link Label:"
+msgstr "链接标签："
+
+#: admin/tpls/metaboxes/package-settings.php:22
+msgid "Version:"
+msgstr "版本："
+
+#: admin/tpls/metaboxes/package-settings.php:8
+msgid "Icons"
+msgstr "图标："
+
+#: admin/tpls/metaboxes/package-settings.php:7
+msgid "Lock Options"
+msgstr "锁定选项"
+
+#: admin/tpls/metaboxes/lock-options.php:48
+msgid "Users will be asked for reCAPTCHA verification before download."
+msgstr "用户下载前需要进行reCAPTCHA 验证"
+
+#: admin/tpls/metaboxes/lock-options.php:47
+msgid "Please configure reCAPTCHA"
+msgstr "请配置reCAPTCHA"
+
+#: admin/tpls/metaboxes/lock-options.php:44
+msgid "Enable Captcha Lock"
+msgstr "启用Captcha"
+
+#: admin/tpls/metaboxes/lock-options.php:32
+msgid "Password:"
+msgstr "密码："
+
+#: admin/tpls/metaboxes/lock-options.php:29
+msgid "Enable Password Lock"
+msgstr "启动密码"
+
+#: admin/tpls/metaboxes/lock-options.php:20
+msgid "Terms Checkbox Label:"
+msgstr "条款标签："
+
+#: admin/tpls/metaboxes/lock-options.php:16
+msgid "Terms and Conditions:"
+msgstr "条款："
+
+#: admin/tpls/metaboxes/lock-options.php:12
+msgid "Terms Title:"
+msgstr "条款标题："
+
+#: admin/tpls/metaboxes/lock-options.php:8
+msgid "Must Agree with Terms"
+msgstr "必须同意条款"
+
+#: admin/tpls/metaboxes/lock-options.php:2
+msgid "You can use one or more of following methods to lock your package download:"
+msgstr "你可使用以下方法锁定下载："
+
+#: admin/tpls/metaboxes/icons.php:5
+msgid "Icon URL"
+msgstr "图标URL"
+
+#: admin/tpls/metaboxes/attach-file.php:190
+msgid "<div class=\"w3eden\"><div class=\"text-danger\"><i class=\"fa fa-check-circle\"></i> Removed!</div></div>"
+msgstr "<div class=\"w3eden\"><div class=\"text-danger\"><i class=\"fa fa-check-circle\"></i> 已删除！</div></div>"
+
+#: admin/tpls/templates.php:368 admin/tpls/metaboxes/attach-file.php:188
+msgid "Are you sure?"
+msgstr "你确定吗？"
+
+#: wpdm-functions.php:1440 tpls/asset-manager-ui.php:738
+#: admin/tpls/metaboxes/attach-file.php:70 tpls3/asset-manager-ui.php:738
+msgid "Allowed Files"
+msgstr "允许文件"
+
+#: admin/tpls/metaboxes/attach-file.php:51
+msgid "Select File"
+msgstr "选择文件"
+
+#: admin/tpls/metaboxes/attach-file.php:49
+msgctxt "Uploader: Drop file here - or - Select File"
+msgid "or"
+msgstr "或"
+
+#: admin/tpls/metaboxes/attach-file.php:48
+msgid "Drop file here"
+msgstr "拖动文件到这里"
+
+#: admin/tpls/metaboxes/attach-file.php:7
+msgid "attached file is missing/deleted"
+msgstr "附件已丢失或删除"
+
+#: admin/tpls/addons-list.php:307
+msgid "Failed to connect with server!"
+msgstr "无法连接到服务器！"
+
+#: admin/tpls/addons-list.php:226
+msgid "WPDM Add-Ons"
+msgstr "WPDM 插件"
+
+#: admin/menus/class.Stats.php:25
+msgid "History"
+msgstr "历史"
+
+#: admin/menus/class.Stats.php:25
+msgid "History &lsaquo; Download Manager"
+msgstr "历史 &lsaquo; Download Manager"
+
+#: admin/menus/class.Settings.php:19
+msgid "Settings"
+msgstr "设置"
+
+#: admin/menus/class.Settings.php:19
+msgid "Settings &lsaquo; Download Manager"
+msgstr "设置 &lsaquo; Download Manager"
+
+#: admin/menus/class.Packages.php:203
+msgid "Direct Download"
+msgstr "直接下载"
+
+#: tpls/asset-manager-ui.php:825 admin/tpls/metaboxes/package-settings.php:67
+#: admin/menus/class.Categories.php:121 admin/menus/class.Categories.php:338
+#: tpls3/asset-manager-ui.php:825
+msgid "All Visitors"
+msgstr "所有访客"
+
+#: admin/menus/class.Categories.php:118 admin/menus/class.Categories.php:325
+msgid "Select the roles who should have access to the packages under this category"
+msgstr "选择此类别下可访问下载包的用户角色"
+
+#: admin/menus/class.Categories.php:116 admin/menus/class.Categories.php:322
+msgid "Access:"
+msgstr "访问："
+
+#: admin/menus/class.Addons.php:23
+msgid "Add-Ons"
+msgstr "插件"
+
+#: admin/menus/class.Addons.php:23
+msgid "Add-Ons &lsaquo; Download Manager"
+msgstr "插件 &lsaquo; Download Manager"
+
+#: admin/class.WordPressDownloadManagerAdmin.php:172
+msgid "Attach File"
+msgstr "附加文件"
+
+#: admin/tpls/metaboxes/package-settings.php:6
+#: admin/class.WordPressDownloadManagerAdmin.php:171
+msgid "Package Settings"
+msgstr "下载包设置"

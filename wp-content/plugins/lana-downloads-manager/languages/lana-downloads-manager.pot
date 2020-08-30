@@ -1,0 +1,360 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Lana Downloads Manager\n"
+"POT-Creation-Date: 2020-01-08 16:47+0100\n"
+"PO-Revision-Date: 2016-11-23 21:32+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: includes/class-lana-download-widget.php:14
+msgid "Lana - Download"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:15
+msgid "Download button with counter."
+msgstr ""
+
+#: includes/class-lana-download-widget.php:99
+#: includes/class-lana-downloads-manager-logs-list-table.php:38
+#: lana-downloads-manager.php:226 lana-downloads-manager.php:1538
+msgid "Download"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:103
+msgid "Total downloads:"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:140
+msgid "No posts in Lana Downloads."
+msgstr ""
+
+#: includes/class-lana-download-widget.php:148
+msgid "File:"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:154
+msgid "Select Download..."
+msgstr ""
+
+#: includes/class-lana-download-widget.php:165
+msgid "Title:"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:170
+#: includes/class-lana-download-widget.php:183
+#: includes/class-lana-download-widget.php:196 lana-downloads-manager.php:859
+#: lana-downloads-manager.php:882 lana-downloads-manager.php:905
+msgid "Enabled"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:173
+#: includes/class-lana-download-widget.php:186
+#: includes/class-lana-download-widget.php:199 lana-downloads-manager.php:855
+#: lana-downloads-manager.php:878 lana-downloads-manager.php:901
+msgid "Disabled"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:178
+msgid "Text:"
+msgstr ""
+
+#: includes/class-lana-download-widget.php:191
+msgid "Featured Image:"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:39
+msgid "User"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:40
+msgid "IP Address"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:41
+msgid "User Agent"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:42
+msgid "Date"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:66
+msgid "Delete"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:108
+msgid "(no longer exists)"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:129
+msgid "Non-member"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:171
+msgid "(no date)"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:175
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:194
+msgid "Log entries deleted"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:220
+msgid "Show all dates"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:231
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:240
+msgid "Filter"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:245
+msgid "Delete Logs"
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:314
+msgid "Sorry, you are not allowed to process bulk actions."
+msgstr ""
+
+#: includes/class-lana-downloads-manager-logs-list-table.php:318
+#: lana-downloads-manager.php:738
+msgid "Sorry, you are not allowed to delete logs."
+msgstr ""
+
+#: lana-downloads-manager.php:36 lana-downloads-manager.php:639
+msgid "Settings"
+msgstr ""
+
+#: lana-downloads-manager.php:224
+msgid "All Downloads"
+msgstr ""
+
+#: lana-downloads-manager.php:225
+msgid "Downloads"
+msgstr ""
+
+#: lana-downloads-manager.php:227
+msgid "Add New"
+msgstr ""
+
+#: lana-downloads-manager.php:228
+msgid "Add Download"
+msgstr ""
+
+#: lana-downloads-manager.php:229
+msgid "Edit"
+msgstr ""
+
+#: lana-downloads-manager.php:230
+msgid "Edit Download"
+msgstr ""
+
+#: lana-downloads-manager.php:231
+msgid "New Download"
+msgstr ""
+
+#: lana-downloads-manager.php:232 lana-downloads-manager.php:233
+msgid "View Download"
+msgstr ""
+
+#: lana-downloads-manager.php:234
+msgid "Search Downloads"
+msgstr ""
+
+#: lana-downloads-manager.php:235
+msgid "No Downloads found"
+msgstr ""
+
+#: lana-downloads-manager.php:236
+msgid "No Downloads found in trash"
+msgstr ""
+
+#: lana-downloads-manager.php:237
+msgid "Parent Download"
+msgstr ""
+
+#: lana-downloads-manager.php:263
+msgid "Categories"
+msgstr ""
+
+#: lana-downloads-manager.php:264
+msgid "Category"
+msgstr ""
+
+#: lana-downloads-manager.php:398
+msgid "URL"
+msgstr ""
+
+#: lana-downloads-manager.php:399
+msgid "Shortcode"
+msgstr ""
+
+#: lana-downloads-manager.php:400
+msgid "Download Count"
+msgstr ""
+
+#: lana-downloads-manager.php:507
+msgid "All Categories"
+msgstr ""
+
+#: lana-downloads-manager.php:508
+msgid "None"
+msgstr ""
+
+#: lana-downloads-manager.php:633 lana-downloads-manager.php:871
+msgid "Logs"
+msgstr ""
+
+#: lana-downloads-manager.php:661
+msgid "Logs per page"
+msgstr ""
+
+#: lana-downloads-manager.php:711 lana-downloads-manager.php:753
+msgid "Lana Downloads Manager Logs"
+msgstr ""
+
+#: lana-downloads-manager.php:715
+#, php-format
+msgid ""
+"Logs are disabled. Go to the <a href=\"%s\">Settings</a> page to enable it."
+msgstr ""
+
+#: lana-downloads-manager.php:771
+msgid "Lana Downloads Manager Settings"
+msgstr ""
+
+#: lana-downloads-manager.php:778
+msgid "Lana Codes"
+msgstr ""
+
+#: lana-downloads-manager.php:785
+msgid "General Settings"
+msgstr ""
+
+#: lana-downloads-manager.php:790
+msgid "Endpoint"
+msgstr ""
+
+#: lana-downloads-manager.php:801
+msgid "Endpoint Type"
+msgstr ""
+
+#: lana-downloads-manager.php:808
+msgid "ID"
+msgstr ""
+
+#: lana-downloads-manager.php:812
+msgid "slug"
+msgstr ""
+
+#: lana-downloads-manager.php:819
+msgid "Custom Post Type Settings"
+msgstr ""
+
+#: lana-downloads-manager.php:824
+msgid "Post Type Endpoint"
+msgstr ""
+
+#: lana-downloads-manager.php:836
+msgid "Category Endpoint"
+msgstr ""
+
+#: lana-downloads-manager.php:848
+msgid "Public"
+msgstr ""
+
+#: lana-downloads-manager.php:866
+msgid "Log Settings"
+msgstr ""
+
+#: lana-downloads-manager.php:889
+msgid "Counter Settings"
+msgstr ""
+
+#: lana-downloads-manager.php:894
+msgid "Counter"
+msgstr ""
+
+#: lana-downloads-manager.php:914
+msgid "Save Changes"
+msgstr ""
+
+#: lana-downloads-manager.php:1059
+msgid "No download_id defined."
+msgstr ""
+
+#: lana-downloads-manager.php:1066
+msgid "No file URL defined."
+msgstr ""
+
+#: lana-downloads-manager.php:1068 lana-downloads-manager.php:1080
+msgid "Go to homepage &rarr;"
+msgstr ""
+
+#: lana-downloads-manager.php:1071 lana-downloads-manager.php:1083
+msgid "Download Error"
+msgstr ""
+
+#: lana-downloads-manager.php:1078
+msgid "No file path defined."
+msgstr ""
+
+#: lana-downloads-manager.php:1375
+msgid "disabled"
+msgstr ""
+
+#: lana-downloads-manager.php:1641
+msgid "Error: You do not have permission to view downloads!"
+msgstr ""
+
+#: views/lana-download-static-info.php:5
+msgid "Download Permalink:"
+msgstr ""
+
+#: views/lana-download-static-info.php:11
+msgid "Shortcode:"
+msgstr ""
+
+#: views/lana-downloads-manager-info-metabox.php:8
+msgid "Download Identification:"
+msgstr ""
+
+#: views/lana-downloads-manager-info-metabox.php:18
+msgid "Download Count:"
+msgstr ""
+
+#: views/lana-downloads-manager-metabox.php:7
+msgid "File (URL):"
+msgstr ""
+
+#: views/lana-downloads-manager-metabox.php:18
+msgid "Choose a file"
+msgstr ""
+
+#: views/lana-downloads-manager-metabox.php:19
+msgid "Insert file URL"
+msgstr ""
+
+#: views/lana-downloads-manager-metabox.php:20
+msgid "Upload File"
+msgstr ""
