@@ -165,10 +165,7 @@ class aiosp_metaboxes {
 						</li>
 					</ul>
 				</div>
-				<?php break;
-				default:
-					break;
-				?>
+				<?php break; ?>
 		<?php endswitch; ?>
 		</div>
 		<?php

@@ -345,12 +345,12 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Opengraph' ) ) {
 				),
 				'dimgwidth'              => array(
 					'name'    => __( 'Default Image Width', 'all-in-one-seo-pack' ),
-					'type'    => 'number',
+					'type'    => 'text',
 					'default' => '',
 				),
 				'dimgheight'             => array(
 					'name'    => __( 'Default Image Height', 'all-in-one-seo-pack' ),
-					'type'    => 'number',
+					'type'    => 'text',
 					'default' => '',
 				),
 				'meta_key'               => array(
@@ -371,12 +371,12 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Opengraph' ) ) {
 				),
 				'imagewidth'             => array(
 					'name'    => __( 'Specify Image Width', 'all-in-one-seo-pack' ),
-					'type'    => 'number',
+					'type'    => 'text',
 					'default' => '',
 				),
 				'imageheight'            => array(
 					'name'    => __( 'Specify Image Height', 'all-in-one-seo-pack' ),
-					'type'    => 'number',
+					'type'    => 'text',
 					'default' => '',
 				),
 				'video'                  => array(
@@ -385,7 +385,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Opengraph' ) ) {
 				),
 				'videowidth'             => array(
 					'name'     => __( 'Specify Video Width', 'all-in-one-seo-pack' ),
-					'type'     => 'number',
+					'type'     => 'text',
 					'default'  => '',
 					'condshow' => array(
 						'aioseop_opengraph_settings_video' => array(
@@ -397,7 +397,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Opengraph' ) ) {
 				),
 				'videoheight'            => array(
 					'name'     => __( 'Specify Video Height', 'all-in-one-seo-pack' ),
-					'type'     => 'number',
+					'type'     => 'text',
 					'default'  => '',
 					'condshow' => array(
 						'aioseop_opengraph_settings_video' => array(
@@ -1619,8 +1619,6 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Opengraph' ) ) {
 						$value = 'website';
 					}
 					break;
-				default:
-					break;
 			}
 
 			// TODO Remove when `$tmp_meta_slug` is removed from 'aiosp_opengraph_disable_meta_tag_truncation' filter.
@@ -1656,8 +1654,6 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Opengraph' ) ) {
 					case 'og:description':
 					case 'twitter:description':
 						$value = trim( AIOSEOP_PHP_Functions::substr( $value, 0, 200 ) );
-						break;
-					default:
 						break;
 				}
 			}
@@ -2009,7 +2005,9 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Opengraph' ) ) {
 							$prefix  = $this->get_prefix( $k );
 							$options = apply_filters( $prefix . 'filter_term_metabox_options', $options, $k, $term_id );
 							foreach ( $options as $option ) {
-								$option = aioseop_sanitize( $option );
+								if ( is_string( $option ) ) {
+									$option = esc_html( $option );
+								}
 							}
 							update_term_meta( $term_id, '_' . $prefix . $k, $options );
 						}

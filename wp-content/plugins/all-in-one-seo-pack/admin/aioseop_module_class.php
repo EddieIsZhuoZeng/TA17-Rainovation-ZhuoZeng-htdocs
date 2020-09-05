@@ -457,8 +457,6 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 							}
 						}
 					}
-				default:
-					return array();
 			}
 			// phpcs:enable
 			if ( empty( $output ) ) {
@@ -525,7 +523,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 				}
 
 				// @codingStandardsIgnoreStart
-				return $wpdb->get_col( $wpdb->prepare( "SELECT blog_id FROM {$wpdb->blogs} WHERE site_id = %d AND site_id != blog_id", $blog_id ) );
+				return $wpdb->get_col( "SELECT blog_id FROM {$wpdb->blogs} WHERE site_id = {$blog_id} AND site_id != blog_id" );
 				// @codingStandardsIgnoreEnd
 			}
 
@@ -1027,12 +1025,13 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 			if ( ! empty( $_REQUEST['aiosp_importer_exporter_export_choices'] ) ) {
 				$exporter_choices = $_REQUEST['aiosp_importer_exporter_export_choices'];
 			}
-
-			$post_types = isset( $_REQUEST['aiosp_importer_exporter_export_post_types'] ) ? $_REQUEST['aiosp_importer_exporter_export_post_types'] : array();
 			if ( ! empty( $exporter_choices ) && is_array( $exporter_choices ) ) {
 				foreach ( $exporter_choices as $ex ) {
 					if ( 1 == $ex ) {
 						$general_settings = true;
+					}
+					if ( 2 == $ex && isset( $_REQUEST['aiosp_importer_exporter_export_post_types'] ) ) {
+						$post_types = $_REQUEST['aiosp_importer_exporter_export_post_types'];
 					}
 				}
 			}
@@ -1099,7 +1098,6 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 		 * @return bool
 		 */
 		function output_error( $error ) {
-			$error = esc_html( $error );
 			echo "<div class='aioseop_module error'>$error</div>";
 
 			return false;
@@ -2343,7 +2341,9 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 						$prefix  = $this->get_prefix( $k );
 						$options = apply_filters( $prefix . 'filter_metabox_options', $options, $k, $post_id );
 						foreach ( $options as $option ) {
-							$option = aioseop_sanitize( $option );
+							if ( is_string( $option ) ) {
+								$option = esc_html( $option );
+							}
 						}
 						update_post_meta( $post_id, '_' . $prefix . $k, $options );
 					}
@@ -2591,9 +2591,6 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 					wp_enqueue_script( 'jquery-ui-datepicker' );
 					// fall through.
 				default:
-					if ( 'number' === $options['type'] ) {
-						$value = intval( $value );
-					}
 					$buf .= "<input name='" . esc_attr( $name ) . "' type='" . esc_attr( $options['type'] ) . "' " . wp_kses( $attr, wp_kses_allowed_html( 'data' ) ) . " value='" . htmlspecialchars_decode( $value ) . "' autocomplete='aioseop-" . time() . "'>\n";
 			}
 
@@ -2761,7 +2758,7 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 					$opt = $opts['default'];
 				}
 
-				$newArgs = array(
+				$args = array(
 					'name'    => $name,
 					'options' => $opts,
 					'attr'    => $attr,
@@ -2769,13 +2766,13 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Module' ) ) {
 					'prefix'  => $prefix,
 				);
 				if ( ! empty( $opts['nowrap'] ) ) {
-					echo $this->get_option_html( $newArgs );
+					echo $this->get_option_html( $args );
 				} else {
 					if ( $container ) {
 						echo $container;
 						$container = '';
 					}
-					echo $this->get_option_row( $name, $opts, $newArgs );
+					echo $this->get_option_row( $name, $opts, $args );
 				}
 			}
 			if ( ! $container ) {

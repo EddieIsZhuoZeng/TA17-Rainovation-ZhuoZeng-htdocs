@@ -754,10 +754,10 @@ class AIOSEOP_Education {
 	private static function check_new_conflicting_plugins( $conflicting_plugins ) {
 		// get_option() doesn't work here because it returns false if the option is blank, and we need to know if it exists.
 		global $wpdb;
-		$count = (int) $wpdb->get_var( "SELECT count(*) FROM {$wpdb->options} WHERE option_name = 'aioseop_detected_conflicting_plugins'" );
+		$count = (int) $wpdb->get_var( "select count(*) from {$wpdb->prefix}options where option_name = 'aioseop_detected_conflicting_plugins'");
 
 		$stored = array();
-		if ( 0 !== $count ) {
+		if( 0 !== $count ) {
 			$stored = get_option( 'aioseop_detected_conflicting_plugins' );
 			update_option( 'aioseop_detected_conflicting_plugins', $conflicting_plugins );
 		} else {
@@ -765,7 +765,7 @@ class AIOSEOP_Education {
 		}
 
 		if ( count( $stored ) < count( $conflicting_plugins ) ) {
-			if ( get_user_meta( get_current_user_id(), 'aioseop_notice_display_time_conflicting_plugin' ) ) {
+			if( get_user_meta( get_current_user_id(), 'aioseop_notice_display_time_conflicting_plugin' ) ) {
 				delete_user_meta( get_current_user_id(), 'aioseop_notice_display_time_conflicting_plugin' );
 			}
 		}

@@ -165,10 +165,6 @@ class AIOSEOP_Updates {
 		if ( version_compare( $old_version, '3.5.0', '<' ) ) {
 			$this->add_news_sitemap_post_types();
 		}
-
-		if ( version_compare( $old_version, '3.7.0', '<' ) ) {
-			$this->rssContent();
-		}
 	}
 
 	/**
@@ -443,26 +439,6 @@ class AIOSEOP_Updates {
 
 		$aioseop_options['modules']['aiosp_sitemap_options']['aiosp_sitemap_posttypes_news'] = array( 'post' );
 		$aiosp->update_class_option( $aioseop_options );
-	}
-
-	/**
-	 * Sets the default values for the RSS Content settings.µ
-	 *
-	 * @since 3.7.0
-	 *
-	 * @return void
-	 */
-	private function rssContent() {
-		global $aioseop_options;
-		if ( ! isset( $aioseop_options['aiosp_rss_content_before'] ) && ! isset( $aioseop_options['aiosp_rss_content_after'] ) ) {
-			$aioseop_options['aiosp_rss_content_after'] = sprintf(
-				/* translators: 1 - The post title, 2 - The site title. */
-				__( 'The post %1$s first appeared on %2$s.', 'all-in-one-seo-pack' ),
-				'%post_link%',
-				'%site_link%'
-			);
-		}
-		update_option( 'aioseop_options', $aioseop_options );
 	}
 
 }

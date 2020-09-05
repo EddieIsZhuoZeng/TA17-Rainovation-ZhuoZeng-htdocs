@@ -535,21 +535,3 @@ body #wp-link-wrap #link-selector {
     line-height: 1.6 !important;
     animation: aioseo-menu-notification-indicator-pulse 1.5s infinite !important;
   }
-
-  #wpbody .All_in_One_SEO_Pack_Importer_Exporter .aioseop_option_div ul {
-      margin: 20px 30px;
-      list-style: disc;
-  }
-
-  #aiosp_rss_content_metabox .inside .aiosp_settings .aioseop-rss-content-description {
-      margin: 20px;
-  }
-
-  #aiosp_rss_content_metabox .inside .aiosp_settings .aioseop-rss-content-tags {
-      margin: 10px 20px
-  }
-
-  #wpbody .aioseop_options_wrapper .postbox .handle-order-higher,
-  #wpbody .aioseop_options_wrapper .postbox .handle-order-lower {
-    display: none;
-  }

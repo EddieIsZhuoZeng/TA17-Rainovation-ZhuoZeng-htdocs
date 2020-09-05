@@ -140,8 +140,6 @@ class AIOSEOP_Core {
 		AIOSEOP_Education::init();
 		AIOSEOP_Flyout::init();
 
-		new AIOSEOP_Usage();
-
 		// TODO Move this add_action to All_in_One_SEO_Pack::__construct().
 		add_action( 'init', array( $aiosp, 'add_hooks' ) );
 
@@ -333,13 +331,11 @@ class AIOSEOP_Core {
 		require_once AIOSEOP_PLUGIN_DIR . 'admin/display/dashboard_widget.php';
 		require_once AIOSEOP_PLUGIN_DIR . 'admin/display/menu.php';
 		require_once AIOSEOP_PLUGIN_DIR . 'admin/class-aioseop-notices.php';
-		require_once AIOSEOP_PLUGIN_DIR . 'admin/class-aioseop-usage.php';
 		require_once AIOSEOP_PLUGIN_DIR . 'inc/schema/schema-builder.php';
 		require_once AIOSEOP_PLUGIN_DIR . 'inc/admin/class-aioseop-link-attributes.php';
 		require_once( AIOSEOP_PLUGIN_DIR . 'inc/admin/class-aioseop-education.php' );
 		require_once( AIOSEOP_PLUGIN_DIR . 'inc/admin/views/class-aioseop-flyout.php' );
 		require_once( AIOSEOP_PLUGIN_DIR . 'inc/admin/views/class-aioseop-about.php' );
-		require_once( AIOSEOP_PLUGIN_DIR . 'inc/class-aioseop-rss.php' );
 
 		// Loads pro files and other pro init stuff.
 		if ( AIOSEOPPRO ) {
@@ -404,7 +400,6 @@ class AIOSEOP_Core {
 		global $wp_version;
 
 		AIOSEOP_Welcome::hooks();
-		new AIOSEOP_Rss();
 
 		add_action( 'plugins_loaded', array( $this, 'add_cap' ) );
 
@@ -430,7 +425,7 @@ class AIOSEOP_Core {
 
 			$file_dir = AIOSEOP_PLUGIN_DIR . 'all_in_one_seo_pack.php';
 			register_activation_hook( $file_dir, array( 'AIOSEOP_Core', 'activate' ) );
-			register_deactivation_hook( $file_dir, array( 'AIOSEOP_Core', 'deactivate' ) );
+			register_deactivation_hook( $file_dir, array( 'AIOSEOP_Core', 'deactivate' ) ); 
 
 			// TODO Move AJAX to aioseop_admin class, and could be a separate function hooked onto admin_init.
 			add_action( 'wp_ajax_aioseop_ajax_save_meta', 'aioseop_ajax_save_meta' );
@@ -514,7 +509,7 @@ class AIOSEOP_Core {
 
 	/**
 	 * Runs on plugin deactivation.
-	 *
+	 * 
 	 * @since 3.4.3
 	 */
 	public static function deactivate() {
@@ -595,8 +590,6 @@ class AIOSEOP_Core {
 					// fall through.
 				case 'K':
 					$num *= 1024;
-				default:
-					return false;
 			}
 		}
 
@@ -781,7 +774,7 @@ class AIOSEOP_Core {
 	 * Enqueues stylesheets used on the frontend.
 	 *
 	 * @since 3.4.0
-	 *
+	 * 
 	 * @return void
 	 */
 	function front_enqueue_styles() {

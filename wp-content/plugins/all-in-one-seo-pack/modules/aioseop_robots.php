@@ -290,8 +290,6 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Robots' ) ) {
 						$rule[ 'type' ] = $operand;
 						$rule[ 'path' ] = $array[1];
 						break;
-					default:
-						break;
 				}
 				if ( $rule ) {
 					$rule	= $this->validate_rule( $blog_rules, $rule );
@@ -804,8 +802,6 @@ if ( ! class_exists( 'All_in_One_SEO_Pack_Robots' ) ) {
 					$buf .= "<textarea disabled id='{$this->prefix}robot-txt' class='large-text robots-text' rows='15' aria-label='" . __('This shows how your robots.txt appears', 'all-in-one-seo-pack') . "'>";
 					$buf .= $this->do_robots();
 					$buf .= "</textarea>";
-					break;
-				default:
 					break;
 			}
 
