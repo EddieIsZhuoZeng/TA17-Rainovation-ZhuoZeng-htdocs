@@ -2,8 +2,8 @@
 Contributors: semperplugins, smub, benjaminprojas
 Tags: SEO, Google Search Console, XML Sitemap, meta description, meta title, noindex
 Requires at least: 4.9
-Tested up to: 5.5
-Stable tag: 3.7.0
+Tested up to: 5.4.2
+Stable tag: 3.6.2
 License: GPLv2 or later
 Requires PHP: 5.2.4
 

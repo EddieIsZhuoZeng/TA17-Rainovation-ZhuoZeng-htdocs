@@ -12,7 +12,7 @@ function aioseop_notice_news_sitemap() {
 	return array(
 		'slug'        => 'news_sitemap',
 		'delay_time'  => 0,
-		'target'      => 'site',
+		'target'      => 'user',
 		'screens'     => array(),
 		'class'       => 'notice-error',
 		'dismissible' => false,

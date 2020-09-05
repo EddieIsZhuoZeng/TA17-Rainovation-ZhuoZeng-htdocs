@@ -1,0 +1,427 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ html, body, .inside, .mainAppDiv {
+ 	height: 100%;
+ }
+
+ /**
+  * Mishuk
+  */
+
+div#gl-admin-meta-box {
+ 	background: #fff;
+ 	display: none;
+    position: fixed;
+    left: 30px;
+    top: 30px;
+    width: 96%;
+    height: 91%;
+    overflow: hidden;
+    z-index:  99999;
+}
+.gl-admin-meta-box-backdrop {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 360px;
+    background: #000;
+    opacity: .7;
+    /*z-index: 159900;*/
+}
+div#gl-admin-meta-box h2.hndle{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+
+button.close_graph_modal {
+    padding-right: 0;
+    box-shadow: none;
+    border: none;
+    top: 1px;
+}
+button.close_graph_modal:focus {
+    box-shadow: none;
+    border-color: #fff;
+}
+button.gl_saveGraphData {
+    background: #3472aa;
+    color:  #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 2px;
+    font-weight:  bold;
+    cursor: pointer;
+    float: right;
+}
+
+/** Nave menu styling */
+.gl_nav {
+    width:  100%;
+    display:  block;
+    margin-bottom: 5px;
+    text-align: center;
+    color:  #fff;
+    font-weight:  bold;
+}
+
+.gl_nav nav {
+    display: inline-block;
+    padding: 10px;
+    background: #3e8e41;
+    cursor: pointer;
+    width: 110px;
+    font-size: 105%;
+}
+
+.gl_nav nav:first-child {
+    background-color: #3473aa;
+}
+
+.gl_nav nav:hover {
+    background-color:  #3473aa;
+}
+
+.gl_single_graph {
+    display:  block;
+    float: left;
+    max-height: 343px;
+    width: 23%;
+    text-align:  center;
+    border:  1px solid #F0F0F0;
+    margin: 0 5px 20px 5px;
+    overflow:  hidden;
+}
+
+.gl_single_graph .gl_graph_box canvas {
+    text-align:  center;
+    margin:  auto;
+    display:  block;
+    width: auto !important;
+}
+
+.gl_single_graph .gl_control_area {
+    display:  block;
+    width:  100%;
+    overflow:  hidden;
+    margin: 5px 0;
+    padding: 5px 0;
+    text-align:  center;
+}
+
+.gl_single_graph .gl_graph_box {
+    min-height: 295px;
+}
+
+.gl_single_graph.gl_single_graph_create .gl_graph_box {
+    height: 343px;
+    display: table;
+    margin: auto;
+}
+
+.gl_graph_box_cca {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.gl_heading_area {
+    display:  block;
+    overflow:  hidden;
+    clear:  both;
+    border-bottom:  1px solid #F0F0F0;
+}
+.gl_heading {
+    padding: 5px 0 6px 19px;
+}
+.gl_heading p {
+    font-size:  18px;
+    font-weight:  bold;
+    margin:  10px 0;
+}
+.gl_graphComponentDiv {
+    padding: 20px 20px 0 15px;
+    height: 87%;
+    overflow-y: auto;
+}
+
+.gl_single_body_content {
+    display: table-cell;
+    vertical-align:  middle;
+}
+
+div#gl-admin-meta-box .sweet-modal-buttons a.button {
+    padding-top:  1px !important;
+}
+
+.sweet-modal-buttons a.button {
+    padding-top:  1px !important;
+}
+
+/**
+ * Template
+ */
+.gl_chart_template {
+    width: 97.3%;
+    height: 87%;
+    display: flex;
+    flex-direction: row;
+    overflow-y: auto;
+}
+.gl_chart_template button {
+    border:  0;
+    padding: 8px 12px;
+    color: white;
+    background: #3473aa;
+    font-weight:  bold;
+    font-size:  14px;
+    cursor:  pointer;
+}
+.gl_chart_template input[type="text"] {
+    width:  100%;
+    height: 35px;
+}
+.gl_chart_template .form-table {
+    margin-top: 0 !important;
+}
+.gl_chart_template .form-table th {
+    width: 25%;
+}
+.gl_deleteButtonTd, .gl_deleteButtonTh {
+    padding: 0 !important;
+}
+.gl_delete_dataset {
+    float: right;
+    background-color: #dc3545 !important;
+    border-color: #dc3545 !important;
+    color: #fff !important;
+    margin-bottom: 8px !important;
+    margin-right: 10px !important;
+}
+.gl_chart_template fieldset {
+    width: 98%;
+    border: 1px solid #F0F0F0;
+    padding-left: 10px;
+    margin-bottom: 7px;
+}
+.gl_chart_template fieldset legend {
+    font-weight: bold;
+}
+.gl_chart_template fieldset table {
+    margin-top: 0 !important;
+}
+.gl_chart_template fieldset .form-table td {
+    padding-left: 2px;
+}
+.gl_bubble_input_fields {
+    padding-right: 8px;
+}
+.gl_deleteBublePoint {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+.gl_colorPickerButton {
+    background-color: #FFFFFF !important;
+    color: #969696 !important;
+    border: 1px solid #ddd !important;
+    width: 50%;
+    float: left;
+}
+.gl_colorPickerTd {
+    width: 100%;
+    position: relative;
+}
+.vc-chrome-toggle-btn {
+    display: none !important;
+}
+.vc-chrome {
+    margin: 2px 3px 0px 2px;
+}
+.gl_colorPickerDiv {
+    position: absolute;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+.gl_pickOrCloseColorPickerDiv {
+    width: 227px;
+    box-shadow: 0 2px 4px rgba(0,0,0,.3);
+    margin-left: 1px;
+}
+
+.gl_sc_point {
+    width:  100%;
+    margin-bottom: 5px;
+}
+
+.gl_sc_point div {
+    width: 49%;
+    display:  inline-block;
+}
+
+.gl_sc_point input {
+    width: 59%;
+    display:  inline-block;
+}
+
+.gl_sc_point label {
+    width: 30%;
+    display:  inline-block;
+}
+
+.gl_sc_yp {
+    text-align:  right;
+    float:  right;
+}
+
+p.gl_chart_template_title {
+    display:  inline-block;
+    font-size:  16px;
+    margin: 0;
+    margin-right: 15px;
+    font-weight: 900;
+    color: #e74c3c;
+}
+
+.gl_bb_point {
+    width: 96%;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid #dddddd;
+    margin-bottom:  5px;
+    padding: 2%;
+}
+
+.gl_bb_xp, .gl_bb_yp {
+    width:  49%;
+    display:  inline-block;
+}
+
+.gl_bb_r {
+    margin-top: 5px;
+    overflow:  hidden;
+}
+
+.gl_bb_xp label, .gl_bb_yp label {
+    width:  39%;
+}
+
+.gl_bb_xp input, .gl_bb_yp input {
+    width: 60%;
+}
+
+.gl_bb_yp {
+    text-align:  right;
+    float:  right;
+}
+
+.gl_bb_r label {
+    width: 34%;
+    float:  left;
+    margin-top: 5px;
+}
+
+.gl_bb_r input {
+    width: 65%;
+    text-align: right;
+    float:  right;
+}
+
+div#gl-admin-meta-box h2.hndle.ui-sortable-handle {
+    display: none;
+}
+
+/*div#gl-admin-meta-box h2.hndle, button.handlediv {
+    display:  none !important;
+}*/
+
+body::-webkit-scrollbar-track, body::-webkit-scrollbar-thumb, body::-webkit-scrollbar {
+    display: none;
+}
+
+.gl_graphOptions {
+    padding-left: 5px;
+    padding-right: 15px;
+    width: 50%;
+}
+.gl_graphDiv {
+    width: 50%;
+}
+.gl_graphChildDiv {
+    position: fixed;
+    width: 46%;
+    height: 50%;
+    right: 40px;
+    top: 150px;
+}
+.sweet-modal-overlay {
+    background:  #fff !important;
+}
+
+.sweet-modal-buttons a:first-child {
+    background: #f9f9f9 !important;
+    border: 1px solid #ddd !important;
+    color: #333 !important;
+}
+
+.sweet-modal-buttons a:first-child:hover {
+    color: #333;
+}
+
+.sweet-modal-buttons a:last-child {
+    background: #0085ba !important;
+    border-color: #0073aa #006799 #006799 !important;
+    box-shadow: 0 1px 0 #006799 !important;
+    color: #fff !important;
+    text-decoration: none;
+    text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799 !important;
+}
+
+@media only screen and (max-width: 767px) {
+    .gl_single_graph .gl_graph_box {
+        min-height: 243px;
+    }
+    .gl_single_graph.gl_single_graph_create .gl_graph_box {
+        height: 291px;
+        display: table;
+        margin: auto;
+    }
+    .gl_single_graph {
+        width: 48%;
+    }
+}
+
+.gl_backButotnTh {
+    padding: 0 !important;
+}
+.gl_backButton {
+    margin-bottom: 25px;
+}
+.gl_backButtonImage {
+    width: 40px;
+    cursor: pointer;
+}
+.gl_fieldRequiredError {
+    color: red;
+    font-size: 10px !important;
+    font-weight: bold;
+}
+.gl_fieldRequired {
+    border: 1px solid red !important;
+}
+.gl_tutorialFrame {
+    margin-left: 5px;
+    margin-top: 73px !important;
+}
+.gl_dummyMessages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20%;
+}
+.gl_dummyMessages p {
+    margin: 0;
+}

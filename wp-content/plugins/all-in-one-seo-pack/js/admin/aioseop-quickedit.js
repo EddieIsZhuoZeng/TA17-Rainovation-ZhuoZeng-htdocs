@@ -138,7 +138,7 @@ var aioseopQuickEdit;
 				"/": '&#x2F;',
 			};
 			const reg = /[&<>"'/]/ig;
-			return string.replace(reg, (match)=>(map[match])).trim();
+			return string.replace(reg, (match)=>(map[match]));
 		  }
 	}
 

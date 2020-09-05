@@ -458,8 +458,6 @@ class AIOSEOP_Context {
 				// $wp_props['user_login'] = $object->user_login;
 				$wp_props['site_id'] = $object->site_id;
 				break;
-			default:
-				break;
 		}
 
 		// Also get only the object properties that match in $context['wp_props'] | $context->wp_props.
@@ -702,6 +700,11 @@ class AIOSEOP_Context {
 
 			case 'WP_Post':
 				if ( 'attachment' === $wp_obj->post_type ) {
+					// Source URL.
+					// May need to check setting for attachment redirect.
+					// Use $this->get_images() to get attachment link.
+					// $url = wp_get_attachment_url( $wp_obj->ID );
+					// (Attachment) Post URL.
 					$url = get_permalink( $wp_obj );
 				} else {
 					$url = wp_get_canonical_url( $wp_obj );
@@ -866,6 +869,46 @@ class AIOSEOP_Context {
 	}
 
 	/**
+	 * Get Image Context
+	 *
+	 * Returns Image ID (Context Key) if possible, and Image URL.
+	 *
+	 * This is used to get the Image WP_Post object via $context.
+	 *
+	 * attachment post parent.
+	 * registered images to post.
+	 * post content.
+	 *
+	 * @param string|array
+	 * @return array {
+	 *     @type int|string $id
+	 *     @type string     $url
+	 * }
+	 */
+	public function get_images( $sources = 'all' ) {
+		$image = array();
+		switch ( $this->context_type ) {
+			case 'WP_Post':
+				$wp_obj = self::get_object( $this->context_type, $this->context_key );
+				if ( ! $wp_obj ) {
+					$this->log_error();
+					return $image;
+				}
+
+				if ( 'attachment' === $wp_obj->post_type ) {
+					$images['attachments'][] = array(
+						'id'  => $wp_obj->ID,
+						'url' => wp_get_attachment_url( $wp_obj->ID ),
+					);
+				}
+
+				$media_list = get_attached_media( 'image', $wp_obj );
+
+				break;
+		}
+	}
+
+	/**
 	 * Get Breadcrumb
 	 *
 	 * @since 3.4.0
@@ -980,8 +1023,6 @@ class AIOSEOP_Context {
 						'url'  => $context->get_url(),
 					)
 				);
-				break;
-			default:
 				break;
 		}
 

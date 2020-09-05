@@ -226,10 +226,7 @@ abstract class AIOSEOP_Graph {
 	 */
 	protected function get_site_image_data( $image_id ) {
 		if ( ! is_numeric( $image_id ) ) {
-			$image_id = attachment_url_to_postid( $image_id );
-			if ( ! $image_id ) {
-				return false;
-			}
+			return false;
 		}
 
 		// Defaults.
