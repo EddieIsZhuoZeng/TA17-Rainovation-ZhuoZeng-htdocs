@@ -1,9 +1,9 @@
 <p align="center"><img src="/WordPress.png" height="100" />  + <img src="/CloudRun.png" height="100"/>  </p>
 
-## Wordpress on Cloud Run 
+## Wordpress on Google Cloud  
 [![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/)
 
-Launch a WordPress container on Google Cloud Run.
+Launch a WordPress container on Google Cloud.
 
 ## Requirements
 
@@ -13,20 +13,17 @@ Launch a WordPress container on Google Cloud Run.
 * In your google cloud platform, click [Marketplace](https://console.cloud.google.com/marketplace?authuser=1&folder=&organizationId=&project=daring-wavelet-179806) and seach for  [WordPress with NGINX and SSL Certified by Bitnami and Automattic](https://console.cloud.google.com/marketplace/details/bitnami-launchpad/wordpresspro?q=wordpress%20with%20nginx%20and%20ssl%20certified%20by%20bitnami%20and%20automattic&id=2cd37bcb-755a-46d6-885f-ec0d758f716d&project=daring-wavelet-179806&authuser=1&folder&organizationId) to launch the deployment.  
 
 ## Deployment Parameters
-The Run on Google Cloud deployment will prompt for the environment variables "DB_HOST","DB_USER","DB_PASSWORD", "DB_NAME" & CLOUDSQL_INSTANCE.
+After you launch this product, Google Cloud Service will automatically configure environment variables "Site address","Admin URL","Admin user
+", "Admin password" & INSTANCE.
  
-* **"DB_HOST** is externally exposed IP address to access the MySQL database or the Cloud SQL host (The default value is "localhost")
- If you are using Cloud SQL set this to 127.0.0.1
+* **"Site address** is IP address to access the webste.
  
-* **"DB_USER"** is the MySQL or Cloud SQL  database username (The default value is "root")
+* **"Admin URL"** is pipeline to allow admin log in the wordpress dashboard.
  
-* **"DB_PASSWORD"** is the MySQL or Cloud SQL database user password (The default value is "password")
+* **"Admin user"** & **"Admin password"** are your account name and password.
  
-* **"DB_NAME"** is the name of the database for WordPress on MySQL or Cloud SQL ( The default value is "wordpress")
- 
-* **"CLOUDSQL_INSTANCE"** if you using Cloud SQL, this is the Cloud SQL instance connection name that you get from Cloud SQL Overiew Tab. This should be provided in the  format **poject.id:region:instance-name**
+* **"INSTANCE"** a virtual server instance in a cloud computing environment. It is built, hosted and delivered using a cloud computing platform, and can be accessed remotely.. 
 
-  * CLOUDSQL_INSTANCE is not a required parameter. It can therefore be ignored if you are not using Cloud SQL.
  
 ## Deploy Manually
 **If you do not want to use the above "Run on Google Cloud Button", then you can:**
