@@ -39,3 +39,5 @@ AS known as plugin in Wordpress envirnoment.
   * [Starter Templates](https://wordpress.org/plugins/astra-sites/), With this plugin, we can access multiple pre-made complete website templates and your favorite page builder. The plugin allows us to import a complete website presentation, make adjustments and build a professional website. Also, we can do this by importing specific pages, complete websites or even Elementor blocks.
 * [Scroll to top].
   * [Scroll to top](https://wordpress.org/plugins/simple-scroll-to-top-button/), This plugin will enable a custom and flexible back to top button to the website. It allows visitors to easily scroll back to the top of the current page. The user will get features such as unlimited color choices, icon font & retina ready.
+
+Rest plugins coming soon :)
