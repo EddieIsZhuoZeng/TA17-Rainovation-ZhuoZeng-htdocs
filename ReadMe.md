@@ -25,136 +25,17 @@ After you launch this product, Google Cloud Service will automatically configure
 * **"INSTANCE"** a virtual server instance in a cloud computing environment. It is built, hosted and delivered using a cloud computing platform, and can be accessed remotely.. 
 
  
-## Deploy Manually
-**If you do not want to use the above "Run on Google Cloud Button", then you can:**
-
- * Clone the repository ( using the command ```git clone https://github.com/lans-repos/wordpress-gcr.git```)
- 
- * Cd to wordpress-gcr 
-  
- * Build the docker image (using the command ``` docker build -t gcr.io/[PROJECT-ID]/wordpress-gcr .  ```)
- 
- * Push the image to Cloud Registry (using the command ``` docker push gcr.io/[PROJECT-ID]/wordpress-gcr ```)
- 
- * Deploy the image from Cloud Registry to Cloud Run.
- 
-    If your are using a Cloud SQL database then deploy using the command after replacing  PROJECT-ID, DB_NAME, DB_USER, DB_PASSWORD & CLOUDSQL_INSTANCE with the relevant values: 
-            
-        
-        gcloud beta run deploy wordpress-gcr  --image gcr.io/[PROJECT-ID]/wordpress-gcr --set-env-vars DB_HOST='127.0.0.1',DB_NAME=<dbname>,DB_USER=<dbuser>,DB_PASSWORD=<dbpass>,CLOUDSQL_INSTANCE='poject.id:region:instance-name' 
-
-       
-     If you are using an exertnal MysQL database then deploy using the command after replacing  PROJECT-ID, DB_HOST, DB_NAME, DB_USER & DB_PASSWORD with the relevant values: 
-    
-  
-        gcloud beta run deploy wordpress-gcr  --image gcr.io/[PROJECT-ID]/wordpress-gcr --set-env-vars DB_HOST=<dbhost>,DB_NAME=<dbname>,DB_USER=<dbuser>,DB_PASSWORD=<dbpass>
-        
-
- 
- 
- 
-## Post Deployment & GCS plugin
-
-After deployment & installionton of Wordpress , sign into WP-ADMIN, go to plugins, activate the GCS plugin , go the GCS plugin settings and input the url of the GCS bucket.
-
-## Creating, Editing Wordpress Pages & Site
-
-This is done the same way it is done with any other type of Wordpress depolyment. 
-
-Wordpress stores page & site content in the connected database ( on Cloud SQL or external MySQL) and the media files are stored in the GCS bucket configured in the GCS plugin . The site content & media will therefore survive/persist  when the  Cloud Run container scales down to zero. 
-
- 
-
-## Update / Install / Delete WordPress plugins or themes
-
-This has to be done locally in Google Cloud Shell and then pushed (i.e redployed) to Cloud Run and requires the use of the wp-cli utility and the wordpress directory included in this repository.
-
-Since the Run on Google Cloud deployment uses Cloud Shell "Trusted Environment" it might be advisable to return to Cloud Shell  Default enviroment and pull a clone of this repository before you start any of the steps below:
-
-*  Install the wp-cli utility using composer:
-
-     ``` composer require wp-cli/wp-cli-bundle```
-
-* A wp-config.php file , with the correct values for the DB_HOST, DB_NAME, DB_USER , DB_PASSWORD , CLOUDSQL_INSTANCE variables , **is required in the wordpress directory before you can use the wp-cli utility**. 
-
-  * This will be true if image had already be deployed( using the button  or mannually)  to Cloud Run.
-
-  * If the wp-config.php is not present in the wordpress directory or if the file is present but does not have the correct values for  DB_HOST, DB_NAME, DB_USER & DB_PASSWORD, CLOUDSQL_INSTANCE variables then copy wp-config.php from the root directory to the wordpress directory and provide the correct values for DB_HOST, DB_NAME, DB_USER & DB_PASSWORD, CLOUDSQL_INSTANCE variables
-
-* From inside the wordpress directory ( i.e. cd to wordpress ) you can now update   plugins and themes using the commands wp cli commands:
-
-    ``` vendor/bin/wp plugin update --all```
-    
-    ``` vendor/bin/wp theme update --all```
-    
-* You can also use the several ```wp plugin <command> ``` or ```wp theme <command> ```  to install , delete, activate, or act upon any individual plugins or themes.
-
-* You can also, from inside the wordpress directory, run the wp-cli command ```wp server``` to locally launch PHP's built-in web server and then use [Cloud Shell Web Preview feature](https://cloud.google.com/shell/docs/using-web-preview#previewing_the_application) to access the local version of the wordpress site. You can login to wordpress admin and update plugins or themes. 
-
-
-* After locally updating plugins or themes, you need to rebuild the docker image, push it to Cloud Registry and then push (redeploy) the updated image to Cloud Run by running the following three commands:
-
-        docker build -t gcr.io/[PROJECT-ID]/wordpress-gcr .
-        
-        docker push gcr.io/[PROJECT-ID]/wordpress-gcr
-
-        gcloud beta run deploy wordpress-gcr  --image gcr.io/[PROJECT-ID]/wordpress-gcr --set-env-vars DB_HOST='127.0.0.1',DB_NAME=<dbname>,DB_USER=<dbuser>,DB_PASSWORD=<dbpass>,CLOUDSQL_INSTANCE='poject.id:region:instance-name' 
-        
-    
-
-       
-  In the above commands [PROJECT-ID] is your gcp project-id. It also assumes the use of a Cloud SQL database and that the Cloud Run service name is wordpress-gcr.
-  
-  The proccess of rebuilding the docker image and redeploying it to the Cloud Run service could be automated using [Cloud Build Triggers](https://cloud.google.com/run/docs/continuous-deployment?_ga=2.244497477.-1913607253.1558898014).
-
-* The wordpress core can not be updated using the above steps (as only the content of the local wordpress/wp-contnet/plugins & wordpress/wp-contnet/themes is copied into the new image).
-
-  * The initial deployment however uses latest wordpress image and the  [Dockerfile](https://github.com/lans-repos/wordpress-gcr/blob/master/Dockerfile) always pulls the latest wordpress docker image. 
-  * **The wordpress core is therefore updated each time the image is rebuilt for re-deployment.**
-
-## Cloud Run Custom Domain Mapping
-
-If you decide to use Cloud Run Custom Domain mapping on the Wordpress deployment then you have to remember that Cloud Run only maps a  domain to /, but not to a specific base path. 
-
-**This means a url path like https://yourcustomdomain.com/contact.php  will not be mapped !**
-
-To get the custom domain to map to all url paths beyound /, you need to 
-
-* Edit the wp-config.php files to add 
-
-
-       define( 'WP_HOME', 'https://yourcustomdomain.com' ); 
-        
-       define( 'WP_SITEURL', 'https://yourcustomdomain.com/' );
-
-            
-    
-    
- * Then rebuild the docker image, push it to Cloud Registry and then push (redeploy) the updated image to Cloud Run by running the following three commands:
-
-        docker build -t gcr.io/[PROJECT-ID]/wordpress-gcr .
-        
-        docker push gcr.io/[PROJECT-ID]/wordpress-gcr
-
-        gcloud beta run deploy wordpress-gcr  --image gcr.io/[PROJECT-ID]/wordpress-gcr --set-env-vars DB_HOST='127.0.0.1',DB_NAME=<dbname>,DB_USER=<dbuser>,DB_PASSWORD=<dbpass>,CLOUDSQL_INSTANCE='poject.id:region:instance-name' 
-
-    In the above commands [PROJECT-ID] is your gcp project-id. It also assumes the use of a Cloud SQL database and that  Cloud Run service name is wordpress-gcr.
-
-## Access Control
-
-If , for security or cost management purposes, you need to control access to the site you can configure Cloud Run's [access mananging via IAM](https://cloud.google.com/run/docs/securing/managing-access) feature.
-
-## Firebase & CDN Integration
-
-Coming Soon :)
-
-## Is Wordpress on Cloud Run a good idea?
-
-That is a great question ! 
-
-I will agree that Cloud Run's stateless container model makes Wordpress admin & update cumbersome and time consuming. Hence this  might only appeal to an enthustiast or a DevOps that likes over-engineered solutions.
-
-I however think that the fact that [Wordpress on AppEngine](https://cloud.google.com/wordpress/#appengine) is also stateless & severless suggests this architecture does have some technically benefits.:smile:
-
-WordPress on Cloud Run might be perfect & cheap for a site that gets periodic, unpredictable spikes of intense traffic. It will be non-ideal and  expensive(due to [Cloud Run's billing model](https://cloud.google.com/run/pricing#pricing_table)) for a site that gets regular and consistent traffic.
-
+## Packages
+AS known as plugin in Wordpress envirnoment.
+* [AMP].
+  * [AMP](https://wordpress.org/plugins/amp/), the main focus is to improve the speed of mobile pages. After all, this is an important ranking factor and a usable question for those who browse the web on mobile devices.
+* [Elementor].
+  * [Elementor](https://wordpress.org/plugins/elementor/), is a page generator that replaces the basic editor of WordPress with a vivid front-end editor effect, so we can more intuitively create complex page layouts and design our website without editing pages and previews Switch between pages. The difference with the basic editor is that on our website editing page, it allows us to achieve a high-level design, a drag-and-drop page editing effect, allowing us to add text, titles, pictures, backgrounds, videos, etc. When waiting for elements, realize visual editing.
+* [Elementor- Header, Footer & Blocks].
+  * [Elementor- Header, Footer & Blocks](https://wordpress.org/plugins/header-footer-elementor/), It is a plug-in bundled with elementor. The Header Footer Elementor plug-in allows us to use Elementor to create a layout and easily set it as a header or footer on your website.
+* [Secure File Manager].
+  * [Secure File Manager](https://wordpress.org/plugins/search/Secure+File+Manager/), We can create, delete, edit, download, upload, and compress (Zip) files without any FTP software. Also, we can manage all website files directly from the WordPress dashboard. To server.
+* [Starter Templates].
+  * [Starter Templates](https://wordpress.org/plugins/astra-sites/), With this plugin, we can access multiple pre-made complete website templates and your favorite page builder. The plugin allows us to import a complete website presentation, make adjustments and build a professional website. Also, we can do this by importing specific pages, complete websites or even Elementor blocks.
+* [Scroll to top].
+  * [Scroll to top](https://wordpress.org/plugins/simple-scroll-to-top-button/), This plugin will enable a custom and flexible back to top button to the website. It allows visitors to easily scroll back to the top of the current page. The user will get features such as unlimited color choices, icon font & retina ready.
