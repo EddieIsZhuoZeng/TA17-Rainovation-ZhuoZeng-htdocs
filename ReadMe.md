@@ -3,19 +3,14 @@
 ## Wordpress on Cloud Run 
 [![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/)
 
-Launch a WordPress container on Google Cloud Run that uses a Cloud SQL (or an external MySQL) database and a Google Cloud Storage (GCS) bucket for media uploads.
+Launch a WordPress container on Google Cloud Run.
 
 ## Requirements
 
-* A Cloud SQL database OR external MySQL database that can be accessed remotely via external IP address.
+* active free trial.
 
-  * A Cloud SQL database can be created quickly by downloading the  [createCloudSQL.sh](https://github.com/lans-repos/wordpress-gcr/blob/master/createCloudSQL.sh) script and running it in Cloud Shell.
-  
-  * A cheap, dirty, not production recommeded, and probably insecure database option is to deploy Google [MySQL VM](https://console.cloud.google.com/marketplace/details/click-to-deploy-images/mysql?q=mysql&id=59e776b5-96fb-4644-8a6e-92c2756ebef5) on GCP with an externally exposed IP & firewall configured to accept traffic on port 3306 from anywhere. This option could even be free (i.e eligible for [Google Cloud free tier](https://cloud.google.com/free/docs/gcp-free-tier#always-free-usage-limits))  if the VM is located in a US region (excluding Northern Virginia [us-east4]) and configured ( or re-configured after deployment) with 1 f1-micro instanc and max 30 GB HDD. 
-
-* A Google Cloud Storage (GCS) Bucket with its object default permission configured for allUsers so that uploaded images are publicly available.
-  * The bucket permission can be configures using the command: ```gsutil defacl ch -u AllUsers:R gs://your-gcs-bucket-name```
-  * Can also see this  [plugin support response](https://wordpress.org/support/topic/google-storage-not-work/page/2/#post-8897852) on how to configure permission on the  GCS bucket.
+  * Log in your google account and apply for $400 free credit in 90 days.
+* In your google cloud platform, click [Marketplace](https://console.cloud.google.com/marketplace?authuser=1&folder=&organizationId=&project=daring-wavelet-179806) and seach for  [WordPress with NGINX and SSL Certified by Bitnami and Automattic](https://console.cloud.google.com/marketplace/details/bitnami-launchpad/wordpresspro?q=wordpress%20with%20nginx%20and%20ssl%20certified%20by%20bitnami%20and%20automattic&id=2cd37bcb-755a-46d6-885f-ec0d758f716d&project=daring-wavelet-179806&authuser=1&folder&organizationId) to launch the deployment.  
 
 ## Deployment Parameters
 The Run on Google Cloud deployment will prompt for the environment variables "DB_HOST","DB_USER","DB_PASSWORD", "DB_NAME" & CLOUDSQL_INSTANCE.
