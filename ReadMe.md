@@ -1,4 +1,5 @@
-<p align="center"><img src="/WordPress.png" height="100" />  + <img src="/CloudRun.png" height="100"/>  </p>
+## Project Title  
+## Short description 
 
 ## Wordpress on Google Cloud  
 [![Run on Google Cloud](https://storage.googleapis.com/cloudrun/button.svg)](https://console.cloud.google.com/)
