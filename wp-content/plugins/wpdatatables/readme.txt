@@ -4,9 +4,9 @@ Author URI: https://tms-outsource.com
 Plugin URI: https://wpdatatables.com/
 Tags: data tables, tables, table, charts, tables from csv, tables from excel, datatables, responsive tables, charting, pie charts, mysql tables, table plugin, wp table, WordPress table Plugin, Google Charts, Excel, JSON, XML, PHP array, line chart, donut, bar chart, histogram, area chart, bubble chart, gauge chart, scatter chart, candlestick, waterfall
 Requires at least: 4.0
-Tested up to: 5.5
+Tested up to: 5.5.1
 Requires PHP: 5.4
-Stable tag: 2.1.1
+Stable tag: 2.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -181,6 +181,11 @@ This can be changed from the “Number format” drop-down menu in the wpDataTab
 9. Google chart settings
 
 == Changelog ==
+
+= 2.1.2 =
+* Fixed issue with the slow backend
+* Fixed issue with loader after saving global plugin settings
+* Compatibility with WordPress 5.5.1 approved.
 
 = 2.1.1 =
 * Bug fixes and stability improvements.

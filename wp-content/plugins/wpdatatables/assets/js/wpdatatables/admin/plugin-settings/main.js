@@ -286,7 +286,7 @@
         /**
          * Save settings on Apply button
          */
-        $('button.wdt-apply').click(function(e){
+        $(document).on('click','button.wdt-apply' ,function(e){
 
             $('.wdt-preload-layer').animateFadeIn();
 
@@ -297,7 +297,7 @@
         function savePluginSettings() {
             $.ajax({
                 url: ajaxurl,
-                dataType: 'json',
+                dataType: 'text',
                 method: 'POST',
                 data: {
                     action: 'wpdatatables_save_plugin_settings',
@@ -310,6 +310,14 @@
                         wpdatatables_edit_strings.success,
                         wpdatatables_edit_strings.settings_saved_successful,
                         'success'
+                    );
+                },
+                error: function (){
+                    $('.wdt-preload-layer').animateFadeOut();
+                    wdtNotify(
+                        wpdatatablesSettingsStrings.error,
+                        wpdatatablesSettingsStrings.settings_saved_error,
+                        'danger'
                     );
                 }
             })

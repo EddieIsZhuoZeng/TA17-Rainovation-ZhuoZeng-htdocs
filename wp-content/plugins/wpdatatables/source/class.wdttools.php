@@ -328,6 +328,7 @@ class WDTTools
             'selectExcelCsv' => __('Select an Excel or CSV file', 'wpdatatables'),
             'sEmptyTable' => __('No data available in table', 'wpdatatables'),
             'settings_saved_successful' => __('Plugin settings saved successfully', 'wpdatatables'),
+            'settings_saved_error' => __('Unable to save settings of plugin. Please try again or contact us over Support page.', 'wpdatatables'),
             'shortcodeSaved' => __('Shortcode has been copied to the clipboard.', 'wpdatatables'),
             'sInfo' => __('Showing _START_ to _END_ of _TOTAL_ entries', 'wpdatatables'),
             'sInfoEmpty' => __('Showing 0 to 0 of 0 entries', 'wpdatatables'),

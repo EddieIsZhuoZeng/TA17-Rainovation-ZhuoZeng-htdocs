@@ -336,14 +336,16 @@ $tableChartsCount = WDTTools::getTablesCount('chart');
                                  </span>
                         </p>
                         <p class="wpdt-text wpdt-font m-b-18">
-                            <?php _e('A minor stability update including some patches for compatibility with WordPress version 5.5.', 'wpdatatables'); ?>
+                            <?php _e('A regular update including some stability improvements and bugfixes.', 'wpdatatables'); ?>
                         </p>
-<!--                        <div class="alert alert-info m-b-0" role="alert">-->
-<!--                            <i class="wpdt-icon-info-circle-full"></i>-->
-<!--                            <ul>-->
-<!--                                <li class="alert-desc"></li>-->
-<!--                            </ul>-->
-<!--                        </div>-->
+                        <div class="alert alert-info m-b-0" role="alert">
+                            <i class="wpdt-icon-info-circle-full"></i>
+                            <ul>
+                                <li class="alert-desc" ><?php _e('Fixed issue with the slow backend', 'wpdatatables'); ?></li>
+                                <li class="alert-desc" ><?php _e('Fixed issue with loader after saving global plugin settings', 'wpdatatables'); ?></li>
+                                <li class="alert-desc" ><?php _e('Compatibility with WordPress 5.5.1 approved.', 'wpdatatables'); ?></li>
+                            </ul>
+                        </div>
 
                     </div>
                 </div>
