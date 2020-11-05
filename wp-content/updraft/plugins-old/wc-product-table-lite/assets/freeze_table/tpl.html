@@ -1,0 +1,48 @@
+<script type="text/template" id="frzTbl-tpl">
+  <div class="frzTbl antiscroll-wrap frzTbl--scrolled-to-left-edge" style="{{wrapper_height}} {{wrapper_width}}">
+    <div class="frzTbl-scroll-overlay antiscroll-inner">
+        <div class="frzTbl-scroll-overlay__inner" style="{{table_width}} {{table_height}}"></div>
+    </div>
+    <div class="frzTbl-content-wrapper">
+
+        <!-- sticky outer heading -->
+        <div class="frzTbl-fixed-heading-wrapper-outer" style="{{heading_height}}">
+          <div class="frzTbl-fixed-heading-wrapper__columns frzTbl-fixed-heading-wrapper__columns--left">
+            {{left-columns-heading}}          
+          </div>
+          <div class="frzTbl-fixed-heading-wrapper__columns frzTbl-fixed-heading-wrapper__columns--right">
+            {{right-columns-heading}}    
+          </div>              
+          
+          <div class="frzTbl-fixed-heading-wrapper">
+            <div class="frzTbl-fixed-heading-wrapper__inner" style="{{table_width}}">
+              {{heading}}
+            </div>    
+          </div>
+        </div>
+
+        <!-- columns -->
+        <div class="frzTbl-frozen-columns-wrapper">
+          <div class="frzTbl-frozen-columns-wrapper__inner" style="{{table_height}}">
+              <div class="frzTbl-frozen-columns-wrapper__columns frzTbl-frozen-columns-wrapper__columns--left">
+                <div class="frzTbl-top-sticky">{{left-columns-heading}}</div>
+                {{left-columns}}
+              </div>
+              <div class="frzTbl-frozen-columns-wrapper__columns frzTbl-frozen-columns-wrapper__columns--right">
+                <div class="frzTbl-top-sticky">{{right-columns-heading}}</div>
+                {{right-columns}}
+              </div>
+          </div>
+        </div>
+
+        <!-- table -->
+        <div class="frzTbl-table-wrapper">
+          <div class="frzTbl-table-wrapper__inner" style="{{table_width}} {{table_height}}">
+              <div class="frzTbl-top-sticky">{{heading}}</div>
+              <div class="frzTbl-table-placeholder"></div>
+          </div>
+        </div>
+
+    </div>
+  </div>
+</script>

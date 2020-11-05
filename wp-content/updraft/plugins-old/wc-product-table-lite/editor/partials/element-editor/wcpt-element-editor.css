@@ -1,0 +1,271 @@
+/* element manager */
+body.wcpt-editor-element-manager-display {
+  overflow: hidden;
+}
+
+.wcpt-editor-element-manager-lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  z-index: 100000;
+  overflow-y: overlay;
+  display: none;
+}
+
+.wcpt-editor-element-manager {
+  width: 1000px;
+  border: 2px solid #555;
+  box-shadow: 0 0 30px rgba(0, 0, 0, .2);
+  margin: 50px auto;
+  position: relative;
+  min-height: calc(100% - 100px);
+}
+
+.wcpt-editor-element-manager:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #666;
+  width: 220px;
+  height: 100%;
+}
+
+.wcpt-editor-element-manager:after,
+.wcpt-editor-element-manager > div:after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.wcpt-editor-element-manager > i.fa-times-thin {
+  position: absolute;
+  right: -130px;
+  top: 0;
+  font-size: 35px;
+  cursor: pointer;
+  color: #999;
+  transition: .2s;
+}
+
+.wcpt-editor-element-manager > i.fa-times-thin:hover {
+  color: black;
+}
+
+.wcpt-editor-element-manager > i.fa-times-thin > span {
+  font-size: 20px;
+  font-family: verdana;
+  margin-left: 10px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.wcpt-editor-element-manager > i.fa-times-thin:before {
+  content: '\00d7';
+}
+
+.wcpt-editor-element-manager-title {
+  font-size: 20px;
+  /* font-weight: bold; */
+  letter-spacing: 5px;
+  padding: 34px 10px;
+  text-align: center;
+  border-bottom: 2px solid #555;
+  background: white;
+  position: relative;
+  text-transform: uppercase;
+  color: #676767;
+}
+
+.wcpt-editor-element-sources {
+  width: 220px;
+  float: left;
+  position: relative;
+}
+
+.wcpt-editor-element-source {
+  padding: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 2em;
+  border-bottom: 1px solid #555;
+  position: relative;
+  cursor: pointer;
+}
+
+.wcpt-editor-element-source:not(.wcpt-editor-element-source-selected):hover {
+  background: #777;
+}
+
+.wcpt-editor-element-source-count {
+  color: #555;
+  background: #d0d0d0;
+  font-size: 12px;
+  padding: 3px;
+  width: 1.4em;
+  line-height: 1.4em;
+  margin-left: 8px;
+  display: inline-block;
+  border-radius: 100%;
+  text-align: center;
+  vertical-align: baseline;
+  box-sizing: content-box!important;
+  border: 1px solid #545454;
+  box-shadow: 0 0 10px rgba(51, 51, 51, 0.3);
+}
+
+.wcpt-editor-element-source-selected {
+  background: white;
+  color: black;
+}
+
+.wcpt-editor-element-source:after {
+  content: ' ';
+  width: 8px;
+  height: 8px;
+  border: 2px solid currentColor;
+  border-width: 2px 2px 0 0;
+  font-family: 'fontawesome';
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+  top: 50%;
+  transform:  rotate(45deg) translateY(-50%);
+  opacity: 0;
+  transition: .3s right;
+}
+
+.wcpt-editor-element-source-selected:after {
+  right: 0;
+  opacity: .5;
+}
+
+.wcpt-editor-element-source-selected .wcpt-editor-element-source-count {
+  color: black;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.wcpt-editor-element-library,
+.wcpt-editor-element-workbench {
+  padding: 15px 30px;
+  width: calc(100% - 220px);
+  display: inline-block;
+}
+
+.wcpt-editor-element-workbench {
+  display: none;
+}
+
+.wcpt-editor-element-library .wcpt-editor-row-handle > div {
+  width: calc((100% - (4 * 60px) ) / 1 ); /* 4 -> number of action columns 3 -> number of data columns */
+}
+
+.wcpt-editor-element-library .wcpt-editor-row-handle-data {
+  padding-left: 0;
+}
+
+.wcpt-editor-row-toggle {
+  position: relative;
+}
+
+.wcpt-editor-row-toggle:before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background:  rgba(0, 0, 0, .02);
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wcpt-editor-element-library input[type="text"],
+.wcpt-editor-element-library input[type="number"],
+.wcpt-editor-element-library textarea,
+.wcpt-editor-element-library select {
+  padding: 10px;
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid #ddd;
+}
+
+.wcpt-editor-element-library textarea {
+  height: 90px;
+}
+
+.wcpt-editor-element-library > div {
+  display: none;
+}
+
+.wcpt-elements-list-for {
+  color: #000000;
+  font-weight: lighter;
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+}
+
+.wcpt-element-type-focus {
+  font-size: 35px;
+  margin: 0px 0 25px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  border-bottom: 2px dashed #efefef;
+  padding-bottom: 15px;
+  line-height: 45px;
+}
+
+.wcpt-editor-row-option + .wcpt-editor-row-style-options {
+  margin-top: 10px;
+  /* border-top: 2px dashed rgba(0, 0, 0, 0.1); */
+}
+
+.wcpt-toggle-options:not(.wcpt-open) > *:not(.wcpt-toggle-label) {
+  display: none;
+}
+
+.wcpt-editor-row-style-options .sp-preview {
+  width: 151px;
+  height: 25px;
+}
+
+input.wcpt-element-shortcode {
+  padding: 10px;
+  background: whitesmoke;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+}
+
+.wcpt-editor-row-handle-action {
+  padding: 30px 0 !important;
+}
+
+.wcpt-add-element {
+  background: #42A5F5 !important;
+  color: white  !important;
+  font-weight: 200;
+  font-size: 16px;
+  margin-bottom: 0px!important;
+  width: 190px;
+  float: right;
+  padding: 10px  !important;
+  position: relative;
+  top: 2px;
+  transition: .2s;
+}
+
+.wcpt-add-element:hover {
+  background: #0f8aec !important;
+}

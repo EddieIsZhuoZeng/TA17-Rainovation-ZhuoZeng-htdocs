@@ -1,0 +1,488 @@
+# Copyright (C) 2014 Basic Google Maps Placemarks
+# This file is distributed under the same license as the Basic Google Maps Placemarks package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Basic Google Maps Placemarks 1.10.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/basic-google-maps-"
+"placemarks\n"
+"POT-Creation-Date: 2014-01-08 15:49:15+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-07-08 12:40+0100\n"
+"Last-Translator: Borisa Djuraskovic <borisad@webhostinghub.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.5.7\n"
+
+#. #-#-#-#-#  basic-google-maps-placemarks.pot (Basic Google Maps Placemarks 1.10.1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: basic-google-maps-placemarks.php:36
+msgid "Basic Google Maps Placemarks"
+msgstr "Osnovne oznake mesta na Google mapama"
+
+#: basic-google-maps-placemarks.php:69
+msgid ""
+"%s <strong>requires PHP %s</strong> and <strong>WordPress %s</strong> in "
+"order to work. You're running PHP %s and WordPress %s. You'll need to "
+"upgrade in order to use this plugin. If you're not sure how to <a href="
+"\"http://codex.wordpress.org/Switching_to_PHP5\">upgrade to PHP 5</a> you "
+"can ask your hosting company for assistance, and if you need help upgrading "
+"WordPress you can refer to <a href=\"http://codex.wordpress.org/"
+"Upgrading_WordPress\">the Codex</a>."
+msgstr ""
+"%s <strong> zahteva PHP %s</strong> i <strong>WordPress %s</strong> da bi "
+"funkcionisao.Pokrenuli ste PHP % i WordPress %. Moraćete da ih nadogradite "
+"da biste koristili ovaj plugin. Ako niste sigurni kako to da uradite, "
+"kliknite na <a href=\"http://codex.wordpress.org/Switching_to_PHP5\">upgrade "
+"to PHP 5</a>. Možete zatražiti pomoć od svog hosta, a ako vam treba pomoć da "
+"nadogradite WordPress, kliknite na <a href=\"http://codex.wordpress.org/"
+"Upgrading_WordPress\">the Codex</a>."
+
+#: core.php:151 settings.php:44
+msgid "Seattle"
+msgstr "Sijetl"
+
+#: core.php:286
+msgid ""
+"%s requires the Images media button setting to be enabled in order to use "
+"custom icons on markers, but it's currently turned off. If you'd like to use "
+"custom icons you can enable it on the <a href=\"%s\">Network Settings</a> "
+"page, in the Upload Settings section."
+msgstr ""
+"%s zahteva da taster Slike medija bude štikliran da biste koristili "
+"prilagođene ikonice na markerima, ali trenutno je isključen. Ako želite da "
+"koristite prilagođene ikonice, možete ih aktivirati na strani <a href=\"%s"
+"\"> Postavke mreže </a> u polju Učitaj postavke.  "
+
+#: core.php:363
+msgid "%s shortcode error: %s is not a valid placemark ID."
+msgstr "%s greška u kratkom kodu. %s nije validan ID oznake mesta."
+
+#: core.php:380
+msgid "%s shortcode error: %s does not have a valid address."
+msgstr "%s greška kratkog koda. %s nema validnu adresu."
+
+#: core.php:414
+msgid "%s shortcode error: %s is not a valid category."
+msgstr "%s greška u kratkom kodu. %s nije važeća kategorija."
+
+#: core.php:432
+msgid "%s shortcode error: %s is not a valid width."
+msgstr "%s greška u kratkom kodu. %s nije odgovarajuća širina."
+
+#: core.php:449
+msgid "%s shortcode error: %s is not a valid height."
+msgstr "%s greška u kratkom kodu. %s nije odgovarajuća visina."
+
+#: core.php:478
+msgid "%s shortcode error: %s is not a valid zoom level."
+msgstr "%s  greška u kratkom kodu. %s  nije odgovarajući nivo zumiranja."
+
+#: core.php:496
+msgid "%s shortcode error: %s is not a valid map type."
+msgstr "%s greška u kratkom kodu. %s nije validna vrsta mape."
+
+#: core.php:641 core.php:658
+msgid "Placemarks"
+msgstr "Oznake mesta"
+
+#: core.php:642
+msgid "Placemark"
+msgstr "Oznaka mesta"
+
+#: core.php:643
+msgid "Add New"
+msgstr "Dodaj novu"
+
+#: core.php:644
+msgid "Add New Placemark"
+msgstr "Dodaj novu oznaku mesta"
+
+#: core.php:645
+msgid "Edit"
+msgstr "Uredi"
+
+#: core.php:646
+msgid "Edit Placemark"
+msgstr "Uredi oznaku mesta"
+
+#: core.php:647
+msgid "New Placemark"
+msgstr "Nova oznaka mesta"
+
+#: core.php:648 core.php:649
+msgid "View Placemark"
+msgstr "Vidi oznaku mesta"
+
+#: core.php:650
+msgid "Search Placemarks"
+msgstr "Pretraži oznake mesta"
+
+#: core.php:651 core.php:1076
+msgid "No Placemarks found"
+msgstr "Oznake mesta nisu pronađene"
+
+#: core.php:652
+msgid "No Placemarks found in Trash"
+msgstr "Oznake mesta nisu pronađene u korpi za otpatke"
+
+#: core.php:653
+msgid "Parent Placemark"
+msgstr "Nadređena oznaka mesta"
+
+#: core.php:687 core.php:688
+msgid "Category"
+msgstr "Kategorija"
+
+#: core.php:688
+msgid "Categories"
+msgstr "Kategorije"
+
+#: core.php:730
+msgid "Placemark Address"
+msgstr "Adresa oznake mesta"
+
+#: core.php:739
+msgid "Stacking Order"
+msgstr "Redosled steka"
+
+#: core.php:830
+msgid "The stacking order has to be an integer."
+msgstr "Redosled steka mora biti ceo broj"
+
+#: core.php:859
+msgid "%s geocode error: %s"
+msgstr "%s greška geokoda: %s"
+
+#: core.php:871
+msgid "%s geocode error: Response code not present"
+msgstr "%s greška geokoda: nije prisutan kod odgovora"
+
+#: core.php:889
+msgid "<p>%s geocode error: %d %s</p> <p>Response: %s</p>"
+msgstr "<p>%s  greška geokoda: %d %s</p> <p>Odgovor: %s</p>"
+
+#: core.php:906
+msgid "%s geocode error: Response was not formatted in JSON."
+msgstr "%s greška geokoda: Odgovor nije formatiran u JSON-u."
+
+#: core.php:912
+msgid "%s geocode error: Request Denied."
+msgstr "%s greška geokoda: Zahtev odbijen."
+
+#: core.php:918
+msgid "That address couldn't be geocoded, please make sure that it's correct."
+msgstr "Adresa nije geokodirana, molimo vas, proverite da li je tačna."
+
+#: core.php:920
+msgid "Geocode response:"
+msgstr "Odgovor geokoda:"
+
+#: core.php:992
+msgid ""
+"<p class=\"error\">%s error: JavaScript and/or CSS files aren't loaded. If "
+"you're using do_shortcode() you need to add a filter to your theme first. "
+"See <a href=\"%s\">the FAQ</a> for details.</p>"
+msgstr ""
+"<p class=\"error\">%s greška: nisu učitane datoteke JavaScript i/ili CSS. "
+"Ako koristite do_shortcode(), prvo morate da didate filter na svoju temu. Za "
+"detalje pogledajte <a href=\"%s\">the FAQ</a>. </p>"
+
+#: core.php:1388
+msgid "Type"
+msgstr "Vrsta"
+
+#: core.php:1390
+msgid "Length"
+msgstr "Dužina"
+
+#: core.php:1392
+msgid "Content"
+msgstr "Sadržaj"
+
+#: settings.php:51
+msgid "Street Map"
+msgstr "Mapa ulica"
+
+#: settings.php:52
+msgid "Satellite Images"
+msgstr "Slike sa satelita"
+
+#: settings.php:53
+msgid "Hybrid"
+msgstr "Hibrid"
+
+#: settings.php:54
+msgid "Terrain"
+msgstr "Teren"
+
+#: settings.php:116
+msgid "Re-Abolish Slavery"
+msgstr "Ponovo ukinite ropstvo"
+
+#: settings.php:155
+msgid "Help"
+msgstr "Pomoć"
+
+#: settings.php:156
+msgid "Settings"
+msgstr "Postavke"
+
+#: settings.php:174
+msgid "Map Width"
+msgstr "Širina mape"
+
+#: settings.php:175
+msgid "Map Height"
+msgstr "Visina mape"
+
+#: settings.php:176
+msgid "Map Center Address"
+msgstr "Adresa centra mape"
+
+#: settings.php:177
+msgid "Zoom"
+msgstr "Zumiranje"
+
+#: settings.php:178
+msgid "Map Type"
+msgstr "Vrsta mape"
+
+#: settings.php:179
+msgid "Type Control"
+msgstr "Kontrola vrste"
+
+#: settings.php:180
+msgid "Navigation Control"
+msgstr "Kontrola navigacije"
+
+#: settings.php:181
+msgid "Info. Window Maximum Width"
+msgstr "Info. Maksimalna širina prozora"
+
+#: settings.php:194 settings.php:225
+msgid "Marker Clustering"
+msgstr "Grupisanje markera"
+
+#: settings.php:195
+msgid "Max Zoom"
+msgstr "Maksimalno zumiranje"
+
+#: settings.php:196
+msgid "Grid Size"
+msgstr "Veličina mreže"
+
+#: settings.php:197
+msgid "Style"
+msgstr "Stil"
+
+#: settings.php:220
+msgid "Map Settings"
+msgstr "Postavke mape"
+
+#: settings.php:221
+msgid ""
+"The map(s) will use these settings as defaults, but you can override them on "
+"individual maps using shortcode arguments. See <a href=\"http://wordpress."
+"org/extend/plugins/basic-google-maps-placemarks/installation/\">the "
+"Installation page</a> for details."
+msgstr ""
+"Mapa (mape) će koristiti ove postavke kao standardne, ali možete postaviti "
+"nove postavke za svaku mapu pojedinačno uz pomoć argumenata kratkog koda. Za "
+"detalje pogledajte <a href=\"http://wordpress.org/extend/plugins/basic-"
+"google-maps-placemarks/installation/\">the Installation page</a>."
+
+#: settings.php:226
+msgid ""
+"You can group large numbers of markers into a single cluster by enabling the "
+"Cluster Markers option."
+msgstr ""
+"Možete grupisati veliki broj markera u jednu grupu tako što ćete štiklirati "
+"opciju Grupisanje markera."
+
+#: settings.php:244 settings.php:249 settings.php:305
+msgid "pixels"
+msgstr "pikseli"
+
+#: settings.php:256
+msgid "Geocoded to:"
+msgstr "Geokodirano na:"
+
+#: settings.php:259 views/meta-address.php:16
+msgid "(Error geocoding address. Please make sure it's correct and try again.)"
+msgstr ""
+"(Pogrešna adresa geokodiranja. Molimo vas, proverite adresu i pokušajte "
+"ponovo)."
+
+#: settings.php:261
+msgid ""
+"You can type in anything that you would type into a Google Maps search "
+"field, from a full address to an intersection, landmark, city, zip code or "
+"latitude/longitude coordinates."
+msgstr ""
+"Možete ukucati bilo šta što biste ukucali u polje za pretraživanje Google "
+"mapa, od pune adrese do dela adrese, orijentira, grada, poštanskog broja ili "
+"koordinata (geografske širine i dužine)."
+
+#: settings.php:266 views/settings-marker-clusterer.php:11
+msgid "%d (farthest) to %d (closest)"
+msgstr "od %d (najdalje) do %d (najbliže)"
+
+#: settings.php:280 settings.php:292
+msgid "Off"
+msgstr "Isključen"
+
+#: settings.php:281 settings.php:293
+msgid "Automatic"
+msgstr "Automatski"
+
+#: settings.php:282
+msgid "Horizontal Bar"
+msgstr "Horizontalna traka menija"
+
+#: settings.php:283
+msgid "Dropdown Menu"
+msgstr "Opadajući meni"
+
+#: settings.php:287 settings.php:300
+msgid ""
+" \"Automatic\" will automatically switch to the appropriate control based on "
+"the window size and other factors."
+msgstr ""
+"\"Automatski\" će se automatski prebaciti na odgovarajuću kontrolu na osnovu "
+"veličine prozora i drugih faktora."
+
+#: settings.php:294
+msgid "Small"
+msgstr "Mali"
+
+#: settings.php:295
+msgid "Android"
+msgstr "Android"
+
+#: settings.php:296
+msgid "Zoom/Pan"
+msgstr "Zumiranje/Tabla"
+
+#: views/front-end-head.php:1
+msgid "Begin Basic Google Map Placemarks head"
+msgstr "Počnite od osnovnih Google Map oznaka"
+
+#: views/front-end-head.php:3
+msgid "End Basic Google Map Placemarks head"
+msgstr "Završite sa osnovnim Google map oznakama mesta"
+
+#: views/meta-address.php:3
+msgid ""
+"Enter the address of the placemark. You can type in anything that you would "
+"type into a Google Maps search field, from a full address to an "
+"intersection, landmark, city or just a zip code."
+msgstr ""
+"Unesite adresu oznake mesta. Ovde možete ukucati bilo šta što biste inače "
+"ukucali u polje za pretragu Google mapa - punu adresu, deo adrese, "
+"orijentir, grad ili poštanski kod."
+
+#: views/meta-address.php:8
+msgid "Address:"
+msgstr "Adresa:"
+
+#: views/meta-address.php:13
+msgid "(Geocoded to: %f, %f)"
+msgstr "(Geokodirano na %f, %f)"
+
+#: views/meta-re-abolish-slavery.php:1
+msgid ""
+"Please check out <a href=\"http://wordpress.org/extend/plugins/re-abolish-"
+"slavery-ribbon/\">the Re-Abolish Slavery plugin</a> if you'd like to use "
+"your website to help raise awareness about modern-day forms of slavery, like "
+"forced labor and sex trafficking."
+msgstr ""
+"Molimo vas, kliknite na <a href=\"http://wordpress.org/extend/plugins/re-"
+"abolish-slavery-ribbon/\">the Re-Abolish Slavery plugin</a> ako želite da "
+"učestvujete u podizanju svesti o modernim oblicima ropstva, kao što su "
+"prinudni rad ili trgovina ženama..."
+
+#: views/meta-z-index.php:3
+msgid ""
+"When two markers overlap, the marker with the higher stacking order will be "
+"on top. The Default is 0."
+msgstr ""
+"Kad se dva markera preklapaju, marker sa višim redosledom steka biće na "
+"vrhu. Standardna vrednost je 0."
+
+#: views/meta-z-index.php:6
+msgid "Stacking Order:"
+msgstr "Redosled steka:"
+
+#: views/settings-marker-clusterer.php:5
+msgid " Enable marker clustering"
+msgstr "Omogući grupisanje markera"
+
+#: views/settings-marker-clusterer.php:13
+msgid ""
+"When the maximum zoom level is reached, all markers will be shown without "
+"clustering."
+msgstr ""
+"Kad se dostigne maksimalni nivo zumiranja, svi markeri biće prikazani bez "
+"grupisanja."
+
+#: views/settings-marker-clusterer.php:20
+msgid ""
+"The grid size of a cluster, in pixels. Each cluster will be a square. Larger "
+"grids can be rendered faster."
+msgstr ""
+"Veličina mreže grupa u pikselima. Svaka grupa biće kvadrat. Veće grupe mogu "
+"se brže predstaviti."
+
+#: views/settings-marker-clusterer.php:26
+msgid "Default"
+msgstr "Standardna vrednost"
+
+#: views/settings-marker-clusterer.php:27
+msgid "People"
+msgstr "Ljudi"
+
+#: views/settings-marker-clusterer.php:28
+msgid "Hearts"
+msgstr "Srca"
+
+#: views/settings-marker-clusterer.php:29
+msgid "Conversation"
+msgstr "Razgovor"
+
+#: views/settings.php:5
+msgid "%s Settings"
+msgstr "%s Postavke"
+
+#: views/settings.php:16
+msgid "Save Changes"
+msgstr "Sačuvaj izmene"
+
+#: views/shortcode-bgmp-map.php:9
+msgid "Loading map..."
+msgstr "Učitavanje mape..."
+
+#: views/shortcode-bgmp-map.php:10
+msgid "Loading"
+msgstr "Učitavanje"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/basic-google-maps-placemarks/"
+msgstr "http://wordpress.org/extend/plugins/basic-google-maps-placemarks/"
+
+#. Description of the plugin/theme
+msgid ""
+"Embeds a Google Map into your site and lets you add map markers with custom "
+"icons and information windows. Each marker can have a different icon."
+msgstr ""
+"Ugrađuje Google mapu u vaš site i omogućava vam da dodate markere mape "
+"prilagođenim ikonicama i prozorima sa informacijama. Svaki marker može imati "
+"različitu ikonicu."
+
+#. Author of the plugin/theme
+msgid "Ian Dunn"
+msgstr "Ian Dunn"
+
+#. Author URI of the plugin/theme
+msgid "http://iandunn.name"
+msgstr "http://iandunn.name"
