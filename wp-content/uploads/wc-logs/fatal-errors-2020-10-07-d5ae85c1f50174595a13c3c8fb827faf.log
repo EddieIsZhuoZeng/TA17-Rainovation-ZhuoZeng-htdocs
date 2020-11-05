@@ -1,0 +1,2 @@
+2020-10-07T00:41:35+00:00 CRITICAL Allowed memory size of 536870912 bytes exhausted (tried to allocate 5500184 bytes) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/file-manager-advanced/application/library/php/elFinderVolumeDriver.class.php on line 4637
+

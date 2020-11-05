@@ -1,0 +1,605 @@
+{
+    "version": "0.4",
+    "title": "Contact 3",
+    "type": "section",
+    "metadata": {
+        "template_type": "section",
+        "elementor_pro_required": false,
+        "wp_page_template": "default"
+    },
+    "content": [
+        {
+            "id": "2ba436c7",
+            "settings": {
+                "stretch_section": "section-stretched",
+                "content_width": {
+                    "unit": "px",
+                    "size": 1400
+                },
+                "background_background": "classic",
+                "background_image": {
+                    "url": "https:\/\/wp.envatoextensions.com\/kit-61\/wp-content\/uploads\/sites\/64\/2018\/08\/fruits-market-sale-8066.jpg",
+                    "id": 2430
+                },
+                "background_position": "center center",
+                "background_repeat": "no-repeat",
+                "background_size": "cover",
+                "background_overlay_background": "classic",
+                "background_overlay_color": "#54595f",
+                "background_overlay_opacity": {
+                    "unit": "px",
+                    "size": 0.22
+                },
+                "shape_divider_bottom_width": {
+                    "unit": "%",
+                    "size": 214
+                },
+                "shape_divider_bottom_height": {
+                    "unit": "px",
+                    "size": 383
+                },
+                "shape_divider_bottom_height_tablet": {
+                    "unit": "px",
+                    "size": 115
+                },
+                "shape_divider_bottom_height_mobile": {
+                    "unit": "px",
+                    "size": 70
+                },
+                "shape_divider_bottom_flip": "yes",
+                "shape_divider_bottom_negative": "yes",
+                "padding": {
+                    "unit": "px",
+                    "top": "0",
+                    "right": "0",
+                    "bottom": "0",
+                    "left": "0",
+                    "isLinked": false
+                },
+                "padding_tablet": {
+                    "unit": "px",
+                    "top": "120",
+                    "right": "30",
+                    "bottom": "150",
+                    "left": "30",
+                    "isLinked": false
+                },
+                "padding_mobile": {
+                    "unit": "px",
+                    "top": "90",
+                    "right": "15",
+                    "bottom": "110",
+                    "left": "15",
+                    "isLinked": false
+                },
+                "shape_divider_bottom_color": "#f6f7f7",
+                "layout": "full_width",
+                "height": "min-height",
+                "custom_height": {
+                    "unit": "vh",
+                    "size": 100
+                },
+                "column_position": "stretch",
+                "structure": "20"
+            },
+            "elements": [
+                {
+                    "id": "42b2a65",
+                    "settings": {
+                        "_column_size": 50,
+                        "background_background": "classic",
+                        "padding": {
+                            "unit": "px",
+                            "top": "60",
+                            "right": "100",
+                            "bottom": "65",
+                            "left": "100",
+                            "isLinked": false
+                        },
+                        "padding_tablet": {
+                            "unit": "px",
+                            "top": "60",
+                            "right": "20",
+                            "bottom": "60",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "_inline_size": 53.783999999999999,
+                        "content_position": "center",
+                        "background_color": "rgba(255,255,255,0.95)",
+                        "border_border": "solid",
+                        "border_width": {
+                            "unit": "px",
+                            "top": "20",
+                            "right": "20",
+                            "bottom": "20",
+                            "left": "20",
+                            "isLinked": true
+                        },
+                        "border_color": "#ffffff",
+                        "margin": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "15",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "margin_tablet": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "10",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "margin_mobile": {
+                            "unit": "px",
+                            "top": "0",
+                            "right": "0",
+                            "bottom": "0",
+                            "left": "0",
+                            "isLinked": false
+                        },
+                        "padding_mobile": {
+                            "unit": "px",
+                            "top": "60",
+                            "right": "20",
+                            "bottom": "60",
+                            "left": "20",
+                            "isLinked": false
+                        },
+                        "animation": "fadeInLeft"
+                    },
+                    "elements": [
+                        {
+                            "id": "57229caa",
+                            "settings": {
+                                "image": {
+                                    "url": "https:\/\/wp.envatoextensions.com\/kit-61\/wp-content\/uploads\/sites\/64\/2018\/08\/about-icon1.png",
+                                    "id": 1681
+                                },
+                                "align": "left"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "image",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "19263baa",
+                            "settings": {
+                                "title": "Visit Us",
+                                "align": "left",
+                                "title_color": "#012130",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Merriweather",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 86
+                                },
+                                "typography_font_size_tablet": {
+                                    "unit": "px",
+                                    "size": 45
+                                },
+                                "typography_font_size_mobile": {
+                                    "unit": "px",
+                                    "size": 45
+                                },
+                                "typography_font_weight": "800",
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_animation": "fadeInLeft",
+                                "_animation_delay": 500,
+                                "typography_line_height_tablet": {
+                                    "unit": "em",
+                                    "size": 1.2
+                                },
+                                "typography_line_height_mobile": {
+                                    "unit": "px",
+                                    "size": 55
+                                },
+                                "header_size": "h1",
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "6f305755",
+                            "settings": {
+                                "weight": {
+                                    "unit": "px",
+                                    "size": 10
+                                },
+                                "color": "#f6f7f7",
+                                "gap": {
+                                    "unit": "px",
+                                    "size": 0
+                                },
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "width": {
+                                    "unit": "%",
+                                    "size": 75
+                                },
+                                "align": "left"
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "divider",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "507c1aa0",
+                            "settings": {
+                                "title": "The Organic Store",
+                                "align": "left",
+                                "title_color": "#012130",
+                                "typography_typography": "custom",
+                                "typography_font_family": "Merriweather",
+                                "typography_font_size": {
+                                    "unit": "px",
+                                    "size": 20
+                                },
+                                "typography_font_weight": "600",
+                                "typography_line_height": {
+                                    "unit": "px",
+                                    "size": 30
+                                },
+                                "_margin": {
+                                    "unit": "px",
+                                    "top": "17",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                },
+                                "_padding": {
+                                    "unit": "px",
+                                    "top": "0",
+                                    "right": "0",
+                                    "bottom": "0",
+                                    "left": "0",
+                                    "isLinked": false
+                                }
+                            },
+                            "elements": [],
+                            "isInner": false,
+                            "widgetType": "heading",
+                            "elType": "widget"
+                        },
+                        {
+                            "id": "34f1da58",
+                            "settings": {
+                                "structure": "20"
+                            },
+                            "elements": [
+                                {
+                                    "id": "6e52a103",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": 45.103000000000002
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "610f5ce5",
+                                            "settings": {
+                                                "editor": "<p>123 Route 11<\/p><p>Gardenville, CA 93450<\/p><p>hello@ourstore.com<\/p>",
+                                                "align": "left",
+                                                "text_color": "#012130",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Hind",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 18
+                                                },
+                                                "typography_font_size_mobile": {
+                                                    "unit": "px",
+                                                    "size": 18
+                                                },
+                                                "typography_font_weight": "300",
+                                                "typography_line_height": {
+                                                    "unit": "px",
+                                                    "size": 11
+                                                },
+                                                "typography_line_height_mobile": {
+                                                    "unit": "px",
+                                                    "size": 34
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_padding_tablet": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "text-editor",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "5f605192",
+                                            "settings": {
+                                                "text": "Get Directions",
+                                                "link": {
+                                                    "url": "",
+                                                    "is_external": "",
+                                                    "nofollow": ""
+                                                },
+                                                "align": "left",
+                                                "typography_typography": "custom",
+                                                "typography_font_family": "Hind",
+                                                "typography_font_size": {
+                                                    "unit": "px",
+                                                    "size": 14
+                                                },
+                                                "typography_font_weight": "400",
+                                                "button_text_color": "#979c9e",
+                                                "background_color": "rgba(1,33,48,0.03)",
+                                                "text_padding": {
+                                                    "unit": "px",
+                                                    "top": "10",
+                                                    "right": "20",
+                                                    "bottom": "10",
+                                                    "left": "20",
+                                                    "isLinked": false
+                                                },
+                                                "_margin": {
+                                                    "unit": "px",
+                                                    "top": "34",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_margin_tablet": {
+                                                    "unit": "px",
+                                                    "top": "30",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "icon": "fa fa-map-marker",
+                                                "selected_icon": {
+                                                    "value": "fas fa-map-marker-alt",
+                                                    "library": "fa-solid"
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "button",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                },
+                                {
+                                    "id": "7765f89d",
+                                    "settings": {
+                                        "_column_size": 50,
+                                        "_inline_size": 54.948999999999998
+                                    },
+                                    "elements": [
+                                        {
+                                            "id": "20249154",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "https:\/\/wp.envatoextensions.com\/kit-61\/wp-content\/uploads\/sites\/64\/2018\/08\/twitter.png",
+                                                    "id": 484
+                                                },
+                                                "align": "right",
+                                                "link_to": "custom",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": ""
+                                                },
+                                                "hover_animation": "shrink",
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_margin_tablet": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_padding_tablet": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_css_classes": "envato-kit-61-socials",
+                                                "width": {
+                                                    "unit": "%",
+                                                    "size": 75
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "cd53e74",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "https:\/\/wp.envatoextensions.com\/kit-61\/wp-content\/uploads\/sites\/64\/2018\/08\/facebook.png",
+                                                    "id": 483
+                                                },
+                                                "align": "right",
+                                                "link_to": "custom",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": ""
+                                                },
+                                                "hover_animation": "shrink",
+                                                "image_size": "full",
+                                                "_css_classes": "envato-kit-61-socials",
+                                                "width": {
+                                                    "unit": "%",
+                                                    "size": 75
+                                                },
+                                                "_margin_tablet": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_padding_tablet": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        },
+                                        {
+                                            "id": "67fb951a",
+                                            "settings": {
+                                                "image": {
+                                                    "url": "https:\/\/wp.envatoextensions.com\/kit-61\/wp-content\/uploads\/sites\/64\/2018\/08\/instagram.png",
+                                                    "id": 482
+                                                },
+                                                "align": "right",
+                                                "link_to": "custom",
+                                                "link": {
+                                                    "url": "#",
+                                                    "is_external": "",
+                                                    "nofollow": ""
+                                                },
+                                                "hover_animation": "shrink",
+                                                "image_size": "full",
+                                                "_padding": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_css_classes": "envato-kit-61-socials",
+                                                "width": {
+                                                    "unit": "%",
+                                                    "size": 75
+                                                },
+                                                "_margin_tablet": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                },
+                                                "_padding_tablet": {
+                                                    "unit": "px",
+                                                    "top": "0",
+                                                    "right": "0",
+                                                    "bottom": "0",
+                                                    "left": "0",
+                                                    "isLinked": false
+                                                }
+                                            },
+                                            "elements": [],
+                                            "isInner": false,
+                                            "widgetType": "image",
+                                            "elType": "widget"
+                                        }
+                                    ],
+                                    "isInner": true,
+                                    "elType": "column"
+                                }
+                            ],
+                            "isInner": true,
+                            "elType": "section"
+                        }
+                    ],
+                    "isInner": false,
+                    "elType": "column"
+                },
+                {
+                    "id": "e01a2a1",
+                    "settings": {
+                        "_column_size": 50,
+                        "_inline_size": 51.311
+                    },
+                    "elements": [],
+                    "isInner": false,
+                    "elType": "column"
+                }
+            ],
+            "isInner": false,
+            "elType": "section"
+        }
+    ]
+}

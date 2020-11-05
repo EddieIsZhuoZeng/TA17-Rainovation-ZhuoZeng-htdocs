@@ -1,0 +1,43 @@
+/* Elements for WordPress Kit 117 Custom Styling - class names are applied to the Advanced settings of the element they effect */
+
+.envato-kit-117-center-position .elementor-icon-box-wrapper {
+	justify-content: center;
+}
+
+.envato-kit-117-special-padding #form-field-message {
+	padding: 15px 20px 30px 27px;
+}
+.envato-kit-117-padding-left .elementor-field-textual.elementor-size-lg {
+	padding: 7px 27px;
+}
+/* Image hovers */
+.elementor-element.envato-kit-117-img-hover:hover .elementor-widget.elementor-widget-heading .elementor-heading-title, #elementor .elementor-element.envato-kit-117-img-hover:hover .elementor-widget.elementor-widget-heading .elementor-heading-title {
+	    color: rgba(255, 255, 255, 1);
+}
+
+.elementor-element.envato-kit-117-img-hover .elementor-heading-title {
+	transition: color .6s ease;
+}
+/* Buttons */
+.envato-kit-117-margin-top .elementor-button {
+	margin-top: 19px;
+}
+.envato-kit-117-button-full .elementor-button {
+	width: 100%;
+}
+/*slider*/
+.envato-kit-117-slider .slick-dots{
+padding-bottom: 40px !important;
+}
+.envato-kit-117-slider .slick-dots button::before{
+	content:"\f0c8" !important;
+}
+.envato-kit-117-carousel .swiper-pagination-bullet{
+	border-radius: 0px;
+}
+.envato-kit-117-carousel .swiper-slide-active
+{
+padding-bottom: 40px;
+	margin-top: -40px;
+transition: all ease-in-out .5s;
+}

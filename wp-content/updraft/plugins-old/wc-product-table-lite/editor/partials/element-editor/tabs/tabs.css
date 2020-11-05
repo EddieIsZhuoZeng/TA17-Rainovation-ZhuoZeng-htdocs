@@ -1,0 +1,78 @@
+.wcpt-tabs {
+    margin-bottom: 20px;
+}
+
+.wcpt-tabs:last-child {
+    margin-bottom: 0;
+}
+
+.wcpt-tab-triggers {
+    margin-bottom: -2px;
+    position: relative;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+}
+
+.wcpt-disabled-tabs {
+   position: absolute;
+   top: 50%;
+   right: 10px;
+   transform: translateY(-50%);
+}
+
+.wcpt-tab-enable {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.wcpt-tab-enable:last-child {
+    margin-right: 0;
+}
+
+.wcpt-tab-trigger {
+    display: inline-block;
+    padding: 15px 20px;
+    background: transparent;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.wcpt-tab-trigger.wcpt-selected-tab {
+    border-color: rgba(0, 0, 0, 0.1);
+    border-bottom-color: transparent;
+    position: relative;
+    background: white;
+}
+
+.wcpt-tab-trigger.wcpt-selected-tab:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: inherit;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+}
+
+.wcpt-tab-content {
+    padding: 20px;
+    clear: both;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, .1);
+    display: none;
+    background: white;
+}
+
+.wcpt-tab-disable svg {
+  height: .8em;
+  width: .8em;
+  vertical-align: baseline;
+}
+
+.wcpt-tab-disable svg {
+  stroke-width: 3 !important;
+}

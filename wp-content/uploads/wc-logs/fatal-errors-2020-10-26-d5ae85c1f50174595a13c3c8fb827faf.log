@@ -1,0 +1,2 @@
+2020-10-26T20:33:03+00:00 CRITICAL syntax error, unexpected 'li' (T_STRING) in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/code-snippets/php/admin-menus/class-edit-menu.php(213) : eval()'d code on line 1
+

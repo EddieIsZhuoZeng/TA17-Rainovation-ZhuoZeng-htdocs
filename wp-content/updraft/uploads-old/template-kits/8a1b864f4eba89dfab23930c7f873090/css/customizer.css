@@ -1,0 +1,17 @@
+/* Kit 94 Custom styles - applied under Advanced to the element they affect */
+/* Large Hero Title Section */
+.envato-kit-94-row{
+	overflow-x: hidden;
+}
+
+.envato-kit-94-small-column .elementor-column-wrap{
+	width: auto;
+}
+/* Large Buttons */
+.envato-kit-94-button-full-width .elementor-button-link {
+	width: 100%;
+}
+/* Equalize icons in icon list element */
+.envato-kit-94-list-style-square .elementor-text-editor ul {
+	list-style-type: square;
+}

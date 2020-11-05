@@ -1,0 +1,313 @@
+/* template editor */
+
+/*-- editor */
+.wcpt-block-editor {
+    margin: 0;
+    background: white;
+    width: 100%;
+}
+
+.wcpt-element-block {
+    background: #f9f9f9;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin: 5px;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #ffffff;
+    box-shadow: 2px 2px 2px #d4d4d4;
+    cursor: pointer;
+    font-size: 14px;
+    transition: .15s border-color;
+    transform: scale(1);
+    background: linear-gradient(-15deg, white, #e4e4e4);
+}
+
+.wcpt-element-block:hover {
+  border-color: #42A5F5;
+}
+
+[data-type="space"].wcpt-element-block {
+  margin: 0 5px 0 20px;
+}
+
+[data-type="dot"].wcpt-element-block {
+  font-weight: bold;
+  font-size: 35px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.wcpt-icon-rep {
+  width: 1em;
+  vertical-align: text-bottom;
+  display: inline-block;
+}
+
+.wcpt-element-block.wcpt-block-editing, .wcpt-element-block.wcpt-block-creating {
+  border-color: #1976D2;
+  transition: 0s border-color, 0s transform;
+}
+
+.wcpt-element-block.wcpt-block-creating {
+  transform: scale(.925);
+}
+
+.wcpt-element-block-placeholder {
+    opacity: .5;
+    height: 38px;
+    border-color: #eee;
+    box-shadow: 0 0 6px #777 inset;
+}
+
+.wcpt-element-block span {
+  opacity: .75; 
+  font-style: italic; 
+}
+
+.wcpt-block-editor-row {
+    padding: 4px 30px 4px 4px;
+    width: 100%;
+    background: #f3f3f3;
+    margin-bottom: 10px;
+    min-height: 58px;
+    border-radius: 4px;
+    box-shadow: 3px 3px 10px #e8e8e8 inset;
+    border: 1px solid #e0e0e0;
+    position: relative;
+}
+
+.wcpt-block-editor-row.ui-sortable-placeholder {
+  min-height: 64px;
+}
+
+.wcpt-block-editor-row:last-child {
+    margin-bottom: 0;
+}
+
+.wcpt-block-editor-edit-row,
+.wcpt-block-editor-delete-row {
+  position: absolute;
+  top: 10px;
+  right: -12px;
+  transform: translate(-50%, 0);
+  font-size: 16px;
+  cursor: pointer;
+  background: #fbfbfb;
+  border: 1px solid #ddd;
+  padding: 10px;
+  line-height: 10px;
+  border-radius: 100%;
+  transition: .2s;
+}
+
+.wcpt-block-editor-edit-row:hover,
+.wcpt-block-editor-delete-row:hover {
+  background: white;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+
+.wcpt-block-editor-edit-row +
+.wcpt-block-editor-delete-row {
+  right: 30px;
+}
+
+/*-- lightbox */
+
+body.wcpt-be-lightbox-on {
+  overflow-y: hidden !important;
+}
+
+.wcpt-block-editor-lightbox-screen {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .95);
+    overflow-y: scroll;
+    z-index: 10000;
+  box-sizing: border-box;
+}
+
+.wcpt-block-editor-lightbox-screen * {
+  box-sizing: border-box;
+}
+
+.wcpt-block-editor-lightbox-content {
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    width: 600px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    transform: translateX(-50%);
+    padding: 70px 40px 35px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .07);
+}
+
+.wcpt-block-editor-lightbox-content:before {
+  content: '';
+  position: absolute;
+  display: block;
+  left: -10px;
+  top: -10px;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.wcpt-block-editor-lightbox-tray {
+  position: absolute;
+  right: -65px;
+  top: -1px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.wcpt-block-editor-lightbox-close,
+.wcpt-block-editor-lightbox-done,
+.wcpt-block-editor-lightbox-remove,
+.wcpt-block-editor-lightbox-duplicate {
+  cursor: pointer;
+  color: rgba(255, 255, 255, 0.51);
+  padding: 10px;
+  display: block;
+  clear: both;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  transition: .2s color;
+  /* border: 2px solid rgba(255, 255, 255, 0.15); */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.wcpt-block-editor-lightbox-close {
+  background: rgba(0, 0, 0, 0.05);
+  color: black;
+  box-shadow: none;
+}
+
+.wcpt-block-editor-lightbox-done {
+  background: #4CAF50;
+}
+
+.wcpt-block-editor-lightbox-remove {
+  background: #F44336;
+}
+
+.wcpt-block-editor-lightbox-duplicate {
+  background: #2196F3;
+}
+
+.wcpt-block-editor-lightbox-done:hover,
+.wcpt-block-editor-lightbox-remove:hover,
+.wcpt-block-editor-lightbox-duplicate:hover {
+  color: white;
+}
+
+.wcpt-block-editor-lightbox-content h2 {
+  font-weight: normal;
+  background: rgb(247, 247, 247);
+  border-bottom: 4px solid #f3f3f3;
+  padding: 24px 40px;
+  margin: 0;
+  border-radius: 5px 5px 0 0;
+  font-size: 24px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-transform: capitalize;
+  /* box-sizing: border-box; */
+}
+
+.wcpt-block-editor-lightbox-content textarea {
+    width: 100%;
+    height: 80px;
+    font-size: 16px;
+    padding: 8px 10px;
+    line-height: 1.25em;
+}
+
+/*-- add elms */
+.wcpt-block-editor-element-type-list {
+    padding: 0;
+    max-width: 700px;
+    margin: 30px 0 -5px 0;
+}
+
+.wcpt-block-editor-element-type {
+    background: #f9f9f9;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin: 0 15px 15px 0;
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid #ffffff;
+    border-bottom-color: #f1f1f1;
+    border-right-color: #f1f1f1;
+    box-shadow: 2px 2px 4px #d4d4d4;
+    cursor: pointer;
+    font-size: 16px;
+    transition: .15s border-color;
+    transform: scale(1);
+    background: linear-gradient(-15deg, #fbfbfb, #efefef);
+}
+
+.wcpt-block-editor-element-type:hover {
+    background: #f9f9f9;
+    border-color: #42A5F5;
+}
+
+.wcpt-block-editor-element-type.wcpt-disabled {
+  color: #848484 !important;
+  cursor: default;
+  border-color: #f3f3f3;
+  background: #f9f9f9 !important;
+}
+
+.wcpt-block-editor-element-type + .wcpt-clear {
+  margin: 10px 0 20px;
+  border-top: 1px solid #f1f1f1;
+}
+
+.wcpt-block-editor-add-element, .wcpt-block-editor-add-row {
+    color: #000000;
+    padding: 16px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.wcpt-block-editor-add-row {
+  padding: 5px 15px;
+}
+
+.wcpt-block-editor-add-element {
+    color: #ababab;
+    text-shadow: 1px 1px 1px white;
+}
+
+.wcpt-block-editor-add-element:hover {
+    color: #000;
+}
+
+.wcpt-block-editor-sorting .wcpt-block-editor-add-element {
+  display: none;
+}
+
+/* mark */
+.wcpt-be-mark {
+  border-color: #42A5F5;
+  animation: border_color_change 1.25s infinite alternate;
+  animation-iteration-count: 1;
+}
+
+@keyframes border_color_change {
+	from { border-color: #42A5F5; }
+	to { border-color: #ffffff; }
+}

@@ -1,0 +1,48 @@
+.wcpt-column-settings {
+    border: 1px solid #eaeaea;
+    padding: 30px;
+    margin-bottom: 40px;
+    background: #f7f7f7;
+    position: relative;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.wcpt-column-index {
+    font-size: 20px;
+    margin: 0 0 25px 0;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px white;
+}
+
+.wcpt-column-index i {
+  font-style: normal !important;
+  background: #ffffff;
+  color: #000000;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  text-align: center;
+  border-radius: 100%;
+  padding: 6px;
+  box-sizing: content-box !important;
+  font-size: 1em;
+  line-height: 1em;
+  border: 1px solid #efefef;
+  vertical-align: baseline;
+  margin-left: 6px;
+}
+
+.wcpt-column-settings  .wcpt-editor-corner-options {
+  top: 22px;
+  right: 22px;
+}
+
+.wcpt-column-settings > .wcpt-tabs > .wcpt-tab-triggers > .wcpt-tab-trigger {
+  font-size: 18px;
+}
+
+[wcpt-model-key="columns"] .wcpt-button {
+  margin-bottom: 40px !important;
+}

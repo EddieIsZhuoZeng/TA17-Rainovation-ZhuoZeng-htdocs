@@ -1,0 +1,502 @@
+# Copyright (C) 2012 Basic Google Maps Placemarks
+# This file is distributed under the same license as the Basic Google Maps Placemarks package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Basic Google Maps Placemarks 1.7.1a\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/basic-google-maps-placemarks\n"
+"POT-Creation-Date: 2013-03-02 19:33:19+00:00\n"
+"PO-Revision-Date: 2013-12-11 10:11+0100\n"
+"Last-Translator: jelena kovacevic <jecajeca260@gmail.com>\n"
+"Language-Team: Jony Yin <yzqiang@gmail.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#. #-#-#-#-#  basic-google-maps-placemarks.pot (Basic Google Maps Placemarks 1.10-rc1)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: basic-google-maps-placemarks.php:36
+msgid "Basic Google Maps Placemarks"
+msgstr "Marcas de sitios Básicos de Google Maps"
+
+#: basic-google-maps-placemarks.php:69
+msgid ""
+"%s <strong>requires PHP %s</strong> and <strong>WordPress %s</strong> in "
+"order to work. You're running PHP %s and WordPress %s. You'll need to "
+"upgrade in order to use this plugin. If you're not sure how to <a href="
+"\"http://codex.wordpress.org/Switching_to_PHP5\">upgrade to PHP 5</a> you "
+"can ask your hosting company for assistance, and if you need help upgrading "
+"WordPress you can refer to <a href=\"http://codex.wordpress.org/"
+"Upgrading_WordPress\">the Codex</a>."
+msgstr ""
+"%s <strong> requiere PHP %s </strong> y WordPress %s <strong> </strong> con "
+"el fin de trabajar. Usted está ejecutando PHP %s y WordPress %s. Tendrá que "
+"actualizar para usar este plugin. Si no estás seguro de cómo <a href="
+"\"http://codex.wordpress.org/Switching_to_PHP5\"> actualizar a PHP 5 </a> "
+"puede pedir asistencia a su empresa de alojamiento, y si necesita ayuda para "
+"actualizar WordPress puede referirse a <a href=\"http://codex.wordpress.org/"
+"Upgrading_WordPress\"> el Codex </a>."
+
+#: core.php:151 settings.php:44
+msgid "Seattle"
+msgstr "Seattle"
+
+#: core.php:286
+msgid ""
+"%s requires the Images media button setting to be enabled in order to use "
+"custom icons on markers, but it's currently turned off. If you'd like to use "
+"custom icons you can enable it on the <a href=\"%s\">Network Settings</a> "
+"page, in the Upload Settings section."
+msgstr ""
+"%s requiere que el ajuste del botón de Imágenes de medios esté habilitado "
+"para poder utilizar iconos personalizados en los marcadores, pero "
+"actualmente está desactivado. Si desea usar iconos personalizados lo puede "
+"habilitar en la <a href=\"%s\"> Ajustes de red </ a> página, en la sección "
+"Configuración de cargas."
+
+#: core.php:363
+msgid "%s shortcode error: %s is not a valid placemark ID."
+msgstr "%s error de shortcode. %s no es un Identificador de posición válido."
+
+#: core.php:380
+msgid "%s shortcode error: %s does not have a valid address."
+msgstr "%s error de shortcode. %s no tiene una dirección válida."
+
+#: core.php:414
+msgid "%s shortcode error: %s is not a valid category."
+msgstr "%s error de shortcode. %s no es una categoría válida."
+
+#: core.php:432
+msgid "%s shortcode error: %s is not a valid width."
+msgstr "%s error de shortcode. %s no es un ancho válido."
+
+#: core.php:449
+msgid "%s shortcode error: %s is not a valid height."
+msgstr "%s error de shortcode. %s no es una altura válida."
+
+#: core.php:478
+msgid "%s shortcode error: %s is not a valid zoom level."
+msgstr "%s error de shortcode. %s no es un nivel de zoom válido."
+
+#: core.php:496
+msgid "%s shortcode error: %s is not a valid map type."
+msgstr "%s error de shortcode. %s no es un tipo de mapa válido."
+
+#: core.php:641 core.php:658
+msgid "Placemarks"
+msgstr "Marcas de posición"
+
+#: core.php:642
+msgid "Placemark"
+msgstr "Marca de posición"
+
+#: core.php:643
+msgid "Add New"
+msgstr "Añadir Nueva"
+
+#: core.php:644
+msgid "Add New Placemark"
+msgstr "Añadir Nueva marca de posición"
+
+#: core.php:645
+msgid "Edit"
+msgstr "Editar"
+
+#: core.php:646
+msgid "Edit Placemark"
+msgstr "Editar marca de posición"
+
+#: core.php:647
+msgid "New Placemark"
+msgstr "Nueva marca de posición"
+
+#: core.php:648 core.php:649
+msgid "View Placemark"
+msgstr "Ver marca de posición"
+
+#: core.php:650
+msgid "Search Placemarks"
+msgstr "Buscar marcas de posición"
+
+#: core.php:651 core.php:1070
+msgid "No Placemarks found"
+msgstr "No se encontraron marcas de posición"
+
+#: core.php:652
+msgid "No Placemarks found in Trash"
+msgstr "No se encontraron marcas de posición en la  Papelera de Reciclaje"
+
+#: core.php:653
+msgid "Parent Placemark"
+msgstr "Marca de Posición padre"
+
+#: core.php:687 core.php:688
+msgid "Category"
+msgstr "Categoría"
+
+#: core.php:688
+msgid "Categories"
+msgstr "Categorías"
+
+#: core.php:730
+msgid "Placemark Address"
+msgstr "Dirección  de marca de posición"
+
+#: core.php:739
+msgid "Stacking Order"
+msgstr "Orden de apilado"
+
+#: core.php:825
+msgid "The stacking order has to be an integer."
+msgstr "El orden de apilamiento tiene que ser un número entero."
+
+#: core.php:853
+msgid "%s geocode error: %s"
+msgstr "%s error de codificación geográfica. %s"
+
+#: core.php:865
+msgid "%s geocode error: Response code not present"
+msgstr ""
+"%s error de codificación geográfica: El código de respuesta no está presente>"
+
+#: core.php:883
+msgid "<p>%s geocode error: %d %s</p> <p>Response: %s</p>"
+msgstr ""
+"<p>%s error de codificación geográfica: %d %s</p> <p> Respuesta: %s </p>"
+
+#: core.php:900
+msgid "%s geocode error: Response was not formatted in JSON."
+msgstr ""
+"%s error de codificación geográfica: La respuesta no se ha formateado en "
+"JSON."
+
+#: core.php:906
+msgid "%s geocode error: Request Denied."
+msgstr "%s error de codificación geográfica:  Solicitud Denegada"
+
+#: core.php:912
+msgid "That address couldn't be geocoded, please make sure that it's correct."
+msgstr ""
+"Esa dirección no se pudo codificar geográficamente, por favor asegúrese de "
+"que es correcta"
+
+#: core.php:914
+msgid "Geocode response:"
+msgstr "Respuesta de codificación geográfica:"
+
+#: core.php:986
+msgid ""
+"<p class=\"error\">%s error: JavaScript and/or CSS files aren't loaded. If "
+"you're using do_shortcode() you need to add a filter to your theme first. "
+"See <a href=\"%s\">the FAQ</a> for details.</p>"
+msgstr ""
+"<p class=\"error\"> % s error: no se cargan JavaScript y/o archivos CSS. Si "
+"está utilizando do_shortcode () es necesario agregar filtros a su tema "
+"primero. Vea <a href=\"%s\"> la FAQ </a> para obtener más información. </p>"
+
+#: core.php:1382
+msgid "Type"
+msgstr "Tipo"
+
+#: core.php:1384
+msgid "Length"
+msgstr "Longitud"
+
+#: core.php:1386
+msgid "Content"
+msgstr "Contenido"
+
+#: settings.php:51
+msgid "Street Map"
+msgstr "Mapa de calles"
+
+#: settings.php:52
+msgid "Satellite Images"
+msgstr "Imágenes de satélite"
+
+#: settings.php:53
+msgid "Hybrid"
+msgstr "Híbrido"
+
+#: settings.php:54
+msgid "Terrain"
+msgstr "Terreno"
+
+#: settings.php:116
+msgid "Re-Abolish Slavery"
+msgstr "Re-Abolición de la Esclavitud"
+
+#: settings.php:155
+msgid "Help"
+msgstr "Ayuda"
+
+#: settings.php:156
+msgid "Settings"
+msgstr "Configuración"
+
+#: settings.php:174
+msgid "Map Width"
+msgstr "Ancho del mapa"
+
+#: settings.php:175
+msgid "Map Height"
+msgstr "Altura del Mapa"
+
+#: settings.php:176
+msgid "Map Center Address"
+msgstr "Dirección del Centro de Mapas"
+
+#: settings.php:177
+msgid "Zoom"
+msgstr "Zoom"
+
+#: settings.php:178
+msgid "Map Type"
+msgstr "Tipo de Mapa"
+
+#: settings.php:179
+msgid "Type Control"
+msgstr "Control de tipos"
+
+#: settings.php:180
+msgid "Navigation Control"
+msgstr "Control de navegación"
+
+#: settings.php:181
+msgid "Info. Window Maximum Width"
+msgstr "Ancho máximo de Ventana de Información"
+
+#: settings.php:194 settings.php:225
+msgid "Marker Clustering"
+msgstr "Grupo de Marcadores"
+
+#: settings.php:195
+msgid "Max Zoom"
+msgstr "Max zoom"
+
+#: settings.php:196
+msgid "Grid Size"
+msgstr "Tamaño de cuadrícula"
+
+#: settings.php:197
+msgid "Style"
+msgstr "Estilo"
+
+#: settings.php:220
+msgid "Map Settings"
+msgstr "Configuración del mapa"
+
+#: settings.php:221
+msgid ""
+"The map(s) will use these settings as defaults, but you can override them on "
+"individual maps using shortcode arguments. See <a href=\"http://wordpress."
+"org/extend/plugins/basic-google-maps-placemarks/installation/\">the "
+"Installation page</a> for details."
+msgstr ""
+"El mapa utilizará estos valores como valores por defecto, pero se puede "
+"anular en mapas individuales utilizando argumentos shortcode. Vea <a href="
+"\"http://wordpress.org/extend/plugins/basic-google-maps-placemarks/"
+"installation/\"> la página de instalación </a> para obtener más información."
+
+#: settings.php:226
+msgid ""
+"You can group large numbers of markers into a single cluster by enabling the "
+"Cluster Markers option."
+msgstr ""
+"Puede agrupar un gran número de marcadores en un solo grupo activando la "
+"opción Marcadores de Grupo"
+
+#: settings.php:244 settings.php:249 settings.php:305
+msgid "pixels"
+msgstr "Píxeles"
+
+#: settings.php:256
+msgid "Geocoded to:"
+msgstr "Codificados geográficamente a:"
+
+#: settings.php:259 views/meta-address.php:16
+msgid "(Error geocoding address. Please make sure it's correct and try again.)"
+msgstr ""
+"(Error  de dirección de codificación geográfica. Por favor, asegúrese de que "
+"es correcta y vuelva a intentarlo)"
+
+#: settings.php:261
+msgid ""
+"You can type in anything that you would type into a Google Maps search "
+"field, from a full address to an intersection, landmark, city, zip code or "
+"latitude/longitude coordinates."
+msgstr ""
+"Usted puede escribir cualquier cosa que se pueda escribir en un campo de "
+"búsqueda de Google Maps, desde una dirección completa hasta un crucero, "
+"señal, ciudad, código postal o coordenadas de latitud/longitud."
+
+#: settings.php:266 views/settings-marker-clusterer.php:11
+msgid "%d (farthest) to %d (closest)"
+msgstr "%d (la más alejada) a %d (la más cercana)"
+
+#: settings.php:280 settings.php:292
+msgid "Off"
+msgstr "Apagado"
+
+#: settings.php:281 settings.php:293
+msgid "Automatic"
+msgstr "Automático"
+
+#: settings.php:282
+msgid "Horizontal Bar"
+msgstr "Barra Horizontal"
+
+#: settings.php:283
+msgid "Dropdown Menu"
+msgstr "Menú desplegable"
+
+#: settings.php:287 settings.php:300
+msgid ""
+" \"Automatic\" will automatically switch to the appropriate control based on "
+"the window size and other factors."
+msgstr ""
+"Menú desplegable\"Automatic \" se cambiará automáticamente al control "
+"adecuado basado en el tamaño de la ventana y otros factores."
+
+#: settings.php:294
+msgid "Small"
+msgstr "Pequeño"
+
+#: settings.php:295
+msgid "Android"
+msgstr "Android"
+
+#: settings.php:296
+msgid "Zoom/Pan"
+msgstr "Zoom / Pan"
+
+#: views/front-end-head.php:1
+msgid "Begin Basic Google Map Placemarks head"
+msgstr "Comenzar encabezado Básico de marcas de posición de Google Map"
+
+#: views/front-end-head.php:3
+msgid "End Basic Google Map Placemarks head"
+msgstr "Finalizar encabezado básico de marcas de posición Google Map"
+
+#: views/meta-address.php:3
+msgid ""
+"Enter the address of the placemark. You can type in anything that you would "
+"type into a Google Maps search field, from a full address to an "
+"intersection, landmark, city or just a zip code."
+msgstr ""
+"Introduzca la dirección de la marca de posición. Usted puede escribir "
+"cualquier cosa que se pueda escribir en un campo de búsqueda de Google Maps, "
+"desde una dirección completa a una intersección, señal, ciudad o simplemente "
+"un código postal"
+
+#: views/meta-address.php:8
+msgid "Address:"
+msgstr "Dirección:"
+
+#: views/meta-address.php:13
+msgid "(Geocoded to: %f, %f)"
+msgstr "(Codificadas geográficamente a: %f, %f)"
+
+#: views/meta-re-abolish-slavery.php:1
+msgid ""
+"Please check out <a href=\"http://wordpress.org/extend/plugins/re-abolish-"
+"slavery-ribbon/\">the Re-Abolish Slavery plugin</a> if you'd like to use "
+"your website to help raise awareness about modern-day forms of slavery, like "
+"forced labor and sex trafficking."
+msgstr ""
+"Por favor revise <a href = \"http://wordpress.org/extend/plugins/re-"
+"abolición-esclavitud-moño/ \"> el plugin de Re-Abolir la Esclavitud </a> si "
+"desea utilizar su sitio web para ayudar a crear conciencia sobre las formas "
+"modernas de esclavitud, como el trabajo forzado y el tráfico sexual."
+
+#: views/meta-z-index.php:3
+msgid ""
+"When two markers overlap, the marker with the higher stacking order will be "
+"on top. The Default is 0."
+msgstr ""
+"Cuando dos marcadores se superponen, el marcador con el orden de apilamiento "
+"superior estará en la parte superior. El valor por defecto es 0."
+
+#: views/meta-z-index.php:6
+msgid "Stacking Order:"
+msgstr "Orden de Apilamiento:"
+
+#: views/settings-marker-clusterer.php:5
+msgid " Enable marker clustering"
+msgstr "Habilitar agrupación de marcadores"
+
+#: views/settings-marker-clusterer.php:13
+msgid ""
+"When the maximum zoom level is reached, all markers will be shown without "
+"clustering."
+msgstr ""
+"Cuando se alcanza el nivel máximo de zoom, todos los marcadores se le "
+"aparecen sin agrupación."
+
+#: views/settings-marker-clusterer.php:20
+msgid ""
+"The grid size of a cluster, in pixels. Each cluster will be a square. Larger "
+"grids can be rendered faster."
+msgstr ""
+"El tamaño de la cuadrícula de un clúster, en píxeles.  Cada grupo será un "
+"cuadrado. Las cuadrículas más grandes pueden renderearse más rápido."
+
+#: views/settings-marker-clusterer.php:26
+msgid "Default"
+msgstr "Por defecto"
+
+#: views/settings-marker-clusterer.php:27
+msgid "People"
+msgstr "Personas"
+
+#: views/settings-marker-clusterer.php:28
+msgid "Hearts"
+msgstr "Corazones"
+
+#: views/settings-marker-clusterer.php:29
+msgid "Conversation"
+msgstr "Conversación"
+
+#: views/settings.php:5
+msgid "%s Settings"
+msgstr "Configuración %s"
+
+#: views/settings.php:16
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: views/shortcode-bgmp-map.php:9
+msgid "Loading map..."
+msgstr "Cargando mapa ..."
+
+#: views/shortcode-bgmp-map.php:10
+msgid "Loading"
+msgstr "Cargando"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/basic-google-maps-placemarks/"
+msgstr "http://wordpress.org/extend/plugins/basic-google-maps-placemarks/"
+
+#. Description of the plugin/theme
+msgid ""
+"Embeds a Google Map into your site and lets you add map markers with custom "
+"icons and information windows. Each marker can have a different icon."
+msgstr ""
+"Incrusta un mapa de Google en su sitio y permite añadir marcadores de mapa "
+"con iconos personalizados y ventanas de información. Cada marcador puede "
+"tener un icono diferente."
+
+#. Author of the plugin/theme
+msgid "Ian Dunn"
+msgstr "Ian Dunn"
+
+#. Author URI of the plugin/theme
+msgid "http://iandunn.name"
+msgstr "http://iandunn.name"
+
+#~ msgid ""
+#~ "%s has enabled uploading images network-wide so that placemark icons can "
+#~ "be set."
+#~ msgstr "%s已经启用上传图像带宽以便设置标注图标。"

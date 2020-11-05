@@ -1,0 +1,89 @@
+.envato-kit-174-price-list-style .elementor-price-list .elementor-price-list-item .elementor-price-list-header {
+		flex-direction: column;
+		align-items: flex-start;
+		margin-bottom: 0;
+		border-radius: 10px 10px 0 0;
+		background-color: #f2f2f1;
+}
+
+.envato-kit-174-price-list-style .elementor-price-list .elementor-price-list-item .elementor-price-list-title {
+    max-width: 100%;
+    width: 100%;
+		padding: 40px 50px 35px 50px;
+		border-radius: 10px 10px 0 0;
+    background-color: #2B2A2B;
+    color: #ffffff;
+}
+
+.envato-kit-174-price-list-style .elementor-price-list .elementor-price-list-item .elementor-price-list-text {
+    background-color: #f2f2f1;    
+}
+
+.envato-kit-174-price-list-style .elementor-price-list .elementor-price-list-item .elementor-price-list-price {
+		width: 100%;
+		padding: 46px 50px 38px 50px;
+}
+
+.envato-kit-174-price-list-style .elementor-price-list .elementor-price-list-item .elementor-price-list-description {
+		padding-left: 50px;
+		padding-right: 50px;
+}
+
+.envato-kit-174-pricing-btn .elementor-button {
+		width: 100%;
+}
+
+.envato-kit-174-pricing-btn .elementor-button .elementor-button-text {
+		display: flex;
+}
+
+.envato-kit-174-accordion-style .elementor-accordion-item {
+		margin-top: 30px;
+}
+
+.envato-kit-174-accordion-style .elementor-accordion-item:first-child {
+		margin-top: 0;
+}
+
+.envato-kit-174-accordion-style .elementor-accordion-item .elementor-tab-title {
+		border-radius: 10px;
+}
+
+.envato-kit-174-accordion-style .elementor-accordion-item .elementor-tab-title.elementor-active {
+		border-radius: 10px 10px 0 0;
+}
+
+.envato-kit-174-accordion-style .elementor-accordion-item .elementor-tab-content {
+		border-radius: 0 0 10px 10px;
+}
+
+.envato-kit-174-accordion-style .elementor-accordion-item .elementor-tab-content.elementor-active {
+		border-radius: 0 0 10px 10px;
+}
+
+.envato-kit-174-accordion-style .elementor-accordion .elementor-tab-title .elementor-accordion-icon {
+		height: 35px;
+}
+
+.envato-kit-174-form-btn-style
+.elementor-form .elementor-button > span {
+		justify-content: space-between;
+}
+
+.envato-kit-174-flex-btn .elementor-button .elementor-button-text {
+		display: flex;
+}
+
+.envato-kit-174-list-style-disc .elementor-widget-wrap .elementor-widget-container .elementor-text-editor {
+		display: flex;
+} 
+
+.envato-kit-174-list-style-disc .elementor-widget-wrap .elementor-widget-container .elementor-text-editor:before {
+		content: '\2022';
+		position: relative;
+		display: inline-block;
+		vertical-align: top;		
+		padding-right: 15px;
+		font-size: 0.7em;
+		color: #C9B6A6;
+}

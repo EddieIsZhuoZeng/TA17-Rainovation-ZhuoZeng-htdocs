@@ -1,0 +1,72 @@
+** Development Workflow / New Release Checklist **
+
+Upgrade playground/wp to latest WordPress release
+Update SVN trunk in playground/wp
+Update alpha version numbers in basic-google-maps-placemarks.php comment and core.php constant
+Update readme compatible tag to latest WP version
+Work on a single feature/bug fix/etc at a time
+	New Code Checklist
+		Security
+			Input validation for domain correctness and security.
+			Pass any manual SQL queries through $wpdb->prepare().
+			Output sanitization when sending untrusted data to browser. All data should be considered untrusted.
+			Add/check nonces for all forms and AJAX requests.
+			Make sure current user is authorized to perform the action with current_user_can().
+		Add filters
+		Write unit and integration tests
+		Throw/catch exceptions when encountering invalid conditions.
+		Use did_action() in action callbacks
+	Update readme changelog and upgrade notice
+	Update PHP/WP version requirements in basic-google-maps-placemarks.php comment and core.php constant
+	Perform tests
+		Smoke
+		Unit
+		All action/filter callbacks in readme
+	Commit to SVN trunk
+
+Upgrade playground/wpms to latest WordPress release
+Update SVN trunk in playground/wpms
+Test latest commits
+	Various test sites with different placemarks/options
+	Debug tools site to catch warnings
+	Plugin compatability site to check for conflicts with popular plugins
+	Against WP trunk and last few releases
+	On current PHP release and last few releases
+
+Update localizations
+	Generate new .pot file and update header values inside it
+		cd wp-i18n-tools
+		php makepot.php wp-plugin ../wp/content/plugins/basic-google-maps-placemarks/
+		mv basic-google-maps-placemarks.pot ../wp/content/plugins/basic-google-maps-placemarks/languages/
+	Commit to trunk (but don't tag or update readme.txt Stable tag yet)
+	E-mail translators mailing list with links to latest .pot and complete .zip files
+	Add updated POMO files from translators to local working copy
+
+If major changes, commit release candidate
+	Update version to x.x-rc1 in basic-google-maps-placemarks.php and core.php
+	Commit, tag
+	Add support forum message asking for testing/feedback
+	Email testers mailing list with link to forum post
+	Wait about a week so people have chance to test
+	Fix any reported bugs, release additional RCs if necessary
+	Release final version
+
+Remove any notes from TODO for current release
+Run readme.txt through validator
+Update final version numbers in basic-google-maps-placemarks.php comment and core.php constant
+Update readme stable tag
+Update changelog date
+
+Commit latest changes to SVN trunk
+Tag trunk
+Update assets dir if banner or screenshots changed
+Download .zip file and test extracting
+Respond to any relevant open forum posts, and mark as resolved where appropriate
+
+
+** Version numbering scheme **
+
+Basic Google Maps Placemarks x.y.z
+x = Major, fundamental changes, possibly breaking backwards compatability. Will probably never do a 2.0 unless WP makes some fundamental change to custom post types, Google releases v4 of the API, or you gradually refactor large portions of the plugin to use better OO/MVC patterns
+y = New features or other significant changes. Things that average users would want enough to upgrade.
+z = Bug fixes, minor tweaks, small feature additions

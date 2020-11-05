@@ -1,0 +1,4 @@
+2020-10-19T17:16:11+00:00 CRITICAL Uncaught WDTException: [0]: Provided file /opt/bitnami/apps/wordpress/htdocs/wp-content/uploads/2020/09/DDDDD2D-1.xlsx does not exist!
+
+  thrown in /opt/bitnami/apps/wordpress/htdocs/wp-content/plugins/wpdatatables/source/class.wpdatatable.php on line 1313
+
