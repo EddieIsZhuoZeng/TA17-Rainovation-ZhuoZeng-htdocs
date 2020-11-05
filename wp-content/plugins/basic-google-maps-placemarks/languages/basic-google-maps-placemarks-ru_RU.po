@@ -1,0 +1,498 @@
+# Copyright (C) 2014 Basic Google Maps Placemarks
+# This file is distributed under the same license as the Basic Google Maps Placemarks package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Basic Google Maps Placemarks 1.10.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/basic-google-maps-"
+"placemarks\n"
+"POT-Creation-Date: 2014-01-08 15:49:15+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-05-18 08:42+0700\n"
+"Last-Translator: Александр <alexgrru@gmail.com>\n"
+"Language-Team: AlexGrRu <alexgrru@gmail.com>\n"
+"X-Generator: Poedit 1.6.5\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru_RU\n"
+
+#. Plugin Name of the plugin/theme
+#: basic-google-maps-placemarks.php:36
+msgid "Basic Google Maps Placemarks"
+msgstr "Google Maps Placemarks"
+
+#: basic-google-maps-placemarks.php:69
+msgid ""
+"%s <strong>requires PHP %s</strong> and <strong>WordPress %s</strong> in "
+"order to work. You're running PHP %s and WordPress %s. You'll need to "
+"upgrade in order to use this plugin. If you're not sure how to <a href="
+"\"http://codex.wordpress.org/Switching_to_PHP5\">upgrade to PHP 5</a> you "
+"can ask your hosting company for assistance, and if you need help upgrading "
+"WordPress you can refer to <a href=\"http://codex.wordpress.org/"
+"Upgrading_WordPress\">the Codex</a>."
+msgstr ""
+"%s <strong>требуется PHP %s</strong> и <strong>WordPress %s</strong>для "
+"работы. Вы используете PHP %s и WordPress %s. Вы должны обновиться для "
+"использования этого плагина. Если вы не знаете как <a href=\"http://codex."
+"wordpress.org/Switching_to_PHP5\">обновится до PHP 5</a> вы должны "
+"обратиться в поддержку вашего хостинга, и если не знаете, как обновить "
+"WordPress вы можете прочесть в <a href=\"http://codex.wordpress.org/"
+"Upgrading_WordPress\">Codex WordPress</a>."
+
+#: core.php:151 settings.php:44
+#, fuzzy
+msgid "Seattle"
+msgstr "Сиэтл"
+
+#: core.php:286
+#, fuzzy
+msgid ""
+"%s requires the Images media button setting to be enabled in order to use "
+"custom icons on markers, but it's currently turned off. If you'd like to use "
+"custom icons you can enable it on the <a href=\"%s\">Network Settings</a> "
+"page, in the Upload Settings section."
+msgstr ""
+"%s требуется для включения пользовательских иконок на маркере, в настоящее "
+"время отключена. Если вы хотите использовать пользовательские иконки то "
+"нужно включить их на странице <a href=\"%s\">Настройки Сети</a>, в секции "
+"Настройки Загрузки."
+
+#: core.php:363
+msgid "%s shortcode error: %s is not a valid placemark ID."
+msgstr "%s ошибка шорткода: %s ID метка недопустима."
+
+#: core.php:380
+msgid "%s shortcode error: %s does not have a valid address."
+msgstr "%s ошибка шорткода: %s не верно задан адрес."
+
+#: core.php:414
+msgid "%s shortcode error: %s is not a valid category."
+msgstr "%s ошибка шорткода: %s не верная категория."
+
+#: core.php:432
+msgid "%s shortcode error: %s is not a valid width."
+msgstr "%s ошибка шорткода: %s не верно указана ширина."
+
+#: core.php:449
+msgid "%s shortcode error: %s is not a valid height."
+msgstr "%s ошибка шорткода: %s не верно указана высота."
+
+#: core.php:478
+msgid "%s shortcode error: %s is not a valid zoom level."
+msgstr "%s ошибка шорткода: %s не верно указан уровень масштабирования."
+
+#: core.php:496
+msgid "%s shortcode error: %s is not a valid map type."
+msgstr "%s ошибка шорткода: %s не верно указан тип карты."
+
+#: core.php:641 core.php:658
+msgid "Placemarks"
+msgstr "Местоположения"
+
+#: core.php:642
+msgid "Placemark"
+msgstr "Местоположение"
+
+#: core.php:643
+msgid "Add New"
+msgstr "Добавить новое"
+
+#: core.php:644
+msgid "Add New Placemark"
+msgstr "Добавить новое местоположение"
+
+#: core.php:645
+msgid "Edit"
+msgstr "Редактировать"
+
+#: core.php:646
+msgid "Edit Placemark"
+msgstr "Редактировать местоположение"
+
+#: core.php:647
+msgid "New Placemark"
+msgstr "Новое местоположение"
+
+#: core.php:648 core.php:649
+msgid "View Placemark"
+msgstr "Промотреть местоположение"
+
+#: core.php:650
+msgid "Search Placemarks"
+msgstr "Поиск местополежения"
+
+#: core.php:651 core.php:1076
+msgid "No Placemarks found"
+msgstr "Местоположение не найдено"
+
+#: core.php:652
+msgid "No Placemarks found in Trash"
+msgstr "Местоположения в карзине не найдены"
+
+#: core.php:653
+msgid "Parent Placemark"
+msgstr "Родительское местоположение"
+
+#: core.php:687 core.php:688
+msgid "Category"
+msgstr "Категория"
+
+#: core.php:688
+msgid "Categories"
+msgstr "Категории"
+
+#: core.php:730
+msgid "Placemark Address"
+msgstr "Адрес местоположения"
+
+#: core.php:739
+msgid "Stacking Order"
+msgstr "Порядок маркера"
+
+#: core.php:830
+msgid "The stacking order has to be an integer."
+msgstr "Порядок маркера должен быть целым числом."
+
+#: core.php:859
+msgid "%s geocode error: %s"
+msgstr "%s ошибка геокода: %s"
+
+#: core.php:871
+msgid "%s geocode error: Response code not present"
+msgstr "%s ошибка геокода: Нет ответа кода"
+
+#: core.php:889
+msgid "<p>%s geocode error: %d %s</p> <p>Response: %s</p>"
+msgstr "<p>%s ошибка геокода: %d %s</p> <p>Ответ: %s</p>"
+
+#: core.php:906
+#, fuzzy
+msgid "%s geocode error: Response was not formatted in JSON."
+msgstr "%s ошибка геокода: Ответ не был отформатирован в формат JSON."
+
+#: core.php:912
+msgid "%s geocode error: Request Denied."
+msgstr "%s ошибка геокода: Запрос отклонен."
+
+#: core.php:918
+msgid "That address couldn't be geocoded, please make sure that it's correct."
+msgstr ""
+"Данный адрес не может быть привязан к местности, пожалуйста, убедитесь в "
+"корректности адреса."
+
+#: core.php:920
+msgid "Geocode response:"
+msgstr "Ответ геокогда:"
+
+#: core.php:992
+msgid ""
+"<p class=\"error\">%s error: JavaScript and/or CSS files aren't loaded. If "
+"you're using do_shortcode() you need to add a filter to your theme first. "
+"See <a href=\"%s\">the FAQ</a> for details.</p>"
+msgstr ""
+"<p class=\"error\">%s ошибка: JavaScript и/или CSS файлы не загружаются. "
+"Если вы используете do_shortcode() вы должны в первую очередь добавить "
+"фильтр к вашей теме. Для подробностей читайте <a href=\"%s\">FAQ</a>.</p>"
+
+#: core.php:1388
+msgid "Type"
+msgstr "Тип"
+
+#: core.php:1390
+msgid "Length"
+msgstr "Расстояние"
+
+#: core.php:1392
+msgid "Content"
+msgstr "Содержание"
+
+#: settings.php:51
+msgid "Street Map"
+msgstr "Карта улиц"
+
+#: settings.php:52
+msgid "Satellite Images"
+msgstr "Спутниковые изображения"
+
+#: settings.php:53
+msgid "Hybrid"
+msgstr "Гибрид"
+
+#: settings.php:54
+msgid "Terrain"
+msgstr "Местность"
+
+#: settings.php:116
+msgid "Re-Abolish Slavery"
+msgstr "Re-Abolish Slavery"
+
+#: settings.php:155
+msgid "Help"
+msgstr "Помощь"
+
+#: settings.php:156
+msgid "Settings"
+msgstr "Настройки"
+
+#: settings.php:174
+msgid "Map Width"
+msgstr "Ширина карты"
+
+#: settings.php:175
+msgid "Map Height"
+msgstr "Высота карты"
+
+#: settings.php:176
+msgid "Map Center Address"
+msgstr "Главный адрес на карте"
+
+#: settings.php:177
+msgid "Zoom"
+msgstr "Увеличение"
+
+#: settings.php:178
+msgid "Map Type"
+msgstr "Тип карты"
+
+#: settings.php:179
+msgid "Type Control"
+msgstr "Тип управлени"
+
+#: settings.php:180
+msgid "Navigation Control"
+msgstr "Управление навигацией"
+
+#: settings.php:181
+msgid "Info. Window Maximum Width"
+msgstr "Максимальная ширина информации"
+
+#: settings.php:194 settings.php:225
+msgid "Marker Clustering"
+msgstr "Кластеры маркеров"
+
+#: settings.php:195
+msgid "Max Zoom"
+msgstr "Максимальное увеличение"
+
+#: settings.php:196
+msgid "Grid Size"
+msgstr "Размер сетки"
+
+#: settings.php:197
+msgid "Style"
+msgstr "Стиль"
+
+#: settings.php:220
+msgid "Map Settings"
+msgstr "Настройки карты"
+
+#: settings.php:221
+msgid ""
+"The map(s) will use these settings as defaults, but you can override them on "
+"individual maps using shortcode arguments. See <a href=\"http://wordpress."
+"org/extend/plugins/basic-google-maps-placemarks/installation/\">the "
+"Installation page</a> for details."
+msgstr ""
+"Крта(ы) будут использовать эти настройки по умолчанию, но вы можете "
+"переопределить их на отдельных картах используя аргументы в шорткодах. "
+"Читайте <a href=\"http://wordpress.org/extend/plugins/basic-google-maps-"
+"placemarks/installation/\">страницу установки</a> для подробностей."
+
+#: settings.php:226
+msgid ""
+"You can group large numbers of markers into a single cluster by enabling the "
+"Cluster Markers option."
+msgstr ""
+"Вы можете группировать большое количество маркеров в единый кластер, включив "
+"параметр Кластеры маркеров."
+
+#: settings.php:244 settings.php:249 settings.php:305
+msgid "pixels"
+msgstr "пикселей"
+
+#: settings.php:256
+msgid "Geocoded to:"
+msgstr "Геокод вида:"
+
+#: settings.php:259 views/meta-address.php:16
+msgid "(Error geocoding address. Please make sure it's correct and try again.)"
+msgstr ""
+"(Ошибка адреса. Пожалуйста, убедитесь, что все правильно и повторите "
+"попытку.)"
+
+#: settings.php:261
+msgid ""
+"You can type in anything that you would type into a Google Maps search "
+"field, from a full address to an intersection, landmark, city, zip code or "
+"latitude/longitude coordinates."
+msgstr ""
+"Вы можете ввести все то же что и в поиске Google Maps, с полным адресом, "
+"перекрестками, достопримечательностями, город, почтовый индекс, ширина/"
+"долгота."
+
+#: settings.php:266 views/settings-marker-clusterer.php:11
+msgid "%d (farthest) to %d (closest)"
+msgstr "%d (дальше) а %d (ближе)"
+
+#: settings.php:280 settings.php:292
+msgid "Off"
+msgstr "Выкл."
+
+#: settings.php:281 settings.php:293
+msgid "Automatic"
+msgstr "Автоматически"
+
+#: settings.php:282
+msgid "Horizontal Bar"
+msgstr "Горизонтально"
+
+#: settings.php:283
+msgid "Dropdown Menu"
+msgstr "Выподающее меню"
+
+#: settings.php:287 settings.php:300
+msgid ""
+" \"Automatic\" will automatically switch to the appropriate control based on "
+"the window size and other factors."
+msgstr ""
+" \"Автоматически \" если включено то автоматически переключается в "
+"зависимости от размера окна браузера и других факторов."
+
+#: settings.php:294
+msgid "Small"
+msgstr "Маленьки"
+
+#: settings.php:295
+msgid "Android"
+msgstr "Android"
+
+#: settings.php:296
+msgid "Zoom/Pan"
+msgstr "Увеличить/Панорама"
+
+#: views/front-end-head.php:1
+#, fuzzy
+msgid "Begin Basic Google Map Placemarks head"
+msgstr "Начало Google Map Placemarks заголовка"
+
+#: views/front-end-head.php:3
+#, fuzzy
+msgid "End Basic Google Map Placemarks head"
+msgstr "Конец Basic Google Map Placemarks head"
+
+#: views/meta-address.php:3
+msgid ""
+"Enter the address of the placemark. You can type in anything that you would "
+"type into a Google Maps search field, from a full address to an "
+"intersection, landmark, city or just a zip code."
+msgstr ""
+"Введите адрес метки. Вы можете ввести все то же что и в поиске Google Maps, "
+"с полным адресом, перекрестками, достопримечательностями, город, почтовый "
+"индекс, ширина/долгота."
+
+#: views/meta-address.php:8
+msgid "Address:"
+msgstr "Адресс:"
+
+#: views/meta-address.php:13
+msgid "(Geocoded to: %f, %f)"
+msgstr "(Геотэг для: %f, %f)"
+
+#: views/meta-re-abolish-slavery.php:1
+msgid ""
+"Please check out <a href=\"http://wordpress.org/extend/plugins/re-abolish-"
+"slavery-ribbon/\">the Re-Abolish Slavery plugin</a> if you'd like to use "
+"your website to help raise awareness about modern-day forms of slavery, like "
+"forced labor and sex trafficking."
+msgstr ""
+"Пожалуйста установите <a href=\"http://wordpress.org/extend/plugins/re-"
+"abolish-slavery-ribbon/\">Re-Abolish Slavery плагина</a> если вы хотели бы "
+"использовать свой сайт в целях повышения осведомленности о современных "
+"формах рабства, таких как принудительный труд и секс-торговля."
+
+#: views/meta-z-index.php:3
+msgid ""
+"When two markers overlap, the marker with the higher stacking order will be "
+"on top. The Default is 0."
+msgstr ""
+"Когда два маркера перекрываются, маркер с более высокого порядком будет "
+"сверху. По умолчанию 0."
+
+#: views/meta-z-index.php:6
+#, fuzzy
+msgid "Stacking Order:"
+msgstr "Укладка для заказа:"
+
+#: views/settings-marker-clusterer.php:5
+msgid " Enable marker clustering"
+msgstr " Включить кластеры маркеров"
+
+#: views/settings-marker-clusterer.php:13
+msgid ""
+"When the maximum zoom level is reached, all markers will be shown without "
+"clustering."
+msgstr ""
+"При достижении максимального масштаба, все маркеры будут показаны без "
+"кластеризации."
+
+#: views/settings-marker-clusterer.php:20
+msgid ""
+"The grid size of a cluster, in pixels. Each cluster will be a square. Larger "
+"grids can be rendered faster."
+msgstr ""
+"Размер сетки кластера, в пикселях. Каждый кластер в виде квадрата. Более "
+"крупные квадраты могут быть отображен быстрее."
+
+#: views/settings-marker-clusterer.php:26
+msgid "Default"
+msgstr "По умолчанию"
+
+#: views/settings-marker-clusterer.php:27
+msgid "People"
+msgstr "Люди"
+
+#: views/settings-marker-clusterer.php:28
+msgid "Hearts"
+msgstr "Сердце"
+
+#: views/settings-marker-clusterer.php:29
+msgid "Conversation"
+msgstr "Разговоры"
+
+#: views/settings.php:5
+msgid "%s Settings"
+msgstr "%s настройки"
+
+#: views/settings.php:16
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: views/shortcode-bgmp-map.php:9
+msgid "Loading map..."
+msgstr "Загрузка карты..."
+
+#: views/shortcode-bgmp-map.php:10
+msgid "Loading"
+msgstr "Загрузка"
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/extend/plugins/basic-google-maps-placemarks/"
+msgstr "http://wordpress.org/extend/plugins/basic-google-maps-placemarks/"
+
+#. Description of the plugin/theme
+msgid ""
+"Embeds a Google Map into your site and lets you add map markers with custom "
+"icons and information windows. Each marker can have a different icon."
+msgstr ""
+"Внедряет Google Map на ваш сайт и позволяет добавлять на карте маркеры с "
+"пользовательскими иконками и информационными оконами. Каждый маркер может "
+"иметь другой значок."
+
+#. Author of the plugin/theme
+msgid "Ian Dunn"
+msgstr "Иван Данн"
+
+#. Author URI of the plugin/theme
+msgid "http://iandunn.name"
+msgstr "http://iandunn.name"
