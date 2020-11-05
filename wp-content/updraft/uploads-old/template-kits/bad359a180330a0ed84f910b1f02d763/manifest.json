@@ -1,0 +1,210 @@
+{
+    "manifest_version": "1.0.9",
+    "title": "Indie Record Label",
+    "page_builder": "elementor",
+    "kit_version": "2.0.1",
+    "templates": [
+        {
+            "name": "Home 1",
+            "screenshot": "screenshots\/home-1-pro.jpg",
+            "source": "templates\/home-1-1bba2debe2b5fc24e15276f3b078ee22.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Home 2",
+            "screenshot": "screenshots\/home-2.jpg",
+            "source": "templates\/home-2-29f019147f1c05c4e2839db6bcb768a7.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 3",
+            "screenshot": "screenshots\/home-3.jpg",
+            "source": "templates\/home-3-e51dbd18ad00cdc6a1ff0461aee9c16b.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home 4",
+            "screenshot": "screenshots\/home-4.jpg",
+            "source": "templates\/home-4-e78527e4b3bda202a485e154cebe2aae.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About 1",
+            "screenshot": "screenshots\/about-1-pro.jpg",
+            "source": "templates\/about-1-ea011d0dbb759e39ebc698e4ab578c18.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "About 2",
+            "screenshot": "screenshots\/about-2-pro.jpg",
+            "source": "templates\/about-2-b7c1261ac0eb4b9ef1af131801851934.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Artists 1",
+            "screenshot": "screenshots\/artists-1.jpg",
+            "source": "templates\/artists-1-755bee2b5679c385ff2fa875be0dcab6.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Artists 2",
+            "screenshot": "screenshots\/artists-2.jpg",
+            "source": "templates\/artists-2-fdf106bca0a9e816e0d3de3a9e054871.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Releases 1",
+            "screenshot": "screenshots\/releases-1.jpg",
+            "source": "templates\/releases-1-d18d3a5b45f5ad4fbed9d0fe7d998430.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Releases 2",
+            "screenshot": "screenshots\/releases-2.jpg",
+            "source": "templates\/releases-2-3a6c517a6794cdebba6170a23b481a2c.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Shows",
+            "screenshot": "screenshots\/shows.jpg",
+            "source": "templates\/shows-5b34d4eb11c2a705fa3fc81aa4a08f15.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Listen",
+            "screenshot": "screenshots\/listen.jpg",
+            "source": "templates\/listen-af7fe92f5e1f60a9eac4d9371328ff52.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contacts 1",
+            "screenshot": "screenshots\/contacts-1-pro.jpg",
+            "source": "templates\/contacts-1-b56d5a401be7002741c3b493983f2833.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        },
+        {
+            "name": "Contacts 2",
+            "screenshot": "screenshots\/contacts-2.jpg",
+            "source": "templates\/contacts-2-f32b24ef7827c29205f98bdd434a9497.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": false
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Popup",
+            "screenshot": "screenshots\/popup.jpg",
+            "source": "templates\/popup-f306dacfbdc36375fa471a4a24da437c.json",
+            "preview_url": false,
+            "type": "section",
+            "metadata": {
+                "template_type": "section",
+                "elementor_pro_required": true
+            },
+            "elementor_pro_required": true
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "2.9.6",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Elementor Pro",
+            "version": "2.9.6",
+            "file": "elementor-pro\/elementor-pro.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "required_css": [
+        {
+            "name": "Custom CSS",
+            "description": "These styles are added to the WordPress Customizer.",
+            "file": "css\/customizer.css"
+        }
+    ],
+    "images": []
+}

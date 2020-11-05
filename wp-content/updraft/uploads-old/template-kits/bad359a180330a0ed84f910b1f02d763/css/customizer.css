@@ -1,0 +1,29 @@
+.envato-kit-170-rotate .elementor-heading-title {
+	transform: rotate(-90deg);
+  white-space: nowrap;
+}
+
+.envato-kit-170-size-icon .elementor-button-icon i:before, .elementor-button-icon i:after {
+	font-size: 1.6em; 
+	line-height: 0.7em;
+}
+
+.envato-kit-170-circle-img .elementor-image-box-img img {
+	border-radius: 50%;
+}
+
+.envato-kit-170-full-btn .elementor-widget-form button, [type="button"], [type="submit"] {
+	width: 100%;
+}
+
+.envato-kit-170-background-price .elementor-price-list-header {
+	padding: 18px 30px;
+	background-color: #0C0C0C;
+	margin-bottom: 0 !important;
+}
+
+
+.envato-kit-170-text-padding .elementor-price-list-description {
+	padding: 10px 0 10px 30px;
+	background-color: #ffffff;
+}

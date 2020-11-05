@@ -1,0 +1,4 @@
+0000.000 (1) Opened log file at time: Thu, 17 Sep 2020 16:15:48 +0000 on http://34.94.77.180
+0000.006 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.9 (fpm-fcgi, Linux wordpresspro-1-vm 4.19.0-10-cloud-amd64 #1 SMP Debian 4.19.132-1 (2020-07-24) x86_64) MySQL: 8.0.21 WPLANG: en_US Server: nginx/1.18.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 10.2M | 12M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.011 (1) Free space on disk containing Updraft's temporary directory: 4091.2 MB
+0000.016 (1) This backup task (ef8a949c45b9) is either complete or began over 2 days ago: ending (1600359348.9903, ) (existing jobdata keys: )

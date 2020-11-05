@@ -1,0 +1,372 @@
+0000.001 (0) Opened log file at time: Tue, 29 Sep 2020 16:42:56 +0000 on http://34.94.77.180
+0000.006 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.9 (fpm-fcgi, Linux wordpresspro-1-vm 4.19.0-10-cloud-amd64 #1 SMP Debian 4.19.132-1 (2020-07-24) x86_64) MySQL: 8.0.21 WPLANG: en_US Server: nginx/1.18.0 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 9.7M | 12M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.012 (0) Free space on disk containing Updraft's temporary directory: 1525.3 MB
+0000.019 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.023 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.034 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1601311926, seconds_ago=85850)
+0000.055 (0) Set semaphore last lock (fd) time to 2020-09-29 16:42:56
+0000.060 (0) Semaphore lock (fd) complete
+0000.077 (0) Backup run: resumption=0, nonce=e537d9e28b64, file_nonce=e537d9e28b64 begun at=1601397776 (0s ago), job type=backup
+0000.089 (0) Scheduling a resumption (1) after 300 seconds (1601398076) in case this run gets aborted
+0000.103 (0) Checking if we have a zip executable available
+0000.109 (0) Testing: /usr/bin/zip
+0000.122 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.127 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.133 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.138 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.143 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.161 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.167 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.173 (0) Working binary zip found: /usr/bin/zip
+0000.186 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.191 (0) Creation of backups of directories: beginning
+0000.202 (0) No backup of plugins: excluded by user's options
+0000.207 (0) No backup of themes: excluded by user's options
+0000.213 (0) No backup of uploads: excluded by user's options
+0000.219 (0) No backup of others: excluded by user's options
+0000.240 (0) Saving backup status to database (elements: 0)
+0000.252 (0) Beginning creation of database dump (WordPress DB)
+0000.258 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_ENGINE_SUBSTITUTION
+0000.284 (0) Table wp_options: Total expected rows (approximate): 844
+0000.442 (0) Table wp_options: Rows added in this batch (start page: 0; next: finished): 829 in 0.15 seconds
+0000.449 (0) Table wp_options: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_options.table.gz - 235.6 KB)
+0000.478 (0) Table wp_users: Total expected rows (approximate): 0
+0000.488 (0) Table wp_users: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0000.498 (0) Table wp_users: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_users.table.gz - 0.6 KB)
+0000.518 (0) Table wp_usermeta: Total expected rows (approximate): 54
+0000.527 (0) Table wp_usermeta: Rows added in this batch (start page: 0; next: finished): 54 in 0.00 seconds
+0000.532 (0) Table wp_usermeta: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_usermeta.table.gz - 2.7 KB)
+0000.556 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 39
+0000.566 (0) Table wp_actionscheduler_actions: Rows added in this batch (start page: 0; next: finished): 40 in 0.00 seconds
+0000.571 (0) Table wp_actionscheduler_actions: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_actionscheduler_actions.table.gz - 2 KB)
+0000.590 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0000.596 (0) Table wp_actionscheduler_claims: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0000.602 (0) Table wp_actionscheduler_claims: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_actionscheduler_claims.table.gz - 0.3 KB)
+0000.624 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 3
+0000.633 (0) Table wp_actionscheduler_groups: Rows added in this batch (start page: 0; next: finished): 3 in 0.00 seconds
+0000.638 (0) Table wp_actionscheduler_groups: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0000.658 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 118
+0000.666 (0) Table wp_actionscheduler_logs: Rows added in this batch (start page: 0; next: finished): 120 in 0.00 seconds
+0000.670 (0) Table wp_actionscheduler_logs: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_actionscheduler_logs.table.gz - 1.7 KB)
+0000.688 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0000.696 (0) Table wp_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0000.701 (0) Table wp_commentmeta: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0000.719 (0) Table wp_comments: Total expected rows (approximate): 0
+0000.727 (0) Table wp_comments: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0000.731 (0) Table wp_comments: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_comments.table.gz - 0.7 KB)
+0000.749 (0) Table wp_links: Total expected rows (approximate): 0
+0000.757 (0) Table wp_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0000.762 (0) Table wp_links: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_links.table.gz - 0.4 KB)
+0000.779 (0) Table wp_postmeta: Total expected rows (approximate): 12489
+0001.791 (0) Table wp_postmeta: Rows added in this batch (start page: 0; next: finished): 12612 in 1.01 seconds
+0001.798 (0) Table wp_postmeta: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_postmeta.table.gz - 1467.7 KB)
+0001.817 (0) Table wp_posts: Total expected rows (approximate): 1325
+0002.290 (0) Table wp_posts: Rows added in this batch (start page: 0; next: finished): 1575 in 0.47 seconds
+0002.297 (0) Table wp_posts: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_posts.table.gz - 678 KB)
+0002.314 (0) Table wp_term_relationships: Total expected rows (approximate): 1424
+0002.325 (0) Table wp_term_relationships: Rows added in this batch (start page: 0; next: finished): 1424 in 0.01 seconds
+0002.331 (0) Table wp_term_relationships: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_term_relationships.table.gz - 3.8 KB)
+0002.349 (0) Table wp_term_taxonomy: Total expected rows (approximate): 47
+0002.356 (0) Table wp_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 48 in 0.00 seconds
+0002.361 (0) Table wp_term_taxonomy: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_term_taxonomy.table.gz - 0.9 KB)
+0002.379 (0) Table wp_termmeta: Total expected rows (approximate): 38
+0002.387 (0) Table wp_termmeta: Rows added in this batch (start page: 0; next: finished): 38 in 0.00 seconds
+0002.391 (0) Table wp_termmeta: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_termmeta.table.gz - 0.7 KB)
+0002.408 (0) Table wp_terms: Total expected rows (approximate): 47
+0002.417 (0) Table wp_terms: Rows added in this batch (start page: 0; next: finished): 48 in 0.00 seconds
+0002.423 (0) Table wp_terms: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_terms.table.gz - 0.9 KB)
+0002.444 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 0
+0002.453 (0) Table wp_wc_category_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0002.458 (0) Table wp_wc_category_lookup: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_category_lookup.table.gz - 0.3 KB)
+0002.478 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 396
+0002.490 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (start page: 0; next: finished): 396 in 0.01 seconds
+0002.496 (0) Table wp_wc_product_meta_lookup: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_product_meta_lookup.table.gz - 1.9 KB)
+0002.516 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0002.523 (0) Table wp_wc_reserved_stock: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0002.528 (0) Table wp_wc_reserved_stock: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_reserved_stock.table.gz - 0.3 KB)
+0002.546 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0002.553 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (start page: 0; next: finished): 2 in 0.00 seconds
+0002.559 (0) Table wp_wc_tax_rate_classes: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_tax_rate_classes.table.gz - 0.4 KB)
+0002.578 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0002.584 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0002.591 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0002.609 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0002.617 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0002.622 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0002.641 (0) Table wp_admin_columns: Total expected rows (approximate): 0
+0002.649 (0) Table wp_admin_columns: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0002.655 (0) Table wp_admin_columns: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_admin_columns.table.gz - 0.7 KB)
+0002.673 (0) Table wp_berocket_termmeta: Total expected rows (approximate): 0
+0002.681 (0) Table wp_berocket_termmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0002.686 (0) Table wp_berocket_termmeta: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_berocket_termmeta.table.gz - 0.3 KB)
+0002.702 (0) Table wp_frm_fields: Total expected rows (approximate): 5
+0002.709 (0) Table wp_frm_fields: Rows added in this batch (start page: 0; next: finished): 5 in 0.00 seconds
+0002.714 (0) Table wp_frm_fields: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_frm_fields.table.gz - 1 KB)
+0002.734 (0) Table wp_frm_forms: Total expected rows (approximate): 0
+0002.740 (0) Table wp_frm_forms: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0002.747 (0) Table wp_frm_forms: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_frm_forms.table.gz - 1 KB)
+0002.765 (0) Table wp_frm_item_metas: Total expected rows (approximate): 0
+0002.773 (0) Table wp_frm_item_metas: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0002.778 (0) Table wp_frm_item_metas: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_frm_item_metas.table.gz - 0.4 KB)
+0002.796 (0) Table wp_frm_items: Total expected rows (approximate): 0
+0002.806 (0) Table wp_frm_items: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0002.810 (0) Table wp_frm_items: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_frm_items.table.gz - 0.5 KB)
+0002.830 (0) Table wp_ngg_album: Total expected rows (approximate): 0
+0002.836 (0) Table wp_ngg_album: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0002.842 (0) Table wp_ngg_album: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_ngg_album.table.gz - 0.4 KB)
+0002.859 (0) Table wp_ngg_gallery: Total expected rows (approximate): 0
+0002.867 (0) Table wp_ngg_gallery: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0002.871 (0) Table wp_ngg_gallery: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_ngg_gallery.table.gz - 0.5 KB)
+0002.888 (0) Table wp_ngg_pictures: Total expected rows (approximate): 5
+0002.897 (0) Table wp_ngg_pictures: Rows added in this batch (start page: 0; next: finished): 5 in 0.00 seconds
+0002.902 (0) Table wp_ngg_pictures: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_ngg_pictures.table.gz - 2 KB)
+0002.920 (0) Table wp_ninja_table_items: Total expected rows (approximate): 101
+0002.930 (0) Table wp_ninja_table_items: Rows added in this batch (start page: 0; next: finished): 101 in 0.00 seconds
+0002.936 (0) Table wp_ninja_table_items: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_ninja_table_items.table.gz - 3.2 KB)
+0002.955 (0) Table wp_snowball_articles: Total expected rows (approximate): 0
+0002.961 (0) Table wp_snowball_articles: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0002.966 (0) Table wp_snowball_articles: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_snowball_articles.table.gz - 0.4 KB)
+0002.984 (0) Table wp_snowball_blocks: Total expected rows (approximate): 0
+0002.993 (0) Table wp_snowball_blocks: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0002.998 (0) Table wp_snowball_blocks: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_snowball_blocks.table.gz - 0.4 KB)
+0003.016 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 0
+0003.025 (0) Table wp_wc_admin_note_actions: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0003.030 (0) Table wp_wc_admin_note_actions: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_admin_note_actions.table.gz - 0.5 KB)
+0003.048 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 0
+0003.056 (0) Table wp_wc_admin_notes: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0003.060 (0) Table wp_wc_admin_notes: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_admin_notes.table.gz - 0.6 KB)
+0003.078 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 0
+0003.085 (0) Table wp_wc_customer_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.091 (0) Table wp_wc_customer_lookup: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_customer_lookup.table.gz - 0.5 KB)
+0003.110 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0003.116 (0) Table wp_wc_download_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.124 (0) Table wp_wc_download_log: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_download_log.table.gz - 0.5 KB)
+0003.143 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0003.149 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.154 (0) Table wp_wc_order_coupon_lookup: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_order_coupon_lookup.table.gz - 0.4 KB)
+0003.172 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 0
+0003.181 (0) Table wp_wc_order_product_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.186 (0) Table wp_wc_order_product_lookup: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_order_product_lookup.table.gz - 0.4 KB)
+0003.206 (0) Table wp_wc_order_stats: Total expected rows (approximate): 0
+0003.213 (0) Table wp_wc_order_stats: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.221 (0) Table wp_wc_order_stats: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_order_stats.table.gz - 0.5 KB)
+0003.241 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0003.249 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.255 (0) Table wp_wc_order_tax_lookup: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_order_tax_lookup.table.gz - 0.4 KB)
+0003.274 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0003.282 (0) Table wp_wc_webhooks: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.288 (0) Table wp_wc_webhooks: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0003.307 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0003.316 (0) Table wp_woocommerce_api_keys: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.321 (0) Table wp_woocommerce_api_keys: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0003.342 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 6
+0003.349 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (start page: 0; next: finished): 6 in 0.00 seconds
+0003.355 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.5 KB)
+0003.375 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0003.385 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.391 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0003.410 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0003.417 (0) Table wp_woocommerce_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.423 (0) Table wp_woocommerce_log: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0003.439 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0003.447 (0) Table wp_woocommerce_order_items: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.451 (0) Table wp_woocommerce_order_items: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_order_items.table.gz - 0.4 KB)
+0003.469 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0003.476 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.482 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0003.500 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 1
+0003.510 (0) Table wp_woocommerce_sessions: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0003.515 (0) Table wp_woocommerce_sessions: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_sessions.table.gz - 0.8 KB)
+0003.534 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0003.541 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.546 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0003.566 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0003.574 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.578 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0003.597 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0003.606 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.611 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0003.628 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0003.636 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.642 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0003.661 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0003.669 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.676 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0003.695 (0) Table wp_woof_stat_buffer: Total expected rows (approximate): 0
+0003.701 (0) Table wp_woof_stat_buffer: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.706 (0) Table wp_woof_stat_buffer: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woof_stat_buffer.table.gz - 0.4 KB)
+0003.727 (0) Table wp_woof_stat_tmp: Total expected rows (approximate): 0
+0003.735 (0) Table wp_woof_stat_tmp: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.738 (0) Table wp_woof_stat_tmp: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woof_stat_tmp.table.gz - 0.4 KB)
+0003.757 (0) Table wp_wp_floating_menu_custom_templates: Total expected rows (approximate): 0
+0003.765 (0) Table wp_wp_floating_menu_custom_templates: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.771 (0) Table wp_wp_floating_menu_custom_templates: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wp_floating_menu_custom_templates.table.gz - 0.3 KB)
+0003.790 (0) Table wp_wp_floating_menu_details: Total expected rows (approximate): 0
+0003.796 (0) Table wp_wp_floating_menu_details: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.802 (0) Table wp_wp_floating_menu_details: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wp_floating_menu_details.table.gz - 0.4 KB)
+0003.821 (0) Table wp_wpdatacharts: Total expected rows (approximate): 5
+0003.829 (0) Table wp_wpdatacharts: Rows added in this batch (start page: 0; next: finished): 5 in 0.00 seconds
+0003.834 (0) Table wp_wpdatacharts: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpdatacharts.table.gz - 1.1 KB)
+0003.851 (0) Table wp_wpdatatables: Total expected rows (approximate): 14
+0003.858 (0) Table wp_wpdatatables: Rows added in this batch (start page: 0; next: finished): 14 in 0.00 seconds
+0003.863 (0) Table wp_wpdatatables: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpdatatables.table.gz - 1 KB)
+0003.882 (0) Table wp_wpdatatables_columns: Total expected rows (approximate): 55
+0003.892 (0) Table wp_wpdatatables_columns: Rows added in this batch (start page: 0; next: finished): 55 in 0.00 seconds
+0003.897 (0) Table wp_wpdatatables_columns: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpdatatables_columns.table.gz - 1.5 KB)
+0003.916 (0) Table wp_wpf_filters: Total expected rows (approximate): 0
+0003.924 (0) Table wp_wpf_filters: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0003.929 (0) Table wp_wpf_filters: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpf_filters.table.gz - 0.3 KB)
+0003.948 (0) Table wp_wpforms_tasks_meta: Total expected rows (approximate): 4
+0003.956 (0) Table wp_wpforms_tasks_meta: Rows added in this batch (start page: 0; next: finished): 4 in 0.00 seconds
+0003.961 (0) Table wp_wpforms_tasks_meta: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpforms_tasks_meta.table.gz - 0.5 KB)
+0003.980 (0) Table wp_wpgmza: Total expected rows (approximate): 231
+0003.994 (0) Table wp_wpgmza: Rows added in this batch (start page: 0; next: finished): 231 in 0.01 seconds
+0004.002 (0) Table wp_wpgmza: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza.table.gz - 9.1 KB)
+0004.021 (0) Table wp_wpgmza_categories: Total expected rows (approximate): 4
+0004.029 (0) Table wp_wpgmza_categories: Rows added in this batch (start page: 0; next: finished): 4 in 0.00 seconds
+0004.035 (0) Table wp_wpgmza_categories: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_categories.table.gz - 0.5 KB)
+0004.054 (0) Table wp_wpgmza_category_maps: Total expected rows (approximate): 4
+0004.060 (0) Table wp_wpgmza_category_maps: Rows added in this batch (start page: 0; next: finished): 4 in 0.00 seconds
+0004.065 (0) Table wp_wpgmza_category_maps: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_category_maps.table.gz - 0.3 KB)
+0004.082 (0) Table wp_wpgmza_circles: Total expected rows (approximate): 0
+0004.088 (0) Table wp_wpgmza_circles: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0004.095 (0) Table wp_wpgmza_circles: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_circles.table.gz - 0.4 KB)
+0004.114 (0) Table wp_wpgmza_custom_fields: Total expected rows (approximate): 0
+0004.120 (0) Table wp_wpgmza_custom_fields: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0004.126 (0) Table wp_wpgmza_custom_fields: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_custom_fields.table.gz - 0.4 KB)
+0004.144 (0) Table wp_wpgmza_datasets: Total expected rows (approximate): 0
+0004.153 (0) Table wp_wpgmza_datasets: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0004.158 (0) Table wp_wpgmza_datasets: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_datasets.table.gz - 0.3 KB)
+0004.176 (0) Table wp_wpgmza_live_tracking_devices: Total expected rows (approximate): 0
+0004.184 (0) Table wp_wpgmza_live_tracking_devices: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0004.189 (0) Table wp_wpgmza_live_tracking_devices: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_live_tracking_devices.table.gz - 0.4 KB)
+0004.208 (0) Table wp_wpgmza_maps: Total expected rows (approximate): 0
+0004.216 (0) Table wp_wpgmza_maps: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0004.221 (0) Table wp_wpgmza_maps: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_maps.table.gz - 1.4 KB)
+0004.239 (0) Table wp_wpgmza_maps_has_custom_fields_filters: Total expected rows (approximate): 0
+0004.245 (0) Table wp_wpgmza_maps_has_custom_fields_filters: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0004.251 (0) Table wp_wpgmza_maps_has_custom_fields_filters: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_maps_has_custom_fields_filters.table.gz - 0.3 KB)
+0004.269 (0) Table wp_wpgmza_markers_has_categories: Total expected rows (approximate): 218
+0004.278 (0) Table wp_wpgmza_markers_has_categories: Rows added in this batch (start page: 0; next: finished): 231 in 0.00 seconds
+0004.283 (0) Table wp_wpgmza_markers_has_categories: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_markers_has_categories.table.gz - 0.9 KB)
+0004.302 (0) Table wp_wpgmza_markers_has_custom_fields: Total expected rows (approximate): 0
+0004.309 (0) Table wp_wpgmza_markers_has_custom_fields: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0004.315 (0) Table wp_wpgmza_markers_has_custom_fields: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_markers_has_custom_fields.table.gz - 0.3 KB)
+0004.334 (0) Table wp_wpgmza_markers_has_ratings: Total expected rows (approximate): 0
+0004.339 (0) Table wp_wpgmza_markers_has_ratings: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0004.345 (0) Table wp_wpgmza_markers_has_ratings: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_markers_has_ratings.table.gz - 0.3 KB)
+0004.364 (0) Table wp_wpgmza_polygon: Total expected rows (approximate): 0
+0004.373 (0) Table wp_wpgmza_polygon: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0004.378 (0) Table wp_wpgmza_polygon: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_polygon.table.gz - 0.4 KB)
+0004.395 (0) Table wp_wpgmza_polylines: Total expected rows (approximate): 0
+0004.402 (0) Table wp_wpgmza_polylines: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0004.407 (0) Table wp_wpgmza_polylines: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_polylines.table.gz - 0.4 KB)
+0004.429 (0) Table wp_wpgmza_ratings: Total expected rows (approximate): 0
+0004.437 (0) Table wp_wpgmza_ratings: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0004.443 (0) Table wp_wpgmza_ratings: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_ratings.table.gz - 0.3 KB)
+0004.461 (0) Table wp_wpgmza_rectangles: Total expected rows (approximate): 0
+0004.469 (0) Table wp_wpgmza_rectangles: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0004.474 (0) Table wp_wpgmza_rectangles: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_rectangles.table.gz - 0.4 KB)
+0004.493 (0) Table wp_wtbp_tables: Total expected rows (approximate): 0
+0004.502 (0) Table wp_wtbp_tables: Rows added in this batch (start page: 0; next: finished): 1 in 0.00 seconds
+0004.507 (0) Table wp_wtbp_tables: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wtbp_tables.table.gz - 0.7 KB)
+0004.526 (0) Table wp_xcloner_scheduler: Total expected rows (approximate): 0
+0004.533 (0) Table wp_xcloner_scheduler: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0004.538 (0) Table wp_xcloner_scheduler: finishing file (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_xcloner_scheduler.table.gz - 0.4 KB)
+0004.555 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_options.table.gz (1/82): adding to final database dump
+0004.701 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_users.table.gz (2/82): adding to final database dump
+0004.708 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_usermeta.table.gz (3/82): adding to final database dump
+0004.715 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_actionscheduler_actions.table.gz (4/82): adding to final database dump
+0004.722 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_actionscheduler_claims.table.gz (5/82): adding to final database dump
+0004.726 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_actionscheduler_groups.table.gz (6/82): adding to final database dump
+0004.732 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_actionscheduler_logs.table.gz (7/82): adding to final database dump
+0004.739 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_commentmeta.table.gz (8/82): adding to final database dump
+0004.743 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_comments.table.gz (9/82): adding to final database dump
+0004.755 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_links.table.gz (10/82): adding to final database dump
+0004.761 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_postmeta.table.gz (11/82): adding to final database dump
+0005.692 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_posts.table.gz (12/82): adding to final database dump
+0006.135 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_term_relationships.table.gz (13/82): adding to final database dump
+0006.145 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_term_taxonomy.table.gz (14/82): adding to final database dump
+0006.151 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_termmeta.table.gz (15/82): adding to final database dump
+0006.157 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_terms.table.gz (16/82): adding to final database dump
+0006.163 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_category_lookup.table.gz (17/82): adding to final database dump
+0006.168 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_product_meta_lookup.table.gz (18/82): adding to final database dump
+0006.176 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_reserved_stock.table.gz (19/82): adding to final database dump
+0006.181 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_tax_rate_classes.table.gz (20/82): adding to final database dump
+0006.187 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_order_itemmeta.table.gz (21/82): adding to final database dump
+0006.193 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_payment_tokenmeta.table.gz (22/82): adding to final database dump
+0006.198 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_admin_columns.table.gz (23/82): adding to final database dump
+0006.203 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_berocket_termmeta.table.gz (24/82): adding to final database dump
+0006.209 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_frm_fields.table.gz (25/82): adding to final database dump
+0006.216 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_frm_forms.table.gz (26/82): adding to final database dump
+0006.222 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_frm_item_metas.table.gz (27/82): adding to final database dump
+0006.227 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_frm_items.table.gz (28/82): adding to final database dump
+0006.233 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_ngg_album.table.gz (29/82): adding to final database dump
+0006.239 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_ngg_gallery.table.gz (30/82): adding to final database dump
+0006.245 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_ngg_pictures.table.gz (31/82): adding to final database dump
+0006.251 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_ninja_table_items.table.gz (32/82): adding to final database dump
+0006.261 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_snowball_articles.table.gz (33/82): adding to final database dump
+0006.267 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_snowball_blocks.table.gz (34/82): adding to final database dump
+0006.273 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_admin_note_actions.table.gz (35/82): adding to final database dump
+0006.278 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_admin_notes.table.gz (36/82): adding to final database dump
+0006.284 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_customer_lookup.table.gz (37/82): adding to final database dump
+0006.289 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_download_log.table.gz (38/82): adding to final database dump
+0006.294 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_order_coupon_lookup.table.gz (39/82): adding to final database dump
+0006.299 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_order_product_lookup.table.gz (40/82): adding to final database dump
+0006.305 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_order_stats.table.gz (41/82): adding to final database dump
+0006.311 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_order_tax_lookup.table.gz (42/82): adding to final database dump
+0006.316 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wc_webhooks.table.gz (43/82): adding to final database dump
+0006.322 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_api_keys.table.gz (44/82): adding to final database dump
+0006.327 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_attribute_taxonomies.table.gz (45/82): adding to final database dump
+0006.333 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (46/82): adding to final database dump
+0006.339 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_log.table.gz (47/82): adding to final database dump
+0006.344 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_order_items.table.gz (48/82): adding to final database dump
+0006.349 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_payment_tokens.table.gz (49/82): adding to final database dump
+0006.355 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_sessions.table.gz (50/82): adding to final database dump
+0006.361 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_shipping_zone_locations.table.gz (51/82): adding to final database dump
+0006.367 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_shipping_zone_methods.table.gz (52/82): adding to final database dump
+0006.372 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_shipping_zones.table.gz (53/82): adding to final database dump
+0006.378 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_tax_rate_locations.table.gz (54/82): adding to final database dump
+0006.384 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woocommerce_tax_rates.table.gz (55/82): adding to final database dump
+0006.391 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woof_stat_buffer.table.gz (56/82): adding to final database dump
+0006.396 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_woof_stat_tmp.table.gz (57/82): adding to final database dump
+0006.402 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wp_floating_menu_custom_templates.table.gz (58/82): adding to final database dump
+0006.408 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wp_floating_menu_details.table.gz (59/82): adding to final database dump
+0006.414 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpdatacharts.table.gz (60/82): adding to final database dump
+0006.420 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpdatatables.table.gz (61/82): adding to final database dump
+0006.425 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpdatatables_columns.table.gz (62/82): adding to final database dump
+0006.432 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpf_filters.table.gz (63/82): adding to final database dump
+0006.439 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpforms_tasks_meta.table.gz (64/82): adding to final database dump
+0006.444 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza.table.gz (65/82): adding to final database dump
+0006.453 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_categories.table.gz (66/82): adding to final database dump
+0006.459 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_category_maps.table.gz (67/82): adding to final database dump
+0006.464 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_circles.table.gz (68/82): adding to final database dump
+0006.469 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_custom_fields.table.gz (69/82): adding to final database dump
+0006.475 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_datasets.table.gz (70/82): adding to final database dump
+0006.480 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_live_tracking_devices.table.gz (71/82): adding to final database dump
+0006.486 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_maps.table.gz (72/82): adding to final database dump
+0006.496 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_maps_has_custom_fields_filters.table.gz (73/82): adding to final database dump
+0006.502 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_markers_has_categories.table.gz (74/82): adding to final database dump
+0006.508 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_markers_has_custom_fields.table.gz (75/82): adding to final database dump
+0006.513 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_markers_has_ratings.table.gz (76/82): adding to final database dump
+0006.519 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_polygon.table.gz (77/82): adding to final database dump
+0006.525 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_polylines.table.gz (78/82): adding to final database dump
+0006.530 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_ratings.table.gz (79/82): adding to final database dump
+0006.535 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wpgmza_rectangles.table.gz (80/82): adding to final database dump
+0006.540 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_wtbp_tables.table.gz (81/82): adding to final database dump
+0006.545 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db-table-wp_xcloner_scheduler.table.gz (82/82): adding to final database dump
+0006.554 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db.gz: finished writing out complete database file (2392 KB)
+0006.611 (0) Total database tables backed up: 82 (backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db.gz, size: 2479386, sha1: bddf54ce2b8126c44ff3f499f5cf45972a99c715, sha256: 06170a9780f6d5fa40abd307a590b44410d48f76ead1f367ce4bd61a00cf7348)
+0006.635 (0) backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.640 (0) Saving backup history. Total backup size: 2.4 MB
+0006.652 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0006.668 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0006.674 (0) No remote despatch: user chose no remote backup service
+0006.680 (0) Recording as successfully uploaded: backup_2020-09-29-1642_Altered_Urban_e537d9e28b64-db.gz
+0006.691 (0) Prune old backups from local store: nothing to do, since the user disabled local deletion and we are using local backups
+0006.697 (0) Resume backup (e537d9e28b64, 0): finish run
+0006.712 (0) Decremented the semaphore (fd) by 1
+0006.723 (0) Semaphore (fd) unlocked
+0006.729 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0006.745 (0) No email will/can be sent - the user has not configured an email address.
+0006.751 (0) The backup apparently succeeded and is now complete

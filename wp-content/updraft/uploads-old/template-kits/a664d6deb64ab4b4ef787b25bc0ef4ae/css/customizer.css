@@ -1,0 +1,50 @@
+/* Kit 61 Custom CSS - use these classes in the Advanced tab of the Element they affect */
+
+
+/* Text Block Dropcap Styling */
+.envato-kit-61-dropcap .elementor-drop-cap{
+	margin-left: 23px;
+}
+
+/* Progress Bar Fix */
+.envato-kit-61-progress .elementor-progress-wrapper{
+	height: 10px;
+	line-height: 10px;
+}
+
+.envato-kit-61-progress .elementor-progress-bar{
+	height: 10px;
+}
+
+.envato-kit-61-progress .elementor-progress-percentage{
+	    margin-top: -30px;
+			font-size: 20px;
+			font-weight: 700;
+			font-family: sans-serif;
+}
+
+/* Form Field Styles - Pro Only */
+.envato-kit-61-form .elementor-field-type-submit{
+	margin-top: 50px;
+}
+
+.envato-kit-61-form .elementor-field-type-submit button{
+	cursor: pointer;
+}
+
+.envato-kit-61-form .elementor-field-type-textarea textarea{
+	padding-top: 20px;
+}
+
+
+.envato-kit-61-button,
+.envato-kit-61-socials{
+	display: inline-block;
+}
+
+@media(max-width: 1024px){
+	
+.envato-kit-61-form .elementor-field-type-submit{
+	margin-top: 20px;
+}
+}
